@@ -4,7 +4,6 @@ description: 使用同事的產品內體驗來摘要開啟的專案、尋找深�
 role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -23,14 +22,12 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: 67e9700015c9c8de24871feb4eedc4392ce72a3a
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1905'
 ht-degree: 0%
 ---
 # 使用同事的產品內體驗
-
-{{release-limited-testing}}
 
 同事的產品內體驗可在Analysis Workspace右側的聊天面板中取得。 Co-worker使用開啟的專案作為前後關聯，因此您可以詢問您的分析或讓Co-worker建置專案，而無需說明其中包含的內容。
 
@@ -42,15 +39,18 @@ ht-degree: 0%
 
   如果您無法存取Workspace中的同事，請聯絡您的管理員。 如需詳細資訊，請參閱[IMS組織偏好設定](/help/analysis-workspace/user-preferences.md#ims-organization-preferences)。<!-- need to update this section with the new toggle -->
 
-<!-- FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME. -->
-
-* **許可權**：在[!UICONTROL Adobe Admin Console]中，[!UICONTROL 報告工具] **[!UICONTROL 同事]**&#x200B;許可權會決定同事的存取權。 [產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)必須將此許可權新增至您的產品設定檔。 如需詳細資訊，請參閱[存取控制](/help/technotes/access-control.md#access-control)。
-
 * **資料檢視存取**：同事使用您現有的Analysis Workspace和資料檢視許可權。 無法存取您尚未存取的資料或元件。
+
+<!--
+FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME.
+
+* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
+
+-->
 
 ### 在Workspace中的同事與同事應用程式之間選擇
 
-同事的產品內體驗具有許多與[CX Enterprise Coworker應用程式](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)相同的功能，包括您可以存取的技能。 不過，在決定您何時可以使用其中一個變數時，有一些重要的差異：
+同事的產品內體驗具有許多與[CX Enterprise Coworker應用程式](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)相同的功能，包括您可以存取的技能。 不過，在決定您何時可以使用其中一個變數時，有一些重要的差異：
 
 | | 同事的產品內體驗 | 同事應用程式 |
 | --- | --- | --- |
