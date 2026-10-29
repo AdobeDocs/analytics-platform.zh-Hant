@@ -272,7 +272,7 @@ LIMIT 20;
 | 4 | [URL剖析](/help/data-views/derived-fields/derived-fields.md#url-parse) | 頁面URL。 取得`fbclid`的查詢字串值。 |
 | 5 | [案例時間](/help/data-views/derived-fields/derived-fields.md#case-when) | 套用下列條件。 |
 
-設定](/help/data-views/derived-fields/derived-fields.md#case-when)規則時的最終[案例：
+設定[&#128279;](/help/data-views/derived-fields/derived-fields.md#case-when)規則時的最終案例：
 
 1. 如果已設定規則2或規則3，則傳回`google_ads`。
 1. 否則，如果規則4已設定或規則1等於`fb`、`facebook`、`ig`、`instagram`或`meta`，則會傳回`meta`。
