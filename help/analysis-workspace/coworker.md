@@ -48,13 +48,13 @@ ht-degree: 1%
 <!--
 FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME.
 
-* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
+* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
 
 -->
 
 ### 在Workspace中的同事與同事應用程式之間選擇
 
-同事的產品內體驗具有許多與[CX Enterprise Coworker應用程式](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)相同的功能，包括您可以存取的技能。 不過，在決定您何時可以使用其中一個變數時，有一些重要的差異：
+同事的產品內體驗具有許多與[CX Enterprise Coworker應用程式](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)相同的功能，包括您可以存取的技能。 不過，在決定您何時可以使用其中一個變數時，有一些重要的差異：
 
 | | 同事的產品內體驗 | 同事應用程式 |
 | --- | --- | --- |
