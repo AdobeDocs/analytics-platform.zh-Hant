@@ -29,10 +29,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 77%
+source-wordcount: '997'
+ht-degree: 73%
 ---
 # 管理區段
 
@@ -85,6 +85,7 @@ ht-degree: 77%
 | ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名所選取之單一區段。 選取後，您可以直接在原處重新命名區段。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]** | 核准所選取之區段。 如需詳細資訊，請參閱[核准區段](seg-approve.md)。 |
 | ![Copy](/help/assets/icons/Copy.svg)  **[!UICONTROL 複製]** | 複製所選取之區段。 使用相同的名稱和字尾建立新區段`(Copy)`。 |
+| ![AI](/help/assets/icons/AI.svg) **[!UICONTROL 產生說明]** | <p>產生所選區段的說明，取代任何現有的說明。</p><p>為避免覆寫現有的描述，首先[篩選](#filter-panel)清單以僅顯示沒有描述的區段（在篩選中，在&#x200B;[!UICONTROL **其他篩選器**]&#x200B;下，選取&#x200B;[!UICONTROL **缺少描述**]）。</p><p>系統會提示您進行確認。 大型請求會在背景執行，而您會在完成時收到通知。</p><p>如需詳細資訊，請參閱[自動產生說明](/help/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 匯出為 CSV]** | 將區段匯出為 `Segments List.csv` 檔案。 |
 
 ### 使用中的篩選欄

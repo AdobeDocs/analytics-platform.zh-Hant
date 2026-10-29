@@ -29,10 +29,10 @@ role_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
     internal-label: Experimentation
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '1699'
-ht-degree: 93%
+source-wordcount: '1747'
+ht-degree: 89%
 ---
 # 建置計算量度 {#build-metrics}
 
@@ -77,7 +77,7 @@ Customer Journey Analytics 提供的畫布可用來拖放維度、量度、區�
    | **[!UICONTROL 僅限專案的量度]** | 如[為單一專案建立計算量度](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)所述，當您編輯為單一專案所建立的計算量度時，此對話框頂部會出現一個資訊框。 <p>如果您希望將此計算量度套用至所有專案，請選取以下選項： **[!UICONTROL 讓此量度適用於您的所有專案並將其新增至您的元件清單中]**。</p> |
    | **[!UICONTROL 標題]**![必填](/help/assets/icons/Required.svg) | 命名計算量度，例如 `Conversion Rate`。 |
    | **[!UICONTROL 外部 ID]** ![必填](/help/assets/icons/Required.svg) | 使用外部 BI 工具和 BI 擴充功能時的計算量度名稱。 除非您覆寫該值，否則該值會自動定義為 `undefined_xxx` 。 |
-   | **[!UICONTROL 說明]** | 提供區段說明，例如 `Calculated metric to define the conversion rate.` 不必說明計算量度的公式，因為公式已自動提供在[!UICONTROL 摘要]中。 |
+   | **[!UICONTROL 說明]** | <p>提供計算量度的說明，例如`Calculated metric to define the conversion rate.`。不需要說明計算量度的公式，因為公式已可在[!UICONTROL 摘要]中自動使用。</p><p>若要讓Adobe為您產生描述，請選取&#x200B;**[!UICONTROL 產生描述]**。 在您建立計算量度定義之前，此選項無法使用。</p><p>產生的說明包括Adobe使用AI **產生的文字**，您可以在產生說明後加以編輯。 如需詳細資訊，請參閱[自動產生說明](/help/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
    | **[!UICONTROL 格式]** | 選取計算量度的格式：您可以在&#x200B;**[!UICONTROL 十進位]**、 **[!UICONTROL 時間]**、 **[!UICONTROL 百分比]**&#x200B;和&#x200B;**[!UICONTROL 貨幣]**&#x200B;之間選取。 |
    | **[!UICONTROL 小數位數]** | 指定所選格式的小數位數。 只有在選取的格式為小數、貨幣和百分比時才啟用。 |
    | **[!UICONTROL 顯示上升趨勢的方式]** | 指定計算量度的上升趨勢是否顯示為 ▲ **[!UICONTROL 良好 (綠色)]** 或 ▼ **[!UICONTROL 不良 (紅色)]**。 |

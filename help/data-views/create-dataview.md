@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Governance
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '3165'
-ht-degree: 78%
+source-wordcount: '3192'
+ht-degree: 76%
 ---
 # 建立或編輯資料視圖
 
@@ -341,7 +341,17 @@ ht-degree: 78%
   * **[!UICONTROL 資料類型]** - 您可以選取下列一個或多個資料類型：[!UICONTROL 字串]、[!UICONTROL 整數]、[!UICONTROL 短整數]、[!UICONTROL 布林值]、[!UICONTROL 雙精度]、[!UICONTROL 位元組]、[!UICONTROL 長整數]、[!UICONTROL 日期]或[!UICONTROL 日期時間]。
   * **[!UICONTROL 資料集]** - 選取一個或多個資料集。
   * **[!UICONTROL 資料控管]**：從[!UICONTROL 自訂標籤]、[!UICONTROL 合約標籤]、[!UICONTROL 身分標籤]、[!UICONTROL 敏感度標籤]、[!UICONTROL 合作夥伴生態系統]或[!UICONTROL 原則]子類別中選取一或多個標籤。
-  * **[!UICONTROL 其他]** - 選取一個或多個選項「[!UICONTROL 包含資料]」、「[!UICONTROL 是身分識別]」或「[!UICONTROL 未棄用]」。
+  * **[!UICONTROL 其他]** — 選取下列一或多個選項：
+
+    * [!UICONTROL 包含資料]
+
+    * [!UICONTROL 是身分]
+
+    * [!UICONTROL 未棄用]
+
+    * [!UICONTROL 缺少描述]
+
+      使用此選項來只顯示尚未有說明的元件，例如您為多個元件同時[產生說明](/help/data-views/component-settings/overview.md)之前。
 
   選取「**[!UICONTROL 套用]**」以套用篩選器。
 

@@ -81,9 +81,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: 5aba7dcf73ddd7aee48a945911a8ff4b0f18e2e3
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3089'
 ht-degree: 98%
 ---
 # Customer Journey Analytics 功能支援
@@ -94,7 +94,7 @@ ht-degree: 98%
 
 下表列出了可在 Customer Journey Analytics 中使用，但 Adobe Analytics 不支援的功能。
 
-<!-- FOLLOW-UP (Thursday): When the in-app Coworker experience launches, point the Coworker row link to /help/analysis-workspace/coworker.md. FOLLOW-UP (later): When Coworker becomes available in Adobe Analytics, remove the "coming soon" sentence and move the Coworker row to the Fully supported table. -->
+<!-- FOLLOW-UP: When Coworker becomes available in Adobe Analytics, remove the "coming soon" sentence and move the Coworker row to the Fully supported table. -->
 
 | 功能 | 更多詳細資料 |
 | --- | --- |
@@ -104,7 +104,7 @@ ht-degree: 98%
 | **BI 擴充功能** | 您可以利用[BI 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)將 Customer Journey Analytics 直接連接到常用的 BI 視覺化工具，例如 Power BI 或 Tableau。 透過此擴充功能，您可以讓 BI 報表與您在 Analysis Workspace 和其他 Customer Journey Analytics 報表介面中看到的內容精確相符。 透過這個擴充功能，您可以用更簡單的方法取得 Customer Journey Analytics 的 BI 報告，而不需要使用原始資料來重新建立報告/量度。 |
 | **Workspace 專案註解** | 透過註解，您可以針對 [Analysis Workspace 專案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects?lang=tw)的內容分享洞察和提出問題。 這樣可以讓資料相關討論更加精簡，使對話聚焦於所討論的資料範圍內。 |
 | **Content Analytics** | [Content Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/content-analytics) 能幫助行銷人員了解內容如何影響企業已定義的關鍵績效指標。 除了行為資料之外，Content Analytics 還會收集關於內容使用方式和內容產生影響的資料。 |
-| **Coworker** | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)是AI隊友，可回答有關您資料的自然語言問題。 它會使用資料檢視和實際資料中的元件，來建立視覺效果、尋找深入分析和說明量度變更的原因。 同事即將前往Adobe Analytics。 |
+| **Coworker** | [Adobe CX Enterprise Coworker](/help/analysis-workspace/coworker.md)是AI隊友，可回答有關您資料的自然語言問題。 它會使用資料檢視和實際資料中的元件，來建立視覺效果、尋找深入分析和說明量度變更的原因。 同事即將前往Adobe Analytics。 |
 | **跨裝置分析** | Customer Journey Analytics 支援無縫組合來自未經身分驗證和經過身分驗證工作階段的裝置專屬資料集。 Customer Journey Analytics 可以將歷史資料回填到已知裝置。 在 Adobe Analytics 中，此功能僅限於單一報告套裝以及使用裝置圖。 |
 | **維度增強** | Customer Journey Analytics 在使用維度時提供了更大的靈活性： <ul><li>**自訂數值型維度**：[在資料視圖中建立您自己的數值型維度](/help/data-views/create-dataview.md#components)。</li><li>**排序字串型維度**：[在自由格式表格中按字母順序排序字串型維度](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables)。 </li></ul><p>在 Adobe Analytics 中，只有少數內建數值維度可用，且無法按字串型維度排序。</p> |
 | **衍生欄位** | [衍生欄位](/help/data-views/derived-fields/derived-fields.md)允許對您的資料進行報告時間轉換。 資料可以動態組合、更正或建立，且這些轉換會追溯套用至所有的報告。 |

@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: 5b0c9d764d17daa63316f8ab294aa9c8f7f94427
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 9%
@@ -144,7 +144,7 @@ ht-degree: 9%
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
 | 專案 | 50,000 | 系統強制的護欄 | 組織的最大專案數量。 |
-| 資料檢視 | 2,000 | 系統強制的護欄 | 組織最多[個資料檢視](../data-views/data-views.md)個。 |
+| 資料檢視 | 5,000 | 系統強制的護欄 | 組織最多[個資料檢視](../data-views/data-views.md)個。 |
 | 資料檢視 | 500-1000 | 系統強制的護欄 | 連線的最大資料檢視數量。 值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
 | 資料集 | 100 | 系統強制的護欄 | 每個連線最多[個資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant)個。 |
 | 連線 | 1000 | 系統強制的護欄 | 組織的[連線](../connections/overview.md)數目上限。 |

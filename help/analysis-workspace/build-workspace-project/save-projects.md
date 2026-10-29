@@ -17,13 +17,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 8ab47e74ee442d97e8e7b1b9e92129025a5b1d1f
 workflow-type: tm+mt
-source-wordcount: 860
-ht-degree: 95%
-
+source-wordcount: '962'
+ht-degree: 85%
 ---
-
 # 儲存專案 {#save-projects}
 
 <!-- markdownlint-disable MD034 -->
@@ -53,7 +51,7 @@ Analysis Workspace 中的專案均每 2 分鐘自動儲存一次。 您也可以
   1. 指定以下：
 
      * **[!UICONTROL 名稱]** (必填)。 您的專案名稱。
-     * **[!UICONTROL 說明]**。 您的專案說明。
+     * **[!UICONTROL 說明]**。 您的專案說明。 若要讓Adobe為您產生描述，請選取&#x200B;**[!UICONTROL 產生描述]**。 Adobe會分析專案中的數個面板，並將其摘要成說明。 產生的描述包括Adobe使用AI **產生的文字**&#x200B;且可編輯。 此選項要求您的組織同意某些創作AI法律條款。
      * **[!UICONTROL 標記]**。 在「[!UICONTROL *搜尋標記*]」欄位中搜尋標記，或使用 **[!UICONTROL ENTER]** 新增標記。
      * **[!UICONTROL 資料夾]**。 從&#x200B;[!UICONTROL *選取資料夾*]&#x200B;下拉式功能表中選取資料夾。 如果您未指定資料夾，則專案會儲存在您建立新專案的目前資料夾中。
      * **[!UICONTROL 版本說明]**。 在「*新增註釋*」文字區域中新增版本說明。
@@ -90,7 +88,7 @@ Analysis Workspace 中的專案均每 2 分鐘自動儲存一次。 您也可以
   1. 指定以下：
 
      * **[!UICONTROL 名稱]** (必填)。 您的專案名稱。
-     * **[!UICONTROL 說明]**。 您的專案說明。
+     * **[!UICONTROL 說明]**。 您的專案說明。 若要讓Adobe為您產生描述，請選取&#x200B;**[!UICONTROL 產生描述]**。 Adobe會分析專案中的數個面板，並將其摘要成說明。 產生的描述包括Adobe使用AI **產生的文字**&#x200B;且可編輯。 此選項要求您的組織同意某些創作AI法律條款。
      * **[!UICONTROL 標記]**。 在「[!UICONTROL *搜尋標記*]」欄位中搜尋標記，或使用 **[!UICONTROL ENTER]** 新增標記。
      * **[!UICONTROL 資料夾]**。 從&#x200B;[!UICONTROL *選取資料夾*]&#x200B;下拉式功能表中選取資料夾。 如果您未指定資料夾，則專案會儲存在您建立新專案的目前資料夾中。
      * **[!UICONTROL 版本說明]**。 在「*新增註釋*」文字區域中新增版本說明。

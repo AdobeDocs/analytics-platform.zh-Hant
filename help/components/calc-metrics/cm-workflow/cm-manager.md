@@ -32,10 +32,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 32%
+source-wordcount: '970'
+ht-degree: 30%
 ---
 # 管理計算量度
 
@@ -88,6 +88,7 @@ ht-degree: 32%
 | ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名單一選取的計算量度。 選取後，您可以重新命名內嵌計算量度。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 核准]** | 核准所選的計算量度。 請參閱[核准計算量度](cm-approving.md)。 |
 | ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL 複製]** | 複製所選的計算量度。 已建立具有相同名稱和尾碼的新計算量度`(Copy)` |
+| ![AI](/help/assets/icons/AI.svg) | **[!UICONTROL 產生說明]** | <p>產生所選計算量度的說明，並取代任何現有的說明。</p><p>為避免覆寫現有的描述，請先將[篩選](#filter-panel)清單以僅顯示沒有描述的計算量度（在篩選中，在&#x200B;[!UICONTROL **其他篩選器**]&#x200B;下，選取&#x200B;[!UICONTROL **缺少描述**]）。</p><p>系統會提示您進行確認。 大型請求會在背景執行，而您會在完成時收到通知。</p><p>如需詳細資訊，請參閱[自動產生說明](/help/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 匯出至 CSV]** | 將計算量度匯出至`Calculated  metric List.csv`檔案。 |
 
 ### 使用中的篩選欄
