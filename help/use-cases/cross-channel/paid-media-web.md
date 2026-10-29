@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 role: Admin
-source-git-commit: 11bc93e0adabd8e8109bda1734e1a098ce8bef1e
+source-git-commit: c5a7403374f26ebc641f3491a88dc14c5f8693c6
 workflow-type: tm+mt
-source-wordcount: '3907'
+source-wordcount: '3910'
 ht-degree: 3%
 ---
 # 使用網頁資料加入付費媒體資料
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 您只能在ID出現在登陸頁面URL或現有事件欄位中的層級加入。 例如，僅限促銷活動標籤支援促銷活動報告，但不支援廣告層級報告。 體驗層級和資產層級聯結需要額外的URL引數，而且超出了本指南的範圍。
 
-如需參考，請參閱[摘要資料](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/summary-data)和[摘要資料群組元件設定](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/summary-data-group)。
+如需參考，請參閱[摘要資料](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/summary-data)和[摘要資料群組元件設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/summary-data-group)。
 
 ### 選擇聯結索引鍵
 
@@ -81,7 +81,7 @@ GUID結構是`{adNetwork}_{accountID}[_{campaignID}[_{adGroupID}[_{adID}]]]`。 
 * [!DNL Customer Journey Analytics] Select或更新版本，可存取此處使用的衍生欄位函式： [URL剖析](/help/data-views/derived-fields/derived-fields.md#url-parse)、[Case When](/help/data-views/derived-fields/derived-fields.md#case-when)、[Regex Replace](/help/data-views/derived-fields/derived-fields.md#regex-replace)，以及針對名稱擴充，[Lookup](/help/data-views/derived-fields/derived-fields.md#lookup)。
 * [!DNL Adobe Experience Platform]許可權可管理目標沙箱中的結構描述、資料集和資料流，以及存取資料集和查詢服務以進行驗證。
 * [!DNL Customer Journey Analytics]編輯目標連線和資料檢視的許可權。
-* 付費媒體來源聯結器已設定在相同沙箱中，並擷取摘要和查詢資料集。 如需聯結器範例，請參閱[Meta Ads來源](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/advertising/meta-ads)。
+* 付費媒體來源聯結器已設定在相同沙箱中，並擷取摘要和查詢資料集。 如需聯結器範例，請參閱[Meta Ads來源](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/advertising/meta-ads)。
 * 擷取完整登陸頁面URL （包括其查詢字串）或包含網路ID的同等欄位的網站事件。
 
 
@@ -93,7 +93,7 @@ GUID結構是`{adNetwork}_{accountID}[_{campaignID}[_{adGroupID}[_{adID}]]]`。 
 |---|---|---|---|
 | 網站URL中的Meta ID | <code>campaign_id={{campaign.id}}</code> | <code>adset_id={{adset.id}}</code> | <code>ad_id={{ad.id}}</code> |
 | UTM引數中的Meta ID | <code>utm_campaign={{campaign.id}}</code> | <code>utm_term={{adset.id}}</code> | <code>utm_content={{ad.id}}</code> |
-| UTM引數中的Google Ads ID | <code>utm_campaign={campaignid}</code> | <code>utm_term={adgroupid}</code> | <code>utm_content={creative}</code> |
+| UTM引數中的Google Ads ID | <code>utm_campaign={{campaignid}}</code> | <code>utm_term={{adgroupid}}</code> | <code>utm_content={{creative}}</code> |
 
 對於Meta UTM標籤，`utm_source=fb`之類的來源值可以識別網路。 對於Google Ads UTM標籤，請使用來源值，例如`utm_source=google`。
 
@@ -158,7 +158,7 @@ AL!<id>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{k
 1. 為資料流命名，並選取您的事件結構描述作為對應結構描述。
 1. 儲存，然後選取&#x200B;**[!UICONTROL 新增服務]** > **[!UICONTROL Adobe Experience Platform]**。
 1. 選取沙箱和事件資料集，然後&#x200B;**[!UICONTROL 儲存]**。
-1. 使用資料串流識別碼來設定[Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/js-overview)。
+1. 使用資料串流識別碼來設定[Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview)。
 
 擷取下列專案：
 
@@ -268,7 +268,7 @@ LIMIT 20;
 | 4 | [URL剖析](/help/data-views/derived-fields/derived-fields.md#url-parse) | 頁面URL。 取得`fbclid`的查詢字串值。 |
 | 5 | [案例時間](/help/data-views/derived-fields/derived-fields.md#case-when) | 套用下列條件。 |
 
-設定[&#128279;](/help/data-views/derived-fields/derived-fields.md#case-when)規則時的最終案例：
+設定](/help/data-views/derived-fields/derived-fields.md#case-when)規則時的最終[案例：
 
 1. 如果已設定規則2或規則3，則傳回`google_ads`。
 1. 否則，如果規則4已設定或規則1等於`fb`、`facebook`、`ig`、`instagram`或`meta`，則會傳回`meta`。
@@ -363,7 +363,7 @@ LIMIT 20;
 
 保持原始&#x200B;**[!UICONTROL 訂單]**&#x200B;和&#x200B;**[!UICONTROL 收入]**&#x200B;量度不變，以保留現有報表。 此設定需要明確啟用覆寫，即使顯示的預設值似乎相符。
 
-若要計算回訪間的轉換點數，請改為考慮&#x200B;**[!UICONTROL 人員]**&#x200B;容器和適當的回顧期間。 檢視[摘要資料使用案例](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-views/summary-data)。
+若要計算回訪間的轉換點數，請改為考慮&#x200B;**[!UICONTROL 人員]**&#x200B;容器和適當的回顧期間。 檢視[摘要資料使用案例](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/summary-data)。
 
 使用量度歸因，而非將持續性新增至網頁ID維度。 為避免誇大解譯為著陸的計數，請勿將ID保留給之後的事件，因為這會變更哪些事件會出現在促銷活動列下。
 
