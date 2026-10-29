@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '2563'
 ht-degree: 5%
 ---
 # 實作交談深入分析
+
+{{release-limited-testing}}
 
 若要將交談資料產生為XDM體驗事件，並確保這些交談體驗事件最終在Adobe Experience Platform中成為資料集，請檢測您的代理程式應用程式或服務以使用交談見解。
 

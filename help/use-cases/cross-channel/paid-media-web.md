@@ -3,11 +3,10 @@ title: 在Customer Journey Analytics中將付費媒體資料與Web資料結合
 description: 在Adobe Customer Journey Analytics中結合付費媒體摘要資料與網站活動，比較廣告支出、點按數、訂購、收入和廣告支出回報率。
 solution: Customer Journey Analytics
 feature: Use Cases
-hide: true
 role: Admin
-source-git-commit: 11bc93e0adabd8e8109bda1734e1a098ce8bef1e
+source-git-commit: 62a6bb436d59ab7a5a7be515afbe1f5f0f7817ee
 workflow-type: tm+mt
-source-wordcount: '3907'
+source-wordcount: '3912'
 ht-degree: 3%
 ---
 # 使用網頁資料加入付費媒體資料
@@ -45,7 +44,12 @@ ht-degree: 3%
 
 ## 瞭解報表加入
 
-您只能在ID出現在登陸頁面URL或現有事件欄位中的層級加入。 例如，僅限促銷活動標籤支援促銷活動報告，但不支援廣告層級報告。 體驗層級和資產層級聯結需要額外的URL引數，而且超出了本指南的範圍。
+您只能在ID出現在登陸頁面URL或現有事件欄位中的層級加入。 例如，僅限促銷活動標籤支援促銷活動報告，但不支援廣告層級報告。
+
+>[!NOTE]
+>
+>Content Analytics體驗層級和資產層級結合需要額外的URL引數，並且不在本指南的範圍之內。
+
 
 如需參考，請參閱[摘要資料](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/summary-data)和[摘要資料群組元件設定](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/summary-data-group)。
 
@@ -93,7 +97,7 @@ GUID結構是`{adNetwork}_{accountID}[_{campaignID}[_{adGroupID}[_{adID}]]]`。 
 |---|---|---|---|
 | 網站URL中的Meta ID | <code>campaign_id={{campaign.id}}</code> | <code>adset_id={{adset.id}}</code> | <code>ad_id={{ad.id}}</code> |
 | UTM引數中的Meta ID | <code>utm_campaign={{campaign.id}}</code> | <code>utm_term={{adset.id}}</code> | <code>utm_content={{ad.id}}</code> |
-| UTM引數中的Google Ads ID | <code>utm_campaign={campaignid}</code> | <code>utm_term={adgroupid}</code> | <code>utm_content={creative}</code> |
+| UTM引數中的Google Ads ID | <code>utm_campaign={{campaignid}}</code> | <code>utm_term={{adgroupid}}</code> | <code>utm_content={{creative}}</code> |
 
 對於Meta UTM標籤，`utm_source=fb`之類的來源值可以識別網路。 對於Google Ads UTM標籤，請使用來源值，例如`utm_source=google`。
 
@@ -122,10 +126,10 @@ AL!<id>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{k
 
 | | 起點 | 現有設定 | 需要進行的步驟 |
 |---|---|---|---|
-| A | Content Analytics搭配Web或行動與付費媒體 | 付費媒體資料集和元件，加上Content Analytics事件和查詢資料集 | 視需要新增您的網站事件資料集，然後設定Web衍生的欄位和報告群組 |
-| B | 僅含付費媒體的Content Analytics | 付費媒體資料集和元件；也可以出現共用內容查詢資料集 | 新增您的網站事件資料集，然後設定Web衍生的欄位和報告群組 |
-| C | 不含Content Analytics布建的付費媒體 | Experience Platform中有付費媒體資料集，但連線和資料檢視未包含付費媒體設定 | 新增網站和付費媒體資料集，然後建立付費媒體和網頁元件 |
-| D | Content Analytics （不含付費媒體） | 僅限Content Analytics元件 | 在Content Analytics設定中啟用付費媒體頻道，然後遵循現有設定路徑 |
+| A | Content Analytics搭配Web或行動與付費媒體 | [付費媒體資料集和元件](/help/content-analytics/config/paid-media.md)，加上Content Analytics事件和查詢資料集。 | 如有需要，可新增您的網站事件資料集，然後設定Web衍生的欄位和報告群組。 |
+| B | 僅含付費媒體的Content Analytics | [付費媒體資料集和元件](/help/content-analytics/config/paid-media.md)；也可以出現共用內容查詢資料集。 | 新增您的網站事件資料集，然後設定Web衍生的欄位和報告群組。 |
+| C | 不含Content Analytics布建的付費媒體 | 付費媒體資料集存在於Experience Platform中，但連線和資料檢視不包含付費媒體設定。 | 新增網站和付費媒體資料集，然後建立付費媒體和Web元件。 |
+| D | Content Analytics （不含付費媒體） | 僅限Content Analytics元件。 | 在Content Analytics設定中啟用付費媒體頻道，然後遵循現有設定路徑。 |
 
 延伸Content Analytics管理的連線時，請勿移除或修改系統布建的資料集或唯讀元件。
 
@@ -143,10 +147,10 @@ AL!<id>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{k
 
    | 欄位群組 | 必要資料 |
    |---|---|
-   | AEP Web SDK體驗事件 | 頁面URL、頁面檢視、反向連結和其他網頁內容 |
-   | Commerce詳細資料 | 購買計數、訂單值、貨幣、購買ID和產品詳細資料 |
-   | 行銷活動行銷細節，選用 | 如果您的實作會分別擷取追蹤程式碼，則請追蹤程式碼 |
-   | IdentityMap （如果尚未出現） | 個人識別碼，例如ECID |
+   | AEP Web SDK體驗事件 | 頁面URL、頁面檢視、反向連結和其他網頁內容。 |
+   | Commerce詳細資料 | 購買計數、訂單值、貨幣、購買ID和產品詳細資料。 |
+   | 行銷活動行銷細節，選用 | 如果您的實作會分別擷取追蹤程式碼，則請追蹤程式碼。 |
+   | IdentityMap （如果尚未出現） | 個人識別碼，例如ECID。 |
 
 1. 儲存結構。 此報告使用案例不需要啟用設定檔。
 1. 移至&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料集]** > **[!UICONTROL 建立資料集]** > **[!UICONTROL 從結構描述建立資料集]**。
@@ -195,11 +199,11 @@ LIMIT 20;
 
    | 設定 | 值 |
    |---|---|
-   | 人員 ID | `identityMap`具有ECID名稱空間，或您實作的人員ID欄位 |
+   | 人員 ID | `identityMap`具有ECID名稱空間，或您實作的人員ID欄位。 |
    | 時間戳記 | `timestamp` |
    | 資料來源類型 | 網頁資料 |
    | 匯入所有新資料 | 已啟用 |
-   | 回填所有現有資料 | 為您需要的歷史期間啟用 |
+   | 回填所有現有資料 | 已針對您需要的歷史期間啟用。 |
 
 1. 新增資料集並儲存連線。
 
@@ -286,11 +290,11 @@ LIMIT 20;
 
 | 規則 | 函數 | 設定 |
 |---|---|---|
-| 1 | [URL剖析](/help/data-views/derived-fields/derived-fields.md#url-parse) | 從頁面URL讀取層級特定的Meta引數 |
-| 2 | [URL剖析](/help/data-views/derived-fields/derived-fields.md#url-parse) | 從頁面URL讀取層級特定的UTM引數 |
-| 3 | [URL剖析](/help/data-views/derived-fields/derived-fields.md#url-parse) | 從頁面URL讀取`s_kwcid` |
-| 4 | [Regex取代](/help/data-views/derived-fields/derived-fields.md#regex-replace) | 套用層次特定運算式至規則3；輸出`$1` |
-| 5 | [案例時間](/help/data-views/derived-fields/derived-fields.md#case-when) | 如果設定規則3，則傳回規則4；否則，如果設定規則1，則傳回規則1；否則，傳回規則2 |
+| 1 | [URL剖析](/help/data-views/derived-fields/derived-fields.md#url-parse) | 從頁面URL讀取層級特定的Meta引數。 |
+| 2 | [URL剖析](/help/data-views/derived-fields/derived-fields.md#url-parse) | 從頁面URL中讀取層級特定的UTM引數。 |
+| 3 | [URL剖析](/help/data-views/derived-fields/derived-fields.md#url-parse) | 從頁面URL讀取`s_kwcid`。 |
+| 4 | [Regex取代](/help/data-views/derived-fields/derived-fields.md#regex-replace) | 套用層次特定運算式至規則3；輸出`$1`。 |
+| 5 | [案例時間](/help/data-views/derived-fields/derived-fields.md#case-when) | 若已設定規則3，則傳回規則4；否則，若已設定規則1，則傳回規則1；否則，傳回規則2。 |
 
 請使用下列值：
 

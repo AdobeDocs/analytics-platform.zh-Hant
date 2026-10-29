@@ -4,7 +4,7 @@ title: 對話摘要
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: 2cca5dfaec6be8f22308e09a023e9e57bec387b7
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 20%
@@ -21,6 +21,7 @@ ht-degree: 20%
 >title="對話摘要"
 >abstract="總結已篩選的對話群組。 控制摘要的長度。 查看客戶的代表性引述，以驗證所擷取訊號的準確性。 選取報價以開啟完整的交談重播。"
 
+{{release-limited-testing}}
 
 ![摘要](/help/assets/icons/Summarize.svg) **[!UICONTROL 交談摘要]**&#x200B;視覺效果可讓您摘要經過篩選的交談群組。
 

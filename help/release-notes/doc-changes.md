@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: f7d853a3b658328f952b675f838ce314b7c30fb1
+source-git-commit: 62a6bb436d59ab7a5a7be515afbe1f5f0f7817ee
 workflow-type: tm+mt
-source-wordcount: '7412'
+source-wordcount: '7431'
 ht-degree: 93%
 ---
 
@@ -70,6 +70,7 @@ ht-degree: 93%
 | 功能 | 說明 |
 |---|---|
 | **2026年10月** | |
+| 使用網頁資料加入付費媒體資料 | [使用案例指南](/help/use-cases/cross-channel/paid-media-web.md)如何將付費媒體資料與Web資料聯結。 |
 | 鎖定視覺效果的選取範圍 | 已重新建構[管理資料來源](/help/analysis-workspace/visualizations/t-sync-visualization.md)，以將設定資料來源設定與鎖定選取專案分開。 也澄清當視覺效果鎖定至自由表格中的列時，[鎖定選取範圍](/help/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection)的運作方式，包括當鎖定的劃分列不再位於表格中時會發生什麼情況。 |
 | 區段運運算元區分大小寫 | 澄清當您使用[標準運運算元](/help/components/segments/seg-operators.md#standard-operators)時，除了&#x200B;**[!UICONTROL 符合]**&#x200B;且&#x200B;**[!UICONTROL 不符合]**&#x200B;外，結果不區分大小寫。 |
 | 表格欄的鍵盤導覽 | 記錄如何使用鍵盤，在Analysis Workspace中[調整大小](/help/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns)和[重新排列](/help/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)資料表資料行，包括熒幕助讀程式意見反應。 也將[資料表資料行動作](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions)區段新增至快速鍵。 |

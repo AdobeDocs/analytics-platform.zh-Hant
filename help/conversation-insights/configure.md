@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: a02b8d1d6bae6ed8269668d49ed9559688001833
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 12%
+source-wordcount: '1187'
+ht-degree: 17%
 ---
 # 建立或編輯組態
+
+{{release-limited-testing}}
 
 對話深入解析可讓您從提供給客戶的代理程式體驗中分析對話。 這些代理程式體驗可以基於大型語言模型(LLM)或基於人類對話。 例如，和客戶或客服中心互動的聊天機器人紀錄。
 透過交談深入分析，您可以瞭解代理程式對實際使用者結果的影響。
@@ -136,18 +138,18 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="conversationinsights_blend_specification"
 >title="設定混合規格"
->abstract="完成此「交談見解」設定後，您才能編輯混合規格、所有資料集皆可使用，且您擁有Customer Journey Analytics編輯連線的許可權。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/access-control" text="存取控制"
+>abstract="只有在完成此「對話洞察」設定、所有資料集都可用，且您擁有編輯連線的 Customer Journey Analytics 權限後，您才能編輯混合規格。"
+>additional-url="https://experienceleague.adobe.com/zhHant/docs/analytics-platform/using/technotes/access-control" text="存取控制"
 
 
 >[!CONTEXTUALHELP]
 >id="conversationinsights_dataset_winner"
->title="勝出資料集"
->abstract="選取資料集，以確定混合交談資料集中對應命名欄位或欄位（如果容器）的值。"
+>title="資料集獲勝者"
+>abstract="選取資料集，以決定混合對話資料集中相應命名的欄位或多個欄位 (如果是容器) 的值。"
 
 建立組態之後，您就可以設定[如何混合來自提示、回應、回饋和訊號資料集的交談](/help/conversation-insights/overview.md#how-it-works)。
 
-此規格可讓您選取決定混合交談資料集中對應命名欄位（如果容器）之值的資料集。
+此規格可讓您選取資料集，以決定混合交談資料集中對應命名欄位或欄位（如果容器）的值。
 
 例如：如果您想要從意見資料集中的類似命名欄位定義混合式交談資料集中的&#x200B;**[!UICONTROL 產生者]**&#x200B;欄位名稱，您可從該欄位的&#x200B;**[!UICONTROL 資料集獲勝者]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 意見資料集]**。
 
@@ -161,7 +163,7 @@ ht-degree: 12%
    * 針對每個容器欄位，選擇性地選取其他&#x200B;**[!UICONTROL 資料集獲勝者]**&#x200B;以更新屬於該容器的所有欄位。 您可以在&#x200B;**[!UICONTROL 提示資料集]**、**[!UICONTROL 回應資料集]**&#x200B;和&#x200B;**[!UICONTROL 意見資料集]**&#x200B;之間選取。
    * 您無法針對對話資料集之間共用的欄位（提示、回應、回饋和訊號）選取&#x200B;**[!UICONTROL 資料集獲勝者]**。 這些欄位是以下欄位群組的一部分：
 
-     | 欄位名稱 | 欄位群組 | 勝出資料集 |
+     | 欄位名稱 | 欄位群組 | 資料集獲勝者 |
      |---|---|---|
      | **[!UICONTROL 提示]** | `conversation.prompt.*` | **[!UICONTROL 提示資料集]** |
      | **[!UICONTROL 回應]** | `conversation.response.*` | **[!UICONTROL 回應資料集]** |

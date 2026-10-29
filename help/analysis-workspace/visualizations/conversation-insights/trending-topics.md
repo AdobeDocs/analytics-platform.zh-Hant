@@ -4,7 +4,7 @@ title: 趨勢主題
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: 85311bf19368560ef54a3361edf2e7c13590929c
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 16%
@@ -21,6 +21,8 @@ ht-degree: 16%
 >title="趨勢主題"
 >abstract="根據選定的排名量度來分析趨勢主題。 選取主題以深入研究至最多 5 層。 搜尋特定主題，並將主題與其他日期範圍進行比較。"
 
+{{release-limited-testing}}
+
 ![摘要](/help/assets/icons/Feed.svg) **[!UICONTROL 趨勢主題]**&#x200B;視覺效果可讓您探索和分析趨勢主題，作為交談深入分析的一部分。
 
 您可以搜尋特定主題，並將每個層級每個主題的數量和百分比與其他資料範圍進行比較。
@@ -36,6 +38,7 @@ ht-degree: 16%
 >id="workspace_trendingtopics_usenondefaultattributionmodel_disabled"
 >title="使用非預設歸因模型"
 >abstract="非預設歸因模型不適用於此量度。"
+
 
 若要建立及設定&#x200B;**[!UICONTROL 趨勢主題]**&#x200B;視覺效果：
 
@@ -57,7 +60,7 @@ ht-degree: 16%
 
 * 將滑鼠指標暫留在主題上，即可檢視包含更多詳細資訊的快顯視窗。➊
 
-* 若要檢視較低層級主題的趨勢子主題，請選取特定層級的主題。 如果在子層級沒有可用的主題，您會看到![資料移除](/help/assets/icons/DataRemove.svg) **[!UICONTROL 找不到_topic >子主題> ...]**&#x200B;的子主題。
+* 若要檢視較低層級主題的趨勢子主題，請選取特定層級的主題。 如果在子層級沒有可用的主題，您會看到![資料移除](/help/assets/icons/DataRemove.svg) **[!UICONTROL 找不到&#x200B;_主題>子主題_ > ...]**&#x200B;的子主題。
 
 * 使用![搜尋](/help/assets/icons/Search.svg) **[!UICONTROL _搜尋主題_]**&#x200B;來快速搜尋主題。➋
 
