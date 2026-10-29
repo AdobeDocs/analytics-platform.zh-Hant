@@ -22,12 +22,16 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 67e9700015c9c8de24871feb4eedc4392ce72a3a
+source-git-commit: 88e67c92fc170b340149c9ab73ad5eea2122da2b
 workflow-type: tm+mt
-source-wordcount: '1905'
-ht-degree: 0%
+source-wordcount: '1960'
+ht-degree: 1%
 ---
 # 使用同事的產品內體驗
+
+>[!AVAILABILITY]
+>
+>本區段中描述的功能處於發佈的有限測試階段，可能尚未開放使用於您的環境中。 此外， Co-worker使用產生式AI，可能會產生不準確或意外的結果。 在您對專案採取行動或共用專案之前，請先檢閱同事的回應以及它對專案所做的任何變更。
 
 同事的產品內體驗可在Analysis Workspace右側的聊天面板中取得。 Co-worker使用開啟的專案作為前後關聯，因此您可以詢問您的分析或讓Co-worker建置專案，而無需說明其中包含的內容。
 
@@ -44,13 +48,13 @@ ht-degree: 0%
 <!--
 FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME.
 
-* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
+* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
 
 -->
 
 ### 在Workspace中的同事與同事應用程式之間選擇
 
-同事的產品內體驗具有許多與[CX Enterprise Coworker應用程式](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)相同的功能，包括您可以存取的技能。 不過，在決定您何時可以使用其中一個變數時，有一些重要的差異：
+同事的產品內體驗具有許多與[CX Enterprise Coworker應用程式](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)相同的功能，包括您可以存取的技能。 不過，在決定您何時可以使用其中一個變數時，有一些重要的差異：
 
 | | 同事的產品內體驗 | 同事應用程式 |
 | --- | --- | --- |
