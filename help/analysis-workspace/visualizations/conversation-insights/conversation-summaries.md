@@ -7,7 +7,7 @@ hide: true
 source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 20%
+ht-degree: 26%
 ---
 # 對話摘要 {#conversation-summaries}
 
@@ -19,7 +19,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="workspace_conversationsummaries_panel"
 >title="對話摘要"
->abstract="總結已篩選的對話群組。 控制摘要的長度。 查看客戶的代表性引述，以驗證所擷取訊號的準確性。 選取報價以開啟完整的交談重播。"
+>abstract="總結已篩選的對話群組。 控制摘要的長度。 查看客戶的代表性引述，以驗證所擷取訊號的準確性。 選取引述以開啟完整的對話重播。"
 
 {{release-limited-testing}}
 
@@ -52,7 +52,7 @@ ht-degree: 20%
 
 1. 選取&#x200B;**[!UICONTROL 建置]**&#x200B;以建置視覺效果。 選取&#x200B;**[!UICONTROL 重設]**&#x200B;將組態值重設為預設值。 選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消設定。
 
-若要重新設定&#x200B;**[!UICONTROL 交談摘要]**&#x200B;視覺效果，請選取&#x200B;**[!UICONTROL 量度： _量度_]**&#x200B;或&#x200B;**[!UICONTROL 量度：_量度_]**&#x200B;旁的![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 區段： _區段_]**。
+若要重新設定&#x200B;**[!UICONTROL 交談摘要]**&#x200B;視覺效果，請選取&#x200B;**[!UICONTROL 量度： _量度_]**或&#x200B;**[!UICONTROL 量度：_量度_]**&#x200B;旁的![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 區段： _區段_]**。
 
 ## 使用
 

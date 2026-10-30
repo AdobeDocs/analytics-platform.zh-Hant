@@ -7,14 +7,14 @@ hide: true
 source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 16%
+ht-degree: 25%
 ---
 # 趨勢主題 {#trending-topics}
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_button"
 >title="趨勢主題"
->abstract="建立視覺效果，顯示趨勢主題的階層式向下展開功能劃分，以及發生次數和百分比，以協助您識別對話中的重要主題。"
+>abstract="建立視覺化圖表，顯示趨勢主題的階層式深入研究劃分，包括發生次數和百分比，協助您識別對話中的重要主題。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_panel"
@@ -50,7 +50,7 @@ ht-degree: 16%
    1. 如果您想要在量度上使用非預設的[歸因](/help/analysis-workspace/attribution/models.md)模型，請選取&#x200B;**[!UICONTROL 使用非預設的歸因模型]**，然後選取&#x200B;**[!UICONTROL 模型]**、**[!UICONTROL 容器]**&#x200B;和&#x200B;**[!UICONTROL 回顧視窗]**。
 1. 選取&#x200B;**[!UICONTROL 建置]**&#x200B;以建置視覺效果。 選取&#x200B;**[!UICONTROL 重設]**&#x200B;將組態值重設為預設值。
 
-若要重新設定趨勢主題視覺效果，請選取&#x200B;**排名量度： _排名量度_旁的![編輯](/help/assets/icons/Edit.svg) |子主題層級： _x_**。
+若要重新設定趨勢主題視覺效果，請選取&#x200B;**[!UICONTROL 排名量度： _排名量度_旁的![編輯](/help/assets/icons/Edit.svg) |子主題層級： _x_]**。
 
 ## 使用
 

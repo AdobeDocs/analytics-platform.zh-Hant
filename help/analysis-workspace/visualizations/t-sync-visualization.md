@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: f7d853a3b658328f952b675f838ce314b7c30fb1
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 18%
+ht-degree: 22%
 ---
 # 管理資料來源 {#manage-data-sources}
 
@@ -39,7 +39,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection_showtable"
 >title="顯示表格"
->abstract="選取&#x200B;**[!UICONTROL 顯示表格]**&#x200B;會為您目前的視覺效果產生新的資料來源，與原始資料來源分開。"
+>abstract="選取「**[!UICONTROL 顯示表格]**」會為您目前的視覺效果產生新的資料來源，並將其與原始資料來源分開。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_showtable"
