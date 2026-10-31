@@ -99,7 +99,7 @@ ht-degree: 55%
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"
->title="詳細資料"
+>title="詳細資訊"
 >abstract="本指南闡述了設定 Content Analytics 所需的要求。 請提供此設定的名稱，並選取包含您要分析之內容分析資料的沙箱。"
 
 >[!CONTEXTUALHELP]
@@ -258,7 +258,7 @@ ht-degree: 55%
 
 #### Mobile
 
-+++ 詳細資料
++++ 詳細資訊
 
 <!-- For updated ACA -->
 
@@ -355,7 +355,7 @@ ht-degree: 55%
 
 #### Web {#web}
 
-+++ 詳細資料
++++ 詳細資訊
 
 對於Web管道，您可以設定[體驗擷取和定義](#experience-capture-and-definition-1)、[資料集合](#data-collection-1)和[標題覆寫](#header-overrides-1)。
 
@@ -578,7 +578,7 @@ ht-degree: 55%
 >abstract="付費媒體會要求您的廣告發佈者使用 Experience Platform 來源連接器。 此沙箱中沒有可用的 Google Ads 或 Meta 廣告連接器。 請在「**[!UICONTROL Experience Platform]** > **[!UICONTROL 來源]**」介面中設定一個或多個上述連接器，並返回此步驟以繼續設定 Content Analytics 付費媒體。"
 >additional-url="https://experienceleague.adobe.com/zh-Hant/docs/experience-platform/sources/connectors/advertising/ads" text="Google Ads 來源"
 
-+++ 詳細資料
++++ 詳細資訊
 
 >[!NOTE]
 >

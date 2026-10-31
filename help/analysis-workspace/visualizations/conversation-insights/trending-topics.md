@@ -7,14 +7,14 @@ hide: true
 source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 16%
+ht-degree: 25%
 ---
 # 趨勢主題 {#trending-topics}
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_button"
 >title="趨勢主題"
->abstract="建立視覺效果，顯示趨勢主題的階層式向下展開功能劃分，以及發生次數和百分比，以協助您識別對話中的重要主題。"
+>abstract="建立視覺化圖表，顯示趨勢主題的階層式深入研究劃分，包括發生次數和百分比，協助您識別對話中的重要主題。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_panel"
