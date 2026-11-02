@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
+source-git-commit: 80d2b7da2e2b6c12a44d7e9bffd821e58dbeeecc
 workflow-type: tm+mt
-source-wordcount: '4844'
+source-wordcount: '4894'
 ht-degree: 55%
 ---
 
@@ -256,9 +256,9 @@ ht-degree: 55%
 
 然後，您可以更詳細地設定頻道。 此組態會有所不同，取決於您是啟用、設定或編輯[行動裝置](#mobile)、[網頁](#web)或[付費媒體](#paid-media)頻道的組態。
 
-#### Mobile
+#### 行動
 
-+++ 詳細資訊
++++ 詳細資料
 
 <!-- For updated ACA -->
 
@@ -297,6 +297,8 @@ ht-degree: 55%
 ### 體驗擷取與定義 {#mobile-experience-capture-and-definition}
 
 在此區段中，您可以選取將體驗包含在您透過Content Analytics收集的行動資料中。  對於行動裝置頻道，體驗是指您使用適用於Content Analytics的Adobe Experience Platform SDK註冊為體驗。
+
+您的資料集和資料檢視預設會啟用體驗維度。 **[!UICONTROL 包含體驗]**&#x200B;選項可在資料收集中啟用Content Analytics體驗。
 
 依預設，**[!UICONTROL 包含體驗]**&#x200B;已停用。
 
@@ -355,7 +357,7 @@ ht-degree: 55%
 
 #### Web {#web}
 
-+++ 詳細資訊
++++ 詳細資料
 
 對於Web管道，您可以設定[體驗擷取和定義](#experience-capture-and-definition-1)、[資料集合](#data-collection-1)和[標題覆寫](#header-overrides-1)。
 
@@ -469,7 +471,9 @@ ht-degree: 55%
 唯有當以下情況適用時才考慮納入體驗：
 
 * 網站上的頁面必須能夠使用頁面 URL 重現。
-* 任何給定使用者看到的文字內容都可以使用頁面 URL 進行複製，並且不需要依賴 cookie 或其他個人化機制。
+* 任何給定使用者看到的文字內容都可以使用頁面 URL 重現，並且不依賴 cookie 或其他個人化機制。
+
+您的資料集和資料檢視預設會啟用體驗維度。 **[!UICONTROL 包含體驗]**&#x200B;選項可在資料收集中啟用Content Analytics體驗。
 
 >[!IMPORTANT]
 >
@@ -578,7 +582,7 @@ ht-degree: 55%
 >abstract="付費媒體會要求您的廣告發佈者使用 Experience Platform 來源連接器。 此沙箱中沒有可用的 Google Ads 或 Meta 廣告連接器。 請在「**[!UICONTROL Experience Platform]** > **[!UICONTROL 來源]**」介面中設定一個或多個上述連接器，並返回此步驟以繼續設定 Content Analytics 付費媒體。"
 >additional-url="https://experienceleague.adobe.com/zh-Hant/docs/experience-platform/sources/connectors/advertising/ads" text="Google Ads 來源"
 
-+++ 詳細資訊
++++ 詳細資料
 
 >[!NOTE]
 >
