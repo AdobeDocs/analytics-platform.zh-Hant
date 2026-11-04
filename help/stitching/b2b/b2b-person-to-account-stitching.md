@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 6cecd447699645d21f5b198cdde1796dd49e80f6
+source-git-commit: c244c7d5c08f2059046603d09b09fbe70f8bff07
 workflow-type: tm+mt
-source-wordcount: '2328'
+source-wordcount: '2330'
 ht-degree: 24%
 ---
 # B2B個人與帳戶拼接
@@ -150,7 +150,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 >[!IMPORTANT]
 >
 >* 您帳戶資料集的人員ID欄位必須在結構描述中標籤為身分。
->* 帳戶查詢資料集的人員會根據XDM商業帳戶人員關係類別，使用標準B2B結構描述，或使用自訂關聯結構描述，其中人員ID和帳戶ID欄位為簡單字串。 個人帳戶資料集不支援使用`personComponents`陣列物件來擷取帳戶ID資訊的結構描述。
+>* 帳戶查詢資料集的人員可使用基於XDM商業帳戶人員關係類別的標準B2B結構描述，或是人員ID和帳戶ID欄位為簡單字串的自訂關聯結構描述。 個人對帳戶資料集不支援使用&#x200B;**[!UICONTROL personComponents]**&#x200B;陣列物件來擷取帳戶ID資訊的結構描述。
 
 ## 啟用人員至帳戶拼接 {#enable-account-stitching}
 
