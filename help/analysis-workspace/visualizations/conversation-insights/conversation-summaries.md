@@ -3,11 +3,10 @@ description: 使用交談摘要視覺效果來摘要交談。
 title: 對話摘要
 feature: Visualizations
 role: User
-hide: true
-source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
+source-git-commit: 30311dc0e753778c6e5316d82ffba25748d8315e
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 26%
+source-wordcount: '407'
+ht-degree: 22%
 ---
 # 對話摘要 {#conversation-summaries}
 
@@ -23,7 +22,7 @@ ht-degree: 26%
 
 {{release-limited-testing}}
 
-![摘要](/help/assets/icons/Summarize.svg) **[!UICONTROL 交談摘要]**&#x200B;視覺效果可讓您摘要經過篩選的交談群組。
+![AI](/help/assets/icons/AI.svg) **[!UICONTROL 交談摘要]**&#x200B;視覺效果可讓您在[交談深入分析](/help/conversation-insights/overview.md)中，摘要經過篩選的交談群組。
 
 當您將視覺效果設定為包含子主題時，視覺效果會顯示所選量度的摘要（例如「交談」），並顯示子主題或逐字註釋。
 
@@ -42,7 +41,7 @@ ht-degree: 26%
 
 若要建立及設定&#x200B;**[!UICONTROL 交談摘要]**&#x200B;視覺效果：
 
-1. 新增![摘要](/help/assets/icons/Summarize.svg) **[!UICONTROL 交談摘要]**&#x200B;視覺效果。 請參閱[新增視覺效果至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
+1. 新增![AI](/help/assets/icons/AI.svg) **[!UICONTROL 交談摘要]**&#x200B;視覺效果。 請參閱[新增視覺效果至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
 
 1. 在&#x200B;**[!UICONTROL 交談摘要]**&#x200B;視覺效果設定中：
 
@@ -52,7 +51,7 @@ ht-degree: 26%
 
 1. 選取&#x200B;**[!UICONTROL 建置]**&#x200B;以建置視覺效果。 選取&#x200B;**[!UICONTROL 重設]**&#x200B;將組態值重設為預設值。 選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消設定。
 
-若要重新設定&#x200B;**[!UICONTROL 交談摘要]**&#x200B;視覺效果，請選取&#x200B;**[!UICONTROL 量度： _量度_]**&#x200B;或&#x200B;**[!UICONTROL 量度：_量度_]**&#x200B;旁的![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 區段： _區段_]**。
+若要重新設定&#x200B;**[!UICONTROL 交談摘要]**&#x200B;視覺效果，請選取&#x200B;**[!UICONTROL 量度： _量度_]**或&#x200B;**[!UICONTROL 量度：_量度_]**&#x200B;旁的![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 區段： _區段_]**。
 
 ## 使用
 
@@ -72,6 +71,13 @@ ht-degree: 26%
 
 * 如果您有[包含的子主題](#settings)，請選取&#x200B;**[!UICONTROL 子主題]**&#x200B;以顯示子主題，或選取&#x200B;**[!UICONTROL 逐字註解]**&#x200B;以顯示逐字註解。
 * 當您已選取&#x200B;**[!UICONTROL 逐字註解]**&#x200B;時，請選取![FileSearch](/help/assets/icons/FileSearch.svg)以針對逐字註解所屬的特定交談開啟新的[**[!UICONTROL 交談檢閱]**](./conversation-review.md)視覺效果。
+
+若要快速瀏覽多個交談評論：
+
+1. 建立維度為&#x200B;**[!UICONTROL 交談識別碼]**&#x200B;和&#x200B;**[!UICONTROL 交談名稱]**&#x200B;的[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)。
+1. 選取自由表格作為&#x200B;**[!UICONTROL 交談評論]**&#x200B;視覺效果的資料來源。
+
+在自由格式表格中選取交談，以使用所選交談的詳細資料自動更新&#x200B;**[!UICONTROL 交談檢閱]**。
 
 ## 設定
 
