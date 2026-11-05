@@ -24,13 +24,11 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 7190b05d8c3d66a6f76ed256af3424ba3c971855
 workflow-type: tm+mt
-source-wordcount: 1117
+source-wordcount: '1119'
 ht-degree: 76%
-
 ---
-
 # [!UICONTROL 持續性]元件設定 {#persistence-component-settings}
 
 <!-- markdownlint-disable MD034 -->
@@ -64,7 +62,7 @@ ht-degree: 76%
 | --- | --- |
 | [!UICONTROL 設定持續性] | 啟用維度的持續性。 如果未啟用持續性，則維度僅與同一事件中存在的量度相關。 此設定預設為停用。 |
 | [!UICONTROL 配置] | 指定用於維度持續性的配置模式。 選項有:<ul><li>**[!UICONTROL 最近]**：維度中的值會持續存在，直到後續的值覆寫為止</li><li> **[!UICONTROL 原始]**：此維度的第一個值持續存在，且不會被後續值覆寫</li><li>**[!UICONTROL 所有]**：維度中的所有值會同時存留。</li><li>**[!UICONTROL 首次知曉]**：此維度的第一個值，會應用於之前和之後的所有事件。</li><li>**[!UICONTROL 最新知曉]**：此維度的最新值，會應用於之前和之後的所有事件。</li></ul> |
-| [!UICONTROL 期限] | 指定維度的持續性視窗。 選項有: <ul><li>**[!UICONTROL 工作階段]** (預設)</li><li>**[!UICONTROL 人員]**</li><li>**[!UICONTROL 自訂時間]**</li><li>**[!UICONTROL 量度]**</li></ul>. 您可能需要讓此維度在購買時過期 (例如內部搜尋詞或其他銷售使用案例)。 您可以設定的最長到期時間為90天。 如果您選取「[!UICONTROL 全部]」配置，則只有[!UICONTROL 工作階段]或[!UICONTROL 人員]期限可用。 |
+| [!UICONTROL 期限] | 指定維度的持續性視窗。 選項有: <ul><li>**[!UICONTROL 工作階段]** (預設)</li><li>**[!UICONTROL 人員報告期間]**</li><li>**[!UICONTROL 自訂時間]**</li><li>**[!UICONTROL 量度]**</li></ul>. 您可能需要讓此維度在購買時過期 (例如內部搜尋詞或其他銷售使用案例)。 您可以設定的最長到期時間為90天。 如果您選取「[!UICONTROL 全部]」配置，則只有[!UICONTROL 工作階段]或[!UICONTROL 人員]期限可用。 |
 
 {style="table-layout:auto"}
 
@@ -126,7 +124,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [繫結維度](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [繫結維度](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
