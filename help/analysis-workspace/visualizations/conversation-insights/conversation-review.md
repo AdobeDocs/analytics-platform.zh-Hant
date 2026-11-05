@@ -3,11 +3,10 @@ description: 使用交談檢閱視覺效果來檢閱個別交談的詳細資訊�
 title: 對話審閱
 feature: Visualizations
 role: User
-hide: true
-source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
+source-git-commit: 6b84720eae3c0c6cd6cfd204591fb9d5f1f5cdb0
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 27%
+source-wordcount: '193'
+ht-degree: 26%
 ---
 # 對話審閱
 
@@ -24,7 +23,7 @@ ht-degree: 27%
 >abstract="了解個別對話的情境和流程，包括時間戳記和訊號。 設定要顯示哪些訊號。"
 
 
-![聊天](/help/assets/icons/Chat.svg) **[!UICONTROL 交談評論]**&#x200B;視覺效果會顯示客戶與代理程式之間的完整輪流交換。
+![聊天](/help/assets/icons/Chat.svg) **[!UICONTROL 交談評論]**&#x200B;視覺效果會顯示客戶與代理程式之間完整的逐次交換，作為[交談見解](/help/conversation-insights/overview.md)的一部分。
 
 視覺效果可協助您瞭解個別交談的內容和流程，包括時間戳記和訊號。 您可以設定要顯示或不顯示哪些訊號。
 

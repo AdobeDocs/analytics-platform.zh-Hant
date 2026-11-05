@@ -14,9 +14,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2dfdb8ea1cc0648fa1cffae9ac7823786ff3f11b
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1691'
 ht-degree: 5%
 ---
 # 為資料摘要套用資料轉換
@@ -69,7 +69,7 @@ ht-degree: 5%
 | **將多個欄位合併為一個** | 未提供 | [合併欄位](/help/data-views/derived-fields/derived-fields.md#merge) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 簡易/適中 | |
 | **將URL剖析為元件** | [子字串](/help/data-views/component-settings/substring.md) （URL剖析方法） | [URL剖析](/help/data-views/derived-fields/derived-fields.md#urlparse) | 元件設定<p>建議使用，因為它不會使用其中一個有限的衍生欄位。</p> | 困難<p>需要自訂字串剖析來擷取相同的元件。</p> | <!-- Possible discrepancy: in the component settings meeting, Matt and Derek described all Substring methods, including URL parse, as roughly interchangeable across component setting, derived field, and SQL ("either one would work... maybe a preference"), which is a looser SQL-difficulty read than "Difficult." Flagged for Luke to reconcile; not changed without confirmation. --> |
 | **對數值欄位執行基本數學** | 未提供 | [數學](/help/data-views/derived-fields/derived-fields.md#math) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 簡易/適中 | |
-| **跨事件儲存維度值** | [持續性](/help/data-views/component-settings/persistence.md) | 目前無法使用<!-- Derek: considering adding this to FDL and surfacing it in derived fields; not currently possible. --> | 元件設定<p>為方便使用而建議，因為它不會使用您有限的衍生欄位之一。</p> | 困難 | 與回顧日期範圍互動，方式與範圍相依衍生欄位函式相同。 請參閱[瞭解回顧日期範圍](/help/components/exports/cja-data-feeds/create-feed.md#data-feed-lookback-date-range)。 |
+| **跨事件儲存維度值** | [持續性](/help/data-views/component-settings/persistence.md) | 目前無法使用<!-- Derek: considering adding this to FDL and surfacing it in derived fields; not currently possible. --> | 元件設定<p>為方便使用而建議，因為它不會使用您有限的衍生欄位之一。</p> | 困難 | 與回顧日期範圍互動，方式與範圍相依衍生欄位函式相同。 請參閱[瞭解處理期間](/help/components/exports/cja-data-feeds/create-feed.md#data-feed-processing-window)。 |
 | **使用規則運算式取代值** | [子字串](/help/data-views/component-settings/substring.md) （Regex方法） | [Regex取代](/help/data-views/derived-fields/derived-fields.md#regex-replace) | 元件設定<p>這三種方法會產生相同的結果，但偏好使用元件設定，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | 簡易/適中 | |
 | **解析工作階段中的下一個或上一個值** | 未提供 | [下一個或上一個](/help/data-views/derived-fields/derived-fields.md#next-previous) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 困難 | 取決於範圍設定。 請參閱[範圍設定如何影響資料摘要](#scope-settings)。 |
 | **傳回兩個日期之間的差異** | 未提供 | [日期數學](/help/data-views/derived-fields/derived-fields.md#datemath) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 困難 | 取決於範圍設定。 請參閱[範圍設定如何影響資料摘要](#scope-settings)。 |
@@ -85,7 +85,7 @@ ht-degree: 5%
 「日期數學」、「重複資料刪除」、「下一個或上一個」以及「摘要」都取決於「事件」、「工作階段」或「人員」的&#x200B;[!UICONTROL **範圍**]&#x200B;設定（可用的選項會因功能而異）。 深度沒有可設定的「範圍」欄位，但本質上與工作階段繫結，類似於標準「事件深度」維度。 任何有範圍的欄位都會將相同的值寫入該範圍內的每一列，而該值取決於回顧日期範圍內的資料。
 <!-- Open question as of 2026-09-09: is the lookback date range boundary anchored to a fixed point (e.g., midnight), or does it float with the feed run time, and is this configurable? Pending confirmation from Ron Fulkerson. -->
 
-由於[回顧日期範圍](/help/components/exports/cja-data-feeds/create-feed.md#data-feed-lookback-date-range)會隨著每個資料摘要傳遞往前滑動，因此相同的欄位可能會在之後的傳遞中傳回不同的值，即使已發生的事件亦然。
+由於[處理視窗](/help/components/exports/cja-data-feeds/create-feed.md#data-feed-processing-window)會隨著每個資料摘要傳遞往前推移，因此相同的欄位可能會在之後的傳遞中傳回不同的值，即使已發生的事件亦然。
 
 風險隨範圍大小而增加：由於個人的歷史記錄在摘要執行內沒有自然時間界限，因此個人範圍比工作階段範圍承受的風險更大。
 
