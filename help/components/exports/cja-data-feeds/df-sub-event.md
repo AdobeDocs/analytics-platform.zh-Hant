@@ -14,9 +14,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a4ea9270d5bf27234fa229e8ba3df5998ecea0e1
+source-git-commit: bd396cb4909d131ed60c97e7101cf85946555e38
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1320'
 ht-degree: 0%
 ---
 # 資料摘要中的子事件元件
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ### XDM結構描述中的子事件元件
 
-在XDM結構描述中，陣列的每個元素（字串陣列或物件陣列）都是子事件。 對應欄位中的每個專案也是子事件，如資料摘要[&#128279;](#use-map-fields-in-data-feeds)中的對應欄位中所述。 根據子事件內欄位的維度和量度是子事件元件。
+在XDM結構描述中，陣列的每個元素（字串陣列或物件陣列）都是子事件。 對應欄位中的每個專案也是子事件，如資料摘要](#use-map-fields-in-data-feeds)中的[對應欄位中所述。 根據子事件內欄位的維度和量度是子事件元件。
 
 若要在Adobe Experience Platform中檢視XDM結構描述內的子事件，請選取&#x200B;[!UICONTROL **結構描述**]，然後展開包含子事件的事件。
 
@@ -102,7 +102,7 @@ Analysis Workspace和Customer Journey Analytics中的資料摘要之間，子事
 
 此群組反映基礎資料結構。
 
-在資料摘要輸出中，所有這些元件都會以巢狀陣列的形式顯示在單一欄中。
+在資料摘要輸出中，所有這些元件都會以巢狀陣列的形式顯示在單一欄中。 Parquet檔案原生支援巢狀陣列。 如需詳細資訊，請參閱[在資料摘要中使用Parquet檔案](/help/components/exports/cja-data-feeds/df-parquet.md)。
 
 如需有關如何將元件（包括子事件元件）新增到資料摘要的資訊，請參閱[建立資料摘要](/help/components/exports/cja-data-feeds/create-feed.md)。
 
@@ -220,7 +220,7 @@ WHERE REGEXP_CONTAINS(product_list, r'(^|,)[^;]*;Cordless Drill;')
 
 ### 身分對應
 
-[`identityMap`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/identitymap)欄位中的每個身分都會匯出為一個物件。 物件包含身分名稱空間（金鑰），以及識別碼、驗證狀態和主要旗標。 該名稱空間會針對該名稱空間中的每個身分重複執行。
+[`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap)欄位中的每個身分都會匯出為一個物件。 物件包含身分名稱空間（金鑰），以及識別碼、驗證狀態和主要旗標。 該名稱空間會針對該名稱空間中的每個身分重複執行。
 
 系統只會匯出資料檢視中作為維度存在的身分對應屬性，以及您新增至資料摘要的屬性。
 
