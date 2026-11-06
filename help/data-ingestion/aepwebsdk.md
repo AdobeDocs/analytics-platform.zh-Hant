@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '3523'
-ht-degree: 84%
+source-wordcount: '3516'
+ht-degree: 82%
 ---
 # 透過網頁SDK擷取資料
 
@@ -146,7 +146,7 @@ ht-degree: 84%
 
    ![識別物件](./assets/identification-field.png)
 
-   識別物件新增識別功能至您的結構描述。 在您的案例中，您想使用 Experience Cloud ID 和電子郵件地址識別瀏覽您網站的設定檔。 還有許多其他屬性可用於追蹤此人的身分識別資訊 (例如客戶 ID、忠誠度 ID)。
+   識別物件新增識別功能至您的結構描述。 對於您的情況，您想要使用ECID和電子郵件地址來識別造訪您網站的設定檔。 還有許多其他屬性可用於追蹤此人的身分識別資訊 (例如客戶 ID、忠誠度 ID)。
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構描述。
 
@@ -154,7 +154,7 @@ ht-degree: 84%
 
    ![指定 ECID 作為身分識別](./assets/specify-identity.png)
 
-   您將 Experience Cloud Identity 指定為 Adobe Experience Platform 身分識別服務可用於組合 (拼接) 具有相同 ECID 的設定檔的行為的主要身分。
+   您指定ECID作為主要身分，Adobe Experience Platform Identity服務可使用該身分組合（拼接）具有相同ECID之設定檔的行為。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。 您會看到指紋圖示出現在 ecid 屬性中。
 
@@ -182,7 +182,7 @@ ht-degree: 84%
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
 
-您已建立最小結構描述，為可從您網站擷取的資料建立模型。 該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別設定檔。 透過啟用設定檔的結構，即可確保將從您網站擷取的資料新增至即時客戶設定檔。
+您已建立最小結構描述，為可從您網站擷取的資料建立模型。 此結構允許使用ECID和電子郵件地址來識別設定檔。 透過啟用設定檔的結構，即可確保將從您網站擷取的資料新增至即時客戶設定檔。
 
 除了行為資料之外，您也可以從您的網站擷取輪廓屬性資料 (例如訂閱電子報的輪廓詳細資訊)。
 
@@ -194,7 +194,7 @@ ht-degree: 84%
 
 - 根據「設定檔核心 v2」欄位群組新增識別物件。
 
-- 將 Experience Cloud ID 定義為主要識別碼，並將電子郵件定義為識別碼。
+- 將ECID定義為主要識別碼，並將電子郵件定義為識別碼。
 
 - 啟用該設定檔結構描述
 
@@ -317,7 +317,7 @@ ht-degree: 84%
 
 如需詳細資訊，請參閱[設定 Adobe Experience Platform Web SDK 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=zh-Hant)。
 
-Web SDK包含Experience Platform Identity服務，因此您不需要將[!UICONTROL Experience Cloud ID服務]標籤擴充功能新增至您的屬性。
+Web SDK會從Edge Network取得ECID，因此您不需要將[!UICONTROL Experience Cloud ID服務]標籤擴充功能新增至您的屬性。
 
 #### **資料元素**
 

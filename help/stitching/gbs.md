@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '1999'
-ht-degree: 64%
+source-wordcount: '1997'
+ht-degree: 63%
 ---
 # 圖表型拼接
 
@@ -232,7 +232,7 @@ ht-degree: 64%
 
 下列先決條件專門適用於圖表型拼接：
 
-- Adobe Experience Platform 中您要套用拼接的事件資料集，必須有一欄可在每列識別輪廓，亦即&#x200B;**永久 ID**。 例如，Adobe Analytics AppMeasurement 資料庫產生的訪客 ID 或 Experience Platform 身分識別服務產生的 ECID。
+- Adobe Experience Platform 中您要套用拼接的事件資料集，必須有一欄可在每列識別輪廓，亦即&#x200B;**永久 ID**。 例如，Adobe Analytics AppMeasurement資料庫產生的訪客ID或Edge Network產生的ECID。
 - 在啟用圖表式拚接之前，必須先在沙箱層級設定Experience Platform Identity Service的身分圖表。
   - 身分圖表必須有名稱空間（例如`Email`或`Phone`），您想在拼接期間使用它來解析人員ID。
   - 身分圖表必須填入來自任何相關資料集（型別為&#x200B;*event*&#x200B;或&#x200B;*設定檔*，且至少包含兩個具有ID值的有用名稱空間）的身分資訊。

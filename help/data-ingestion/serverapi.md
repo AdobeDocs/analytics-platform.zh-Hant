@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '2447'
-ht-degree: 62%
+source-wordcount: '2439'
+ht-degree: 60%
 ---
 # 透過Edge Network伺服器API內嵌資料
 
@@ -143,7 +143,7 @@ ht-degree: 62%
 
    ![識別物件](./assets/identification-field-gaming.png)
 
-   識別物件新增識別功能至您的結構描述。 在您的案例中，您想要使用Experience Cloud ID和用來登入遊戲主機的電子郵件地址來識別玩遊戲的設定檔。 有許多其他屬性可用來追蹤您的人員身分。
+   識別物件新增識別功能至您的結構描述。 在您的案例中，您想要識別使用他們用來登入遊戲主機的ECID和電子郵件地址玩遊戲的設定檔。 有許多其他屬性可用來追蹤您的人員身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構描述。
 
@@ -151,7 +151,7 @@ ht-degree: 62%
 
    ![指定 ECID 作為身分識別](./assets/specify-identity-gaming.png)
 
-   您將 Experience Cloud Identity 指定為 Adobe Experience Platform 身分識別服務可用於組合 (拼接) 具有相同 ECID 的設定檔的行為的主要身分。
+   您指定ECID作為主要身分，Adobe Experience Platform Identity服務可使用該身分組合（拼接）具有相同ECID之設定檔的行為。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。 您會看到指紋圖示出現在 ecid 屬性中。
 
@@ -179,7 +179,7 @@ ht-degree: 62%
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
 
-您已建立最低架構模型，以模擬您可以從遊戲擷取的資料。 該結構描述可讓您使用 Experience Cloud Identity 和電子郵件地址來識別設定檔。 為設定檔啟用結構描述後，即可確保從主機遊戲擷取的資料會新增至即時客戶設定檔。
+您已建立最低架構模型，以模擬您可以從遊戲擷取的資料。 此結構允許使用ECID和電子郵件地址來識別設定檔。 為設定檔啟用結構描述後，即可確保從主機遊戲擷取的資料會新增至即時客戶設定檔。
 
 在行為資料旁邊，您還可以從主控台擷取設定檔屬性資料（例如登入主控台的設定檔詳細資訊）。
 
@@ -191,7 +191,7 @@ ht-degree: 62%
 
 - 根據「設定檔核心 v2」欄位群組新增識別物件。
 
-- 將 Experience Cloud ID 定義為主要識別碼，並將電子郵件定義為識別碼。
+- 將ECID定義為主要識別碼，並將電子郵件定義為識別碼。
 
 - 啟用該設定檔結構描述
 

@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1297'
 ht-degree: 0%
 ---
 
@@ -95,7 +95,7 @@ GA4使用階層式身分模型來識別使用者：
 2. Google訊號（如果使用者已登入Google帳戶並啟用個人化）
 3. 裝置ID （Cookie型使用者端ID）
 
-在大多數實施中，該人員ID是ECID (Experience Cloud ID)。 選用的&#x200B;**[!UICONTROL 拼接]**&#x200B;功能接著便可使用欄位式或圖表式方法來解析跨裝置和跨管道身分，讓行動應用程式工作階段和案頭瀏覽器工作階段與同一個人員建立關聯。
+在大多數實施中，該人員ID是ECID。 選用的&#x200B;**[!UICONTROL 拼接]**&#x200B;功能接著便可使用欄位式或圖表式方法來解析跨裝置和跨管道身分，讓行動應用程式工作階段和案頭瀏覽器工作階段與同一個人員建立關聯。
 
 由於不同平台之間的身分解析度不同，因此使用者層級的計數很少完全相符。 這種差異是預期行為，並不表示資料品質有問題。
 

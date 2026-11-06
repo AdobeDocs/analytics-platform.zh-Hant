@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '3512'
-ht-degree: 63%
+source-wordcount: '3504'
+ht-degree: 61%
 ---
 # 透過行動SDK擷取資料
 
@@ -147,7 +147,7 @@ ht-degree: 63%
 
    ![識別物件](./assets/identification-field-mobile.png)
 
-   識別物件新增識別功能至您的結構描述。 針對您的情況，您想使用Experience Cloud ID和電子郵件地址，以行動應用程式識別設定檔。 還有許多其他屬性可用於追蹤您個人的身分識別 (例如客戶 ID、忠誠度 ID)。
+   識別物件新增識別功能至您的結構描述。 針對您的情況，您想使用ECID和電子郵件地址來識別使用行動應用程式的設定檔。 還有許多其他屬性可用於追蹤此人的身分識別資訊 (例如客戶 ID、忠誠度 ID)。
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構描述。
 
@@ -155,7 +155,7 @@ ht-degree: 63%
 
    ![指定 ECID 作為身分識別](./assets/specify-identity-mobile.png)
 
-   您將 Experience Cloud Identity 指定為 Adobe Experience Platform 身分識別服務可用於組合 (拼接) 具有相同 ECID 的設定檔的行為的主要身分。
+   您指定ECID作為主要身分，Adobe Experience Platform Identity服務可使用該身分組合（拼接）具有相同ECID之設定檔的行為。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。 您會看到指紋圖示出現在 ecid 屬性中。
 
@@ -183,7 +183,7 @@ ht-degree: 63%
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
 
-您已建立最低架構，為您可從行動應用程式擷取的資料建立模型。 該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別設定檔。 為設定檔啟用結構描述後，即可確保從行動應用程式擷取的資料會新增至即時客戶設定檔。
+您已建立最低架構，為您可從行動應用程式擷取的資料建立模型。 此結構允許使用ECID和電子郵件地址來識別設定檔。 為設定檔啟用結構描述後，即可確保從行動應用程式擷取的資料會新增至即時客戶設定檔。
 
 在行為資料旁邊，您還可以從行動應用程式擷取設定檔屬性資料（例如訂閱電子報的設定檔詳細資料）。
 
@@ -195,7 +195,7 @@ ht-degree: 63%
 
 - 根據「設定檔核心 v2」欄位群組新增識別物件。
 
-- 將 Experience Cloud ID 定義為主要識別碼，並將電子郵件定義為識別碼。
+- 將ECID定義為主要識別碼，並將電子郵件定義為識別碼。
 
 - 啟用該設定檔結構描述
 

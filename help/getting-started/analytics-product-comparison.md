@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 34959e37a7040bcd861a506968895ad6f051b686
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 44%
+source-wordcount: '461'
+ht-degree: 43%
 ---
 
 # Analytics產品比較
@@ -37,7 +37,7 @@ ht-degree: 44%
 |---|---|---|---|---|---|---|---|---|
 | **存取方法** | 瀏覽器 | Microsoft Excel | 瀏覽器 | 透過瀏覽器進行設定 | RESTful API工具 | 與MCP相容的工具 | BI 工具 | 與MCP相容的工具 |
 | **資料顆粒度** | 彙總 | 彙總 | 彙總 | 事件 | 彙總 | 彙總 | 彙總 | 彙總 |
-| **可用 Experience Cloud ID (ECID)** | 否 | 否 | 無 | 是 | 無 | 否 | 否 | 否 |
+| **可用的ECID** | 否 | 否 | 無 | 是 | 無 | 否 | 否 | 否 |
 | **可用時間戳記** | 否 | 否 | 無 | 是 | 無 | 否 | 否 | 否 |
 | **處理層級** | 完整處理 | 完整處理，並提供獨立的即時報表 | 完整處理 | 完整處理 | 完整處理 | 完整處理 | 完整處理 | 完整處理 |
 | **套用機器人篩選的位置** | 在[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/bot-detection)和/或[CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection)內 | 在[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/bot-detection)和/或[CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection)內 | 在[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/bot-detection)和/或[CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection)內 | 在[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/bot-detection)和/或[CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection)內 |  |  | 在[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/bot-detection)和/或[CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection)內 | |

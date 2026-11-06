@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '2338'
+source-wordcount: '2335'
 ht-degree: 16%
 ---
 # 從標記移轉至 XDM {#upgrade-migration-planner}
@@ -80,7 +80,7 @@ ht-degree: 16%
 
 * 支援的Adobe Analytics實作（標籤的Analytics擴充功能）。 請參閱[支援的Adobe Analytics實作](#supported-adobe-analytics-implementations)。
 
-* 在您登入的Adobe組織中，存取您要移轉的Experience Cloud Tags屬性。
+* 在您登入的Adobe組織中，存取您要移轉的Adobe標籤屬性。
 
 * 存取您要將其變數對應至XDM的Adobe Analytics報表套裝。
 
@@ -114,7 +114,7 @@ ht-degree: 16%
 
 1. 選取您要移轉的標籤屬性，然後選取&#x200B;[!UICONTROL **下一步**]。
 
-   只會顯示您登入的Experience Cloud組織可用的標籤屬性。
+   只會顯示您的登入組織可用的標籤屬性。
 
 1. 選取您要移轉的標籤程式庫快照，然後選取&#x200B;[!UICONTROL **下一步**]。
 

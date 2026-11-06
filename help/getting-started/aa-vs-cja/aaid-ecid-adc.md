@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '623'
 ht-degree: 90%
 ---
 # AAID、ECID、AACUSTOMID 和 Analytics 來源連接器
@@ -48,9 +48,9 @@ Adobe Analytics ID (AAID) 是 Adobe Analytics 中的主要裝置識別碼，並�
 
 ## ECID
 
-ECID (Experience Cloud ID)，有時也稱為MCID (Marketing Cloud ID)，是一個單獨的裝置識別碼欄位，在使用[訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=zh-Hant) (AppMeasurement)或Adobe Analytics Identity服務(Web SDK)實作Analytics時填入到Experience Platform中。 ECID 由 Adobe Analytics 資料摘要中的 `mcvisid` 資料行表示。
+ECID (有時也稱為MCID (Marketing Cloud ID))是一個單獨的裝置識別碼欄位，在使用[訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=zh-Hant) (AppMeasurement)或Web SDK實作Analytics時填入Adobe Analytics。 ECID 由 Adobe Analytics 資料摘要中的 `mcvisid` 資料行表示。
 
-如果事件中存在 ECID，則 AAID 可能會以 ECID 為基礎，具體取決於是否設定了 Analytics [寬限期](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/grace-period.html?lang=zh-Hant)。 另請參閱：[Analytics 與 Experience Cloud ID 要求](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/legacy-analytics.html?lang=zh-Hant)。
+如果事件中存在 ECID，則 AAID 可能會以 ECID 為基礎，具體取決於是否設定了 Analytics [寬限期](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/grace-period.html?lang=zh-Hant)。 另請參閱： [Analytics與ECID要求](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/legacy-analytics.html?lang=zh-Hant)。
 
 ## AACUSTOMID
 

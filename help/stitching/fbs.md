@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '1926'
-ht-degree: 82%
+source-wordcount: '1923'
+ht-degree: 81%
 ---
 # 欄位型拼接
 
@@ -235,7 +235,7 @@ ht-degree: 82%
 
 - Adobe Experience Platform 中的事件資料集，即您想要套用拼接的事件資料集，必須有兩個協助識別輪廓的欄：
 
-  - **永久 ID**，每一列的可用識別碼。 例如，Adobe Analytics AppMeasurement 資料庫產生的訪客 ID 或 Adobe Experience Platform 身分識別服務產生的 ECID。
+  - **永久 ID**，每一列的可用識別碼。 例如，Adobe Analytics AppMeasurement資料庫產生的訪客ID或Edge Network產生的ECID。
   - **個人 ID**，僅有部分列可用的識別碼。 例如，輪廓完成驗證後的雜湊使用者名稱或電子郵件地址。 您可以使用任何您喜歡的識別碼。 拼接會認定這個欄位儲存實際個人 ID 資訊。 為獲得最佳的拼接結果，對於每個永久 ID，在資料集的事件中應至少傳送一次個人 ID。 如果您打算將此資料集納入 Customer Journey Analytics 連線，其他資料集最好也具有類似的通用識別碼。
 
 <!--

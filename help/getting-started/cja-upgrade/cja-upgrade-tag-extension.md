@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 85%
 ---
 # 將 Web SDK 擴充功能新增至您的標記 {#upgrade-tag-extension}
@@ -50,7 +50,7 @@ ht-degree: 85%
 
 您可以使用 Adobe Experience Platform 中的「標籤」功能，在您的網站上實施程式碼以收集資料。 此標記管理解決方案可讓您部署程式碼以及其他標記需求。 標籤可使用 Adobe Experience Platform Web SDK 擴充功能與 Adobe Experience Platform 緊密整合。
 
-以下資訊說明如何將 Web SDK 擴充功能新增到您的標記。 若要了解補充資訊，請參閱 Experience Platform 文件中的「[設定 Web SDK 標記擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)」。 Web SDK包含Experience Platform Identity服務，因此您不需要將[!UICONTROL Experience Cloud ID服務]擴充功能新增至您的標籤。
+以下資訊說明如何將 Web SDK 擴充功能新增到您的標記。 若要了解補充資訊，請參閱 Experience Platform 文件中的「[設定 Web SDK 標記擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)」。 Web SDK會從Edge Network取得ECID，因此您不需要將[!UICONTROL Experience Cloud ID服務]擴充功能新增至您的標籤。
 
 您[建立標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)以後，您必須使用 Adob&#x200B;&#x200B;e Experience Platform Web SDK 擴充功能進行設定。 這可確保您可以將資料傳送至 Adobe Experience Platform (透過您的資料流)。
 
