@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '3512'
-ht-degree: 63%
+source-wordcount: '3504'
+ht-degree: 61%
 ---
 # 透過行動SDK擷取資料
 
@@ -143,11 +143,11 @@ ht-degree: 63%
 
    >[!NOTE]
    >
-   >如果該欄位群組不適用，請尋找另一個包含身分識別欄位的欄位群組。 或[建立一個新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=zh-Hant)，並[新增身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=zh-Hant#define-a-identity-field) (如 `ecid`、`crmId` 以及您需要的其他欄位) 至該欄位群組並選取該欄位群組。
+   >如果該欄位群組不適用，請尋找另一個包含身分識別欄位的欄位群組。 或[建立一個新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html)，並[新增身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (如 `ecid`、`crmId` 以及您需要的其他欄位) 至該欄位群組並選取該欄位群組。
 
    ![識別物件](./assets/identification-field-mobile.png)
 
-   識別物件新增識別功能至您的結構描述。 針對您的情況，您想使用Experience Cloud ID和電子郵件地址，以行動應用程式識別設定檔。 還有許多其他屬性可用於追蹤您個人的身分識別 (例如客戶 ID、忠誠度 ID)。
+   識別物件新增識別功能至您的結構描述。 針對您的情況，您想使用ECID和電子郵件地址來識別使用行動應用程式的設定檔。 還有許多其他屬性可用於追蹤此人的身分識別資訊 (例如客戶 ID、忠誠度 ID)。
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構描述。
 
@@ -155,7 +155,7 @@ ht-degree: 63%
 
    ![指定 ECID 作為身分識別](./assets/specify-identity-mobile.png)
 
-   您將 Experience Cloud Identity 指定為 Adobe Experience Platform 身分識別服務可用於組合 (拼接) 具有相同 ECID 的設定檔的行為的主要身分。
+   您指定ECID作為主要身分，Adobe Experience Platform Identity服務可使用該身分組合（拼接）具有相同ECID之設定檔的行為。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。 您會看到指紋圖示出現在 ecid 屬性中。
 
@@ -173,7 +173,7 @@ ht-degree: 63%
 
    系統會提示您啟用輪廓的結構。 啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶設定檔中。
 
-   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#profile)。
+   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
 
    >[!IMPORTANT]
    >
@@ -183,7 +183,7 @@ ht-degree: 63%
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
 
-您已建立最低架構，為您可從行動應用程式擷取的資料建立模型。 該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別設定檔。 為設定檔啟用結構描述後，即可確保從行動應用程式擷取的資料會新增至即時客戶設定檔。
+您已建立最低架構，為您可從行動應用程式擷取的資料建立模型。 此結構允許使用ECID和電子郵件地址來識別設定檔。 為設定檔啟用結構描述後，即可確保從行動應用程式擷取的資料會新增至即時客戶設定檔。
 
 在行為資料旁邊，您還可以從行動應用程式擷取設定檔屬性資料（例如訂閱電子報的設定檔詳細資料）。
 
@@ -195,11 +195,11 @@ ht-degree: 63%
 
 - 根據「設定檔核心 v2」欄位群組新增識別物件。
 
-- 將 Experience Cloud ID 定義為主要識別碼，並將電子郵件定義為識別碼。
+- 將ECID定義為主要識別碼，並將電子郵件定義為識別碼。
 
 - 啟用該設定檔結構描述
 
-請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hant)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
+請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
 ### 設定資料集
 
@@ -271,7 +271,7 @@ ht-degree: 63%
 
 您的資料流現在已設定為將從行動應用程式收集的資料轉送到Adobe Experience Platform中的資料集。
 
-請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
+請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
 
 
 
@@ -324,7 +324,7 @@ ht-degree: 63%
 - AEP Assurance。
 - 同意。
 
-如需擴充功能及其設定的詳細資訊，請參閱Experience Platform行動應用程式教學課程中的[設定標籤屬性](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=zh-Hant)。
+如需擴充功能及其設定的詳細資訊，請參閱Experience Platform行動應用程式教學課程中的[設定標籤屬性](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html)。
 
 #### **資料元素**
 
@@ -457,7 +457,7 @@ Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，�
 
 您原本可以根據部署Adobe Experience Platform Mobile SDK的程式中，選取其他環境（測試、生產），而不是開發環境的程式碼。
 
-如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hant&)。
+如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?)。
 
 ## 部署和驗證。
 
@@ -465,7 +465,7 @@ Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，�
 
 驗證您的實作、視需要更正實作，並在更正後，使用「標籤」的發佈工作流程功能，將其部署至中繼和生產環境。
 
-如需更多詳細資訊，請參閱[在行動應用程式教學課程中實作Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=zh-Hant)。
+如需更多詳細資訊，請參閱[在行動應用程式教學課程中實作Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)。
 
 ## 設定連線
 

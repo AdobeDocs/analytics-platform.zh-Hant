@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2174'
 ht-degree: 90%
 ---
 # 共用專案 {#share-projects}
@@ -74,7 +74,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的專案共用](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的專案共用](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -193,7 +193,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -218,7 +218,7 @@ ht-degree: 90%
 
    * **[!UICONTROL 需要 Experience Cloud 驗證]：**
 
-     啟用此選項後，只有可登入您共用專案所在的CX Enterprise (Experience Cloud)組織的使用者才能存取專案。 但是，您與之共用的使用者不需要擁有 Customer Journey Analytics 的存取權。
+     啟用此選項後，唯一可存取專案的使用者就是可登入建立您共用專案的Adobe組織。 但是，您與之共用的使用者不需要擁有 Customer Journey Analytics 的存取權。
 
      Customer Journey Analytics 管理員可以為公司設定此偏好設定，如[偏好設定](/help/analysis-workspace/user-preferences.md)中所述。 視管理員設定此選項的方式而定，您可能會遇到以下情況：
 
@@ -238,7 +238,7 @@ ht-degree: 90%
 
 ## 查看與您共用的專案
 
-當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [&#x200B; Analytics 登陸頁面上的專案標籤](/help/getting-started/landing.md#navigate-the-projects-tab)存取共用專案。
+當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [ Analytics 登陸頁面上的專案標籤](/help/getting-started/landing.md#navigate-the-projects-tab)存取共用專案。
 
 當有人透過共用連結 (從[共用專案索引標籤](#share-a-link-to-a-project)或使用[與任何人共用的連結](#share-a-project-with-anyone-no-login-required)) 共用專案時，您必須使用與您共用的連結來存取專案。 例如，該連結可能已在電子郵件、內部網站等中提供。
 
@@ -248,7 +248,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在 Analysis Workspace 中共用嵌入元件](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在 Analysis Workspace 中共用嵌入元件](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

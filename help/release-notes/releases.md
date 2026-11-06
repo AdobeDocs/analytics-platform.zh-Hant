@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '399'
+ht-degree: 91%
 ---
 # Customer Journey Analytics 功能發行策略
 
@@ -41,9 +41,9 @@ Customer Journey Analytics 的發行模式是持續傳遞，允許透過可調�
 
 * **有限測試**：分階段的發佈，從內部 Adobe 使用者的測試開始。 接著將開放少部分顧客帳戶進行測試，以確保功能符合顧客需求與期望。
 
-* **開始推出**：分階段的發佈推出，從有限測試階段開始。 在隨後的幾個月內，該版本對客戶的可用性會從 0% 擴充至 100%。 在 CX Enterprise 組織層級進行分階段推出，因此組織中所有具備權限的使用者都會獲得相同的體驗。
+* **開始推出**：分階段的發佈推出，從有限測試階段開始。 在隨後的幾個月內，該版本對客戶的可用性會從 0% 擴充至 100%。 分階段推出會在Adobe組織層級進行，因此組織中所有已獲授權的使用者都會獲得相同的體驗。
 
-* **正式發行 (GA)**：功能已開放供所有具有權限的 CX Enterprise 組織使用，且功能已發行完成。
+* **一般可用性(GA)**：已獲授權的組織可使用100%的功能，功能發行已完成。
 
 每個功能發行從 RTP 到 GA 的時程可能不盡相同。 共同目標是要縮短發行時程，以期在開始發行 (RTP) 後的 2 個月內，就正式發行功能。
 
