@@ -33,7 +33,7 @@ Parquet比CSV、TSV或JSON更適合用於資料摘要輸出，原因如下：
 
 * **寬摘要**：資料摘要可以有數百欄。 Parquet讓查詢只讀取它需要的欄。
 
-* **巢狀欄位**： Parquet以原生方式表示巢狀欄位，例如產品清單。 CSV和TSV只能透過將其編碼為字串來表示它們。 如需詳細資訊，請參閱資料摘要](/help/components/exports/cja-data-feeds/df-sub-event.md)中的[子事件元件。
+* **巢狀欄位**： Parquet以原生方式表示巢狀欄位，例如產品清單。 CSV和TSV只能透過將其編碼為字串來表示它們。 如需詳細資訊，請參閱資料摘要[&#128279;](/help/components/exports/cja-data-feeds/df-sub-event.md)中的子事件元件。
 
 * **大型匯出**： Parquet通常會降低儲存和傳輸成本。 它也能避免在載入資料時進行文字剖析和輸入猜測。
 
