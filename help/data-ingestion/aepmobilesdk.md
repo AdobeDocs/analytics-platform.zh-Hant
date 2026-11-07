@@ -465,7 +465,7 @@ Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，�
 
 驗證您的實作、視需要更正實作，並在更正後，使用「標籤」的發佈工作流程功能，將其部署至中繼和生產環境。
 
-如需更多詳細資訊，請參閱[在行動應用程式教學課程中實作Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)。
+如需更多詳細資訊，請參閱[在行動應用程式教學課程中實作Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)。
 
 ## 設定連線
 

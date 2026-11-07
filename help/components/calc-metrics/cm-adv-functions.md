@@ -414,7 +414,7 @@ CDF-Z(-3) ? 0.0013499
 
 >[!NOTE]
 >
->此函數不適用於每人收入等比率量度。 此函數會對比率取平均值，而不是將過去 N 列的收入加總，再將過去 N 列的人數加總，然後再相除。 <br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg)[**[!UICONTROL 累積 (人數)]**](#cumulative)。
+>此函數不適用於每人收入等比率量度。 此函數會對比率取平均值，而不是將過去 N 列的收入加總，再將過去 N 列的人數加總，然後再相除。 <br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg) [**[!UICONTROL 累積 (人數)]**](#cumulative)。
 >
 
 

@@ -472,7 +472,7 @@ ht-degree: 98%
 
 若要使用範本，您必須為列示為範本中規則一部分的每個函式指定引數。 針對您未使用的UTM查詢引數，移除函式（例如[剖析URL](#url-parse)）或函式中的引數（例如[串連](#concatenate)和[Case When](#case-when)）。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
-![ UTM引數剖析規則產生器的熒幕擷圖](assets/function-template-utm-parameters-parse.png)
+![&#x200B; UTM引數剖析規則產生器的熒幕擷圖](assets/function-template-utm-parameters-parse.png)
 
 +++
 
@@ -1079,7 +1079,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ### 衍生欄位 {#deduplicate-uc1-derivedfield}
 
-您定義一個 `Booking Confirmation` 衍生欄位。 您使用 [!UICONTROL DEDUPLICATE] 函數定義一條規則，以使用[!UICONTROL 重複資料刪除 ID] [!UICONTROL 預訂確認 ID]對[!UICONTROL 範圍][!DNL Person]的[!UICONTROL 值][!DNL Booking]進行重複資料刪除。 您選取「[!UICONTROL 保留第一個執行個體]」作為「[!UICONTROL 要保留的值]」。
+您定義一個 `Booking Confirmation` 衍生欄位。 您使用 [!UICONTROL DEDUPLICATE] 函數定義一條規則，以使用[!UICONTROL 重複資料刪除 ID] [!UICONTROL 預訂確認 ID]對[!UICONTROL 範圍]&#x200B;[!DNL Person]的[!UICONTROL 值]&#x200B;[!DNL Booking]進行重複資料刪除。 您選取「[!UICONTROL 保留第一個執行個體]」作為「[!UICONTROL 要保留的值]」。
 
 ![Concatenate 規則的螢幕截圖](assets/deduplicate-1.png)
 
@@ -2090,7 +2090,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。 支援�
 
 ### 衍生欄位 {#urlparse-uc1-derivedfield}
 
-您定義一個 `Referring Domain` 衍生欄位。 您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL  反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
+您定義一個 `Referring Domain` 衍生欄位。 您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL &#x200B; 反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
 
 ![Url Parse 規則 1 的螢幕截圖](assets/url-parse-1.png)
 
