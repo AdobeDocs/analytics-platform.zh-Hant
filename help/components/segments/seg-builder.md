@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
+source-git-commit: 24613d361b6b3058b1c4911a9df3654da91b2c88
 workflow-type: tm+mt
-source-wordcount: '1978'
-ht-degree: 75%
+source-wordcount: '1962'
+ht-degree: 71%
 ---
 # 建置區段 {#build-segments}
 
@@ -80,7 +80,7 @@ ht-degree: 75%
 
 ## 定義產生器
 
-您可以使用定義產生器來建立區段定義。 在該構造中，您可以使用元件、容器、運算子和邏輯。
+您可以使用定義產生器來建立區段定義。 在該建構中，您會使用元件、容器、運運算元和邏輯。
 
 您可以設定定義的類型和範圍：
 
@@ -88,6 +88,10 @@ ht-degree: 75%
 1. 從&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉式功能表選取定義的範圍： **[!UICONTROL 事件]**、**[!UICONTROL 工作階段]**、**[!UICONTROL 人員]**、**[!UICONTROL 全域帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、**[!UICONTROL 帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、**[!UICONTROL 機會]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}或&#x200B;**[!UICONTROL 購買群組]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。
 
 您稍後可以隨時變更這些設定。
+
+>[!NOTE]
+>
+>區段產生器介面不支援所有透過[API](https://developer.adobe.com/cja-apis/docs/endpoints/segments/#create-a-segment)建立的區段定義。 此頁面可能無法成功載入，或為這些區段擲回錯誤。
 
 ### 元件
 
@@ -111,7 +115,7 @@ ht-degree: 75%
 
    只有從&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉式選單中選取&#x200B;[!UICONTROL **人員**]&#x200B;作為定義的範圍（容器）時，才會顯示此選項。
 
-   **注意**：此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 此功能普遍開放使用時，便會移除此注意事項。 有關 Customer Journey Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。
+
 
 1. （選用）修改預設運運算元。
 
@@ -137,7 +141,7 @@ ht-degree: 75%
 * 若要將現有元件新增至容器中，請將元件拖曳到容器中。
 * 若要為容器新增另一個元件，請將元件從元件面板拖曳到容器中。 使用藍色插入線作為準則。
 * 若要在容器外部新增另一個元件，請將元件從元件面板拖曳到容器外部，但拖曳到主定義容器內部。 使用藍色插入線作為準則。
-* 若要修改容器內元件之間、容器之間或容器與元件之間的邏輯，請選取適當的「**[!UICONTROL 以及]**」(And)、「**[!UICONTROL 或]**」(Or)、「**[!UICONTROL 然後]**」(Then)。 當您選取「然後」時，您會將區段變成循序區段。 如需詳細資訊，請參閱「[建立循序區段](seg-sequential-build.md)」。
+* 若要修改元件、容器或容器與元件之間的邏輯，請選取適當的&#x200B;**[!UICONTROL 和]**、**[!UICONTROL 或]**、**[!UICONTROL 然後]**。 當您選取「然後」時，您會將區段變成循序區段。 如需詳細資訊，請參閱「[建立循序區段](seg-sequential-build.md)」。
 * 若要切換容器層級，請選取![全球](/help/assets/icons/Globe.svg) **[!UICONTROL 全域帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}，![帳戶](/help/assets/icons/Account.svg) **[!UICONTROL 帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}，![機會](/help/assets/icons/Opportunity.svg) **[!UICONTROL 機會]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}，![購買群組](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL 購買群組]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}，![網頁](/help/assets/icons/WebPage.svg) **[!UICONTROL 事件]**、![訪問](/help/assets/icons/Visit.svg) **[!UICONTROL 會話]**、![使用者](/help/assets/icons/User.svg) **[!UICONTROL 人員]**&#x200B;或![層](/help/assets/icons/Layer.svg) **[!UICONTROL 對象]**。 當您選取![圖層](/help/assets/icons/Layer.svg) **[!UICONTROL 物件]**&#x200B;時，請選取要使用的[自訂容器](/help/data-views/create-dataview.md#containers-1)。 例如，「產品」或「內容」 Assets。
 
 您可以在容器中使用 ![設定](/help/assets/icons/Setting.svg) 來執行下列動作：
@@ -203,7 +207,7 @@ ht-degree: 75%
 
 
 
-當您在區段產生器中使用維度時，您可以選擇指定該維度的歸因模型。 您選取的歸因模型會決定資料是否符合您為維度元件指定的條件。
+在「區段產生器」中使用維度時，您可以選擇指定該維度的歸因模型。 您選取的歸因模型會決定資料是否符合您為維度元件指定的條件。
 
 在維度元件中選取「![設定](/help/assets/icons/Setting.svg)」，然後從快顯視窗中選取一個歸因模型：
 
