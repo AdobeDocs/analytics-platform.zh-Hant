@@ -34,16 +34,16 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 100%
+ht-degree: 96%
 ---
 # 比較 Analytics 來源連接器資料與 Adobe Analytics
 
 您的組織採用 Customer Journey Analytics 時，您可能會注意到 Adobe Analytics 和 Customer Journey Analytics 間的資料有一些差異。 這些差異是正常的，且可能由多種原因造成。 Customer Journey Analytics 的設計可讓您改善 Adobe Analytics 中資料的部分限制。 這種彈性可能會導致 Customer Journey Analytics 解讀資料的方式有一些差異。 透過本文章可了解 Customer Journey Analytics 和 Adobe Analytics 處理資料之方式的可能差異。
 
-此頁面假設您透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)將 Adobe Analytics 資料擷取至 Adobe Experience Platform，然後在 Customer Journey Analytics 中建立[連線](/help/connections/overview.md)和[資料視圖](/help/data-views/data-views.md)。
+此頁面假設您透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)將 Adobe Analytics 資料擷取至 Adobe Experience Platform，然後在 Customer Journey Analytics 中建立[連線](/help/connections/overview.md)和[資料視圖](/help/data-views/data-views.md)。
 
 ![資料從 Adobe Analytics 流向 Adobe Experience Platform 是透過資料連接器，流向 Customer Journey Analytics 則是透過 CJA 連線。](assets/compare.png)
 
@@ -60,7 +60,7 @@ ht-degree: 100%
   >
   >Adobe 強烈建議 Adobe Analytics 中的維度採用「[!UICONTROL 最近 (最後一個)]」配置。 此配置設定可讓 Customer Journey Analytics 有更高的歸因彈性。
 
-* **造訪定義**：除了個別的維度和量度設定外，資料視圖本身也包含會徹底變更訪客資料解讀方式的設定。 例如，您可以將一個區段套用至整個資料視圖 (類似 Adobe Analytics 中的[虛擬報告套裝](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/virtual-report-suites/vrs-about))。 您也可以變更造訪持續時間的定義，或針對任何所需的事件自動開始新的造訪。 這些設定中的任何一項，都會對 Customer Journey Analytics 與 Adobe Analytics 之間的報告差異產生顯著影響。
+* **造訪定義**：除了個別維度和量度設定外，資料檢視本身也包含從根本上改變訪客資料解譯方式的設定。 例如，您可以將一個區段套用至整個資料視圖 (類似 Adobe Analytics 中的[虛擬報告套裝](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/virtual-report-suites/vrs-about))。 您也可以變更造訪持續時間的定義，或針對任何所需的事件自動開始新的造訪。 這些設定中的任何一項，都會對 Customer Journey Analytics 與 Adobe Analytics 之間的報告差異產生顯著影響。
 
 ## 檢查產品之間的記錄計數
 

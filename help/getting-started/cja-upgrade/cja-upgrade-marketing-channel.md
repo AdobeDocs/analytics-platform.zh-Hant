@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-marketing-channel"
->title="建立行銷管道衍生欄位"
+>title="建立行銷管道衍生的欄位"
 >abstract="衍生欄位是在資料釋圖中所建立。<br><br>使用預設行銷管道設定只需幾分鐘；建立高度自訂的行銷管道設定可能需要數小時。"
 
 <!-- markdownlint-enable MD034 -->

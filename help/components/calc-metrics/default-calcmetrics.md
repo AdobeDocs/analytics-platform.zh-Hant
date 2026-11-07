@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 85%
+ht-degree: 83%
 ---
 # 計算量度範本
 
@@ -44,7 +44,7 @@ Customer Journey Analytics提供下列計算量度範本，以涵蓋最常見的
 | **[!UICONTROL 多管道工作階段比率]** | 包含多個管道 (例如網頁流量和行動流量) 的工作階段與僅包含單一管道的工作階段相比的比例。 |
 | **[!UICONTROL 多管道人員比率]** | 參與多個管道的人數與僅參與單一管道的人數相比的比例。 |
 | **[!UICONTROL 行動應用程式工作階段]** | 行動應用程式上發生的工作階段數量。 |
-| **[!UICONTROL 網路+應用程式跨管道工作階段]** | 包含網站流量和行動流量兩者的工作階段數量。 |
+| **[!UICONTROL 網路+應用程式跨管道工作階段]** | 同時包含網站流量和行動流量的工作階段發生次數。 |
 | **[!UICONTROL 通話成本]** | 呼叫中心通話的總成本。<!-- <p>Summary: Call length</p> --> |
 | **[!UICONTROL 平均通話時長]** | 撥打呼叫中心的通話的平均時長。 |
 | **[!UICONTROL 每次通話的平均成本]** | 撥打呼叫中心的通話的平均成本。 |

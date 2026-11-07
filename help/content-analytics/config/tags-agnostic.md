@@ -25,13 +25,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: '484'
 ht-degree: 5%
-
 ---
-
 
 # Content Analytics JavaScript 程式庫
 
@@ -73,7 +71,7 @@ Adobe Content Analytics JavaScript資料庫可透過Experience Platform Edge Net
 
 直接從CDN載入程式庫。
 
-1. 初始化[Web SDK JavaScript資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/install/library)並載入Content Analytics套件：
+1. 初始化[Web SDK JavaScript資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library)並載入Content Analytics套件：
 
    ```html
    <!-- 1. Load and configure Alloy first -->
@@ -95,7 +93,7 @@ Adobe Content Analytics JavaScript資料庫可透過Experience Platform Edge Net
    ```
 
    位置
-   * `alloy/2.x.x`參考您要使用[Web SDK JavaScript資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/install/library)的版本。
+   * `alloy/2.x.x`參考您要使用[Web SDK JavaScript資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library)的版本。
    * `content-analytics/1.x.x`參考您要使用Content Analytics SDK資料庫的版本。
 
 2. 獨立組建會公開`window.contentAnalytics`做為初始化函式。

@@ -17,10 +17,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 91%
+ht-degree: 87%
 ---
 # 視覺化圖形調色盤 {#visualization-color-palettes}
 
@@ -45,7 +45,7 @@ ht-degree: 91%
 請記住：
 
 * 有六種預先設定的調色盤可供選擇。 預設調色盤與列為第二的調色盤已針對對比度進行最佳化，兩者皆變得更方便供色盲使用者使用。
-* 其他調色板已針對顏色和諧度進行最佳化。
+* 其他調色盤已針對色彩和諧度進行最佳化。
 
 ## 若要變更調色盤：
 

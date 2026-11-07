@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Governance
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 93%
+ht-degree: 90%
 ---
 # 缺乏權限
 
@@ -51,12 +51,12 @@ ht-degree: 93%
 
 1. 確保您擁有正確的存取控制：
 
-   * 您必須擁有具備 Experience Platform 產品之組織的系統或產品管理員權限。 請參閱[存取控制概觀](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant#platform-permissions)，了解更多資訊。
+   * 您必須擁有具備 Experience Platform 產品之組織的系統或產品管理員權限。 請參閱[存取控制概觀](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#platform-permissions)，了解更多資訊。
 
-   * 您必須是 AEP-Default-All-Users 產品設定檔中的使用者。 如果您沒有權限將自己新增到此設定檔，請詢問您的管理員。 請參閱[存取控制階層與工作流程](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant#access-control-hierarchy-and-workflow)，了解更多資訊。
+   * 您必須是 AEP-Default-All-Users 產品設定檔中的使用者。 如果您沒有權限將自己新增到此設定檔，請詢問您的管理員。 請參閱[存取控制階層與工作流程](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#access-control-hierarchy-and-workflow)，了解更多資訊。
 
 
-1. 導覽至 Adobe Experience Platform UI。
+1. 導覽至Adobe Experience Platform UI。
 
 1. 選取左邊欄的「**[!UICONTROL 權限]**」。
 

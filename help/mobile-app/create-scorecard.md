@@ -35,9 +35,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: '2770'
+source-wordcount: '2771'
 ht-degree: 95%
 ---
 # 建立行動計分卡 {#create-a-mobile-scorecard}
@@ -57,7 +57,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立行動計分卡](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}的示範影片。
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立行動計分卡](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -72,7 +72,7 @@ Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關鍵資�
 
 此計分卡的組織者可利用計分卡產生器為高階主管消費者設定計分卡上要顯示哪些圖磚。 您也能設定，消費者點選圖磚後，詳細檢視或劃分可能如何調整。 計分卡產生器的介面如下所示：
 
-![計分卡產生器顯示新的行動計分卡視窗。 &#x200B;](assets/scorecard_builder.png)
+![計分卡產生器顯示新的行動計分卡視窗。 ](assets/scorecard_builder.png)
 
 若要建立計分卡，您需要執行以下內容：
 
@@ -107,7 +107,7 @@ Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關鍵資�
 
 1. 若要新增圖磚至計分卡，請從左側面板拖曳量度，並放置到「**[!UICONTROL 將量度拖放至此]**」的區域。 您也可以使用類似的工作流程，在兩個圖磚之間插入量度。
 
-   ![新的行動計分卡視窗，其中有一個箭頭指向計分卡中的量度 (新 KPI)。 &#x200B;](assets/build_list.png)
+   ![新的行動計分卡視窗，其中有一個箭頭指向計分卡中的量度 (新 KPI)。 ](assets/build_list.png)
 
 
 1. 您可以從每個圖磚存取顯示該量度其他資訊的詳細檢視畫面，例如相關維度清單排名最前的項目。
@@ -209,7 +209,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 1. 選取正確圖磚。
 1. 在右側欄中，在 **[!UICONTROL Drill ins]** 下選取維度項目 (包含您想移除的 **[!UICONTROL 未指定]** 項目) 旁的右箭頭。
 
-   ![維度名稱旁邊有個箭頭指向右箭的屬性。](assets/unspecified.png)
+   ![屬性，其箭頭指向維度名稱旁的右箭頭。](assets/unspecified.png)
 
 1. 按一下 **[!UICONTROL 未指定]** 旁的圖示，即可從報表中移除未指定的資料。 (您也可移除任何其他的維度項目。)
 
@@ -285,7 +285,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [行動計分卡專案的資料故事](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [行動計分卡專案的資料故事](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}的示範影片。
 
 {{videoaa}}
 

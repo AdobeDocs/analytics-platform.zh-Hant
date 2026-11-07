@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 9%
@@ -75,7 +75,7 @@ ht-degree: 9%
 
 如果您想要將Marketo活動資料擷取至Customer Journey Analytics，您必須選取適當的ID策略，以確保可將Marketo資料連結至Customer Journey Analytics資料。
 
-Marketo資料本身不包含ECID，但ECID欄位可以新增為與`munchkin.js`資料庫一起收集的自訂欄位。 新增內容會在Marketo和現有Customer Journey Analytics網頁資料之間建立共用識別碼。
+Marketo資料本身不包含ECID，但ECID欄位可以新增為與`munchkin.js`資料庫一起收集的自訂欄位。 此項新增會在Marketo和現有Customer Journey Analytics網頁資料之間建立共用識別碼。
 
 若要連結Marketo和Customer Journey Analytics資料，請在相關資料集上使用[圖表式拼接](/help/stitching/gbs.md)。 您可以根據實施使用數個可用的ID：
 
@@ -111,13 +111,13 @@ Marketo資料本身不包含ECID，但ECID欄位可以新增為與`munchkin.js`�
 
 +++將Marketo來源資料欄位對應至其XDM目標
 
-將[人員](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)和[活動](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)物件對應至它們各自的 XDM 結構描述目標欄位。
+將[人員](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)和[活動](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)物件對應至它們各自的 XDM 結構描述目標欄位。
 
 +++
 
 +++將Marketo資料擷取至Adobe Experience Platform
 
-使用[Marketo Engage聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)將資料從Marketo帶到Experience Platform，並使用Experience Platform應用程式保持這些資料在最新狀態。
+使用[Marketo Engage聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)將資料從Marketo帶到Experience Platform，並使用Experience Platform應用程式保持這些資料在最新狀態。
 
 +++
 

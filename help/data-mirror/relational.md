@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2375'
 ht-degree: 15%
@@ -248,7 +248,7 @@ Data Warehouse原生解決方案表格中的資料，已可供用於Customer Jou
 
   1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
-  請參閱Experience Platform檔案，以取得當您使用[Azure Databricks](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/databricks)或[Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)聯結器時，如何連線及驗證的詳細資料。
+  請參閱Experience Platform檔案，以取得當您使用[Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)或[Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)聯結器時，如何連線及驗證的詳細資料。
 
 
 ### 選取資料
@@ -330,7 +330,7 @@ Data Warehouse原生解決方案表格中的資料，已可供用於Customer Jou
 
       1. 選取包含映象資料的資料集。 例如： **[!UICONTROL event-data-mirror]**。 資料集有&#x200B;**[!UICONTROL 關聯式]**&#x200B;做為&#x200B;**[!UICONTROL 資料集型別]**。
 
-         ![CJA - Connections — 新增資料集](assets/cja-add-dataset.png)
+         ![CJA — 連線 — 新增資料集](assets/cja-add-dataset.png)
 
       1. 新增與連線相關的任何其他資料集。
       1. 選取&#x200B;**[!UICONTROL 「下一步」]**。

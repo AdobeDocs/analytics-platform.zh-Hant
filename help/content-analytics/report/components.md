@@ -29,7 +29,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: fec14c8ed1f94e16423682a165198dbda760f78d
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 58%
@@ -56,7 +56,7 @@ Content Analytics 將以下類別的元件 (維度、(已計算的) 量度和衍
 |---|---|---|
 | ID SOURCE | 若為Content Analytics，值為`ContentAnalytics`。 | 維度 |
 | 管道 | 體驗的管道。 值為`Web`、`Mobile`或`Paid Media`。 | 維度 |
-| 內容體驗ID | 體驗的不重複 IＤ。 <br>針對&#x200B;**網頁**：網頁的URL。 <br/>針對&#x200B;**精細網路**：雜湊計算使用者端，根據前置詞為`web-`的內容裝載（文字、影像、CTA）。 <br/>對於&#x200B;**行動裝置**：根據內容承載（文字、影像、CTA）計算且首碼為`mobile-`的雜湊使用者端。 | 維度 |
+| 內容體驗ID | 體驗的不重複 IＤ。 <br>針對&#x200B;**網頁**：網頁的URL。 <br/>針對&#x200B;**精細網路**：雜湊計算的使用者端，根據前置詞為`web-`的內容裝載（文字、影像、CTA）。 <br/>對於&#x200B;**行動裝置**：根據內容承載（文字、影像、CTA）加上前置詞`mobile-`的雜湊計算使用者端。 | 維度 |
 | 內容體驗Source | 針對&#x200B;**網頁**：網頁的URL。<br/>適用於&#x200B;**行動裝置**：畫面名稱，透過Experience Platform Mobile SDK傳入。 | 維度 |
 | 體驗管道（已棄用） | 體驗的管道。 值為`Web`或`Mobile`。 | 維度 |
 | Experience Extras | 您要追蹤的任何其他資料。 例如外部ID或位置。 | 維度 |
@@ -73,7 +73,7 @@ Content Analytics 將以下類別的元件 (維度、(已計算的) 量度和衍
 | 標題 | 說明 | 類型 |
 |---|---|---|
 | 體驗屬性 | ![AI 生成](/help/assets/icons/AI.svg)所有體驗屬性名稱和值的完整清單 | 維度<br>衍生欄位 |
-| 體驗可讀性分數 | ![AI 生成](/help/assets/icons/AI.svg) 可讀性分數 | 維度 |
+| 體驗可讀性分數 | ![AI已產生](/help/assets/icons/AI.svg)體驗的可讀性分數 | 維度 |
 | 體驗關鍵字 | ![AI 生成](/help/assets/icons/AI.svg) 體驗的關鍵字。 | 維度<br>衍生欄位 |
 | 體驗說服策略 | ![AI 生成](/help/assets/icons/AI.svg)出現於假定體驗中的說服策略。 可能的價值有：社會認同、社會認同效應、權威性、具體性、得寸進尺效應、克服抗拒、互惠原則、錨定效應和比較、社會影響、稀有性和擬人化。 | 維度<br/>衍生欄位 |
 | 體驗敘述 | ![AI 生成](/help/assets/icons/AI.svg)從行銷人員的觀點而言，根據相關性建構體驗的敘述。 | 維度<br/>衍生欄位 |

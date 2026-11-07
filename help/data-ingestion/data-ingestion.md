@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 100%
+ht-degree: 99%
 ---
 # 資料攝取概觀
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ![Customer Journey Analytics 架構](/help/getting-started/assets/cja-overview.png)
 
-此架構說明 Customer Journey Analytics 如何協助您完成下列作業：
+此架構說明了Customer Journey Analytics如何讓您：
 
 * 在[連線](/help/connections/overview.md)中合併多個資料集![資料](/help/assets/icons/Data.svg)。
 * 根據您在連線中定義的資料集的可用欄位，定義和設定[資料視圖](/help/data-views/data-views.md)中的維度![維度](/help/assets/icons/Dimensions.svg)和量度![事件](/help/assets/icons/Event.svg)。
@@ -137,5 +137,5 @@ ht-degree: 100%
 
 >[!MORELIKETHIS]
 >
->部落格：[深入了解 Adobe Customer Journey Analytics 中的資料處理和攝取](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091?profile.language=zh-Hant)
+>部落格：[深入了解 Adobe Customer Journey Analytics 中的資料處理和攝取](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
 

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '802'
-ht-degree: 100%
+ht-degree: 98%
 ---
 # 智慧型註解 {#intelligent-captions}
 
@@ -105,7 +105,7 @@ Here is an example of what intelligent captions could look like:
 您可以在展開視圖中一次顯示所有智慧型註解，也可以在逐一視圖中顯示單一智慧型註解。
 
 * 若要顯示所有智慧型註解，請選取「![顯示所有智慧型註解](/help/assets/icons/Maximize.svg)」。
-* 若要逐一顯示單一智慧型註解，請選取「![顯示個別的智慧型註解](/help/assets/icons/Minimize.svg)」。
+* 若要逐一顯示個別智慧型字幕，請選取![顯示個別智慧型字幕](/help/assets/icons/Minimize.svg)。
 
 ### 編輯顯示區 {#edit}
 

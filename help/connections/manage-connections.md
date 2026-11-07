@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '7127'
 ht-degree: 87%
@@ -71,7 +71,7 @@ ht-degree: 87%
 
 **[!UICONTROL 清單]**&#x200B;介面是連線的預設介面。 如果未選取，請選取「**[!UICONTROL 清單]**」標記以存取介面。
 
-**[!UICONTROL 清單]**&#x200B;介面會顯示所有可用連線的表格。
+**[!UICONTROL 清單]**介面會顯示所有可用連線的表格。
 △
 ![清單檢視](assets/list-view.png)
 
@@ -304,7 +304,7 @@ ht-degree: 87%
 | **[!UICONTROL 新增的批次]** | 在所選日期範圍期間，已新增至連線的批次數量。 |
 | **[!UICONTROL 上次新增時間]** | 新增至連線之最後批次的時間戳記。 |
 | **[!UICONTROL 資料來源類型]** | 來源類型。 當您將資料集新增到連線時，您會定義來源類型。 |
-| **[!UICONTROL 資料集類型]** | [資料集類型](create-connection.md#dataset-types)。 類型可以是&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 輪廓]**、**[!UICONTROL 查詢]**&#x200B;或&#x200B;**[!UICONTROL 摘要]**。 臨時或關聯式資料集以 **[!UICONTROL (臨時)]** 或 **[!UICONTROL (關聯式)]** 做為識別。 例如，**[!UICONTROL 事件 (臨時)]** 或 **[!UICONTROL 查詢 (關聯式)]**。 |
+| **[!UICONTROL 資料集類型]** | [資料集類型](create-connection.md#dataset-types)。 類型可以是&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 輪廓]**、**[!UICONTROL 查詢]**&#x200B;或&#x200B;**[!UICONTROL 摘要]**。 **[!UICONTROL （臨時）]**&#x200B;或&#x200B;**[!UICONTROL （關聯式）]**&#x200B;已識別臨機或關聯式資料集。 例如，**[!UICONTROL 事件 (臨時)]** 或 **[!UICONTROL 查詢 (關聯式)]**。 |
 | **[!UICONTROL 拼接]** | 如果資料集[在「連線」使用者介面中啟用了拼接功能](/help/stitching/use-stitching-ui.md)，則該值為&#x200B;**[!UICONTROL 真]**； 否則，該值為&#x200B;**[!UICONTROL 假]**。 透過[請求拼接程序](/help/stitching//use-stitching.md)所產生的拼接資料集不會在此表格中被識別為已拼接，且其值預設為&#x200B;**[!UICONTROL 假]**。 |
 | **[!UICONTROL 結構描述]** | 此資料集所根據的 Experience Platform 結構描述。 |
 | **[!UICONTROL 匯入新資料]** | 資料集匯入新資料的狀態： <p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _開啟]**，若資料集設定為匯入新資料，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _x 關閉_]**，若資料集設定為不匯入新資料。 |
@@ -346,8 +346,8 @@ ht-degree: 87%
 
 | 詳細資料 | 說明 |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID &#x200B;]** | 您指定為連線之全域帳戶 ID 的身分識別。 僅適用於已設定全域帳戶容器的帳戶型連線。 |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID &#x200B;]** | 您指定為連線之帳戶 ID 的身分識別。 僅適用於未設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID ]** | 您指定為連線之全域帳戶 ID 的身分識別。 僅適用於已設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID ]** | 您指定為連線之帳戶 ID 的身分識別。 僅適用於未設定全域帳戶容器的帳戶型連線。 |
 | **[!UICONTROL 個人 ID]** | 您指定為連線之個人 ID 的身分識別。 |
 | **[!UICONTROL 索引鍵]** | 您為查詢資料集指定的索引鍵。 |
 | **[!UICONTROL 比對索引鍵]** | 您為查詢資料集指定的比對索引鍵。 |
@@ -361,7 +361,7 @@ ht-degree: 87%
 | **[!UICONTROL 匯入新資料]** | 資料集匯入新資料的狀態： <p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _開啟]**，若資料集設定為匯入新資料，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _x 關閉_]**，若資料集設定為不匯入新資料。 |
 | **[!UICONTROL 回填資料]** | 資料集的回填資料狀態。<p>![紅色狀態](assets/status-red.svg)   **[!UICONTROL _x _回填失敗]**，表示回填失敗次數，<p>![紅色狀態](assets/status-orange.svg)   **[!UICONTROL _x _回填處理]**，表示處理回填的數量，<p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _十&#x200B;_回填完成]**，表示回填已完成的數量，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _關閉_]**，若未設定為回填。<p>若要顯示含資料集過去回填概觀的對話框，請選取 <img src="./assets/pastbackfill.svg" alt="過去的回填" width="15"/> **[!UICONTROL 過去的回填]** |
 | **[!UICONTROL 資料來源類型]** | 將資料集新增至連線時定義的資料來源類型。 |
-| **[!UICONTROL 資料集類型]** | [資料集類型](create-connection.md#dataset-types)。 類型可以是&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 輪廓]**、**[!UICONTROL 查詢]**&#x200B;或&#x200B;**[!UICONTROL 摘要]**。 臨時或關聯式資料集以 **[!UICONTROL (臨時)]** 或 **[!UICONTROL (關聯式)]** 做為識別。 例如，**[!UICONTROL 事件 (臨時)]** 或 **[!UICONTROL 查詢 (關聯式)]**。 |
+| **[!UICONTROL 資料集類型]** | [資料集類型](create-connection.md#dataset-types)。 類型可以是&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 輪廓]**、**[!UICONTROL 查詢]**&#x200B;或&#x200B;**[!UICONTROL 摘要]**。 **[!UICONTROL （臨時）]**&#x200B;或&#x200B;**[!UICONTROL （關聯式）]**&#x200B;已識別臨機或關聯式資料集。 例如，**[!UICONTROL 事件 (臨時)]** 或 **[!UICONTROL 查詢 (關聯式)]**。 |
 | **[!UICONTROL 結構描述]** | 此資料集所根據的 Adobe Experience Platform 結構描述。 |
 | **[!UICONTROL 資料集 ID]** | 資料集 ID，在 Experience Platform 中所產生。 |
 

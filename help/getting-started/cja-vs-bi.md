@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1680'
-ht-degree: 100%
+ht-degree: 99%
 ---
 # 比較 Customer Journey Analytics 和 BI 解決方案
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 分析客戶歷程的傳統方式有一個常見障礙，也就是並非以客戶為中心。 每個團隊都獨立收集資料，根據他們有權存取的資料分析體驗並將其最佳化。
 
-![本節中會說明傳統 BI 工作流程](./assets/biworkflow.png)
+![傳統BI工作流程，如本節所述](./assets/biworkflow.png)
 
 如果您想了解特定的數位行銷活動如何影響儲存在不同資料孤島中的離線操作，您可以向 BI 團隊的佇列發出請求。 BI 團隊會編寫所需的查詢來獲取和轉換資料。 擷取到原始資料後，BI 團隊會建立視覺化內容。 會和您共享資料，然後您再花時間徹底調查這些洞察並擷取資料以在其他系統中啟動。
 

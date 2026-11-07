@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1186'
-ht-degree: 96%
+ht-degree: 93%
 ---
 # Customer Journey Analytics 概觀
 
@@ -52,7 +52,7 @@ Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓�
 
 ![Customer Journey Analytics 架構](assets/cja-overview.png)
 
-此架構說明 Customer Journey Analytics 如何協助您完成下列作業：
+此架構說明了Customer Journey Analytics如何讓您：
 
 * 在[連線](/help/connections/overview.md)中合併多個資料集![資料](/help/assets/icons/Data.svg)。
 * 根據您在連線中定義的資料集的可用欄位，定義和設定[資料視圖](/help/data-views/data-views.md)中的維度![維度](/help/assets/icons/Dimensions.svg)和量度![事件](/help/assets/icons/Event.svg)。
@@ -61,7 +61,7 @@ Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analysis：體驗經濟適用的 Analytics](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics){target="_blank"}，觀看 Customer Journey Analytics 的介紹影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analysis：體驗經濟適用的 Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics){target="_blank"}，觀看 Customer Journey Analytics 的介紹影片。
 
 >[!ENDSHADEBOX]
 
@@ -131,18 +131,18 @@ Experience Platform 的多個元件 (從資料攝取到直接 SQL 存取) 是 Cu
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在 Customer Journey Analytics 中處理資料](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/data-prep/working-with-data-in-cja){target="_blank"}，觀看介紹影片並了解如何在 Customer Journey Analytics 中處理資料。
+請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [在Customer Journey Analytics中處理資料](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-prep/working-with-data-in-cja){target="_blank"}，以取得有關如何在Customer Journey Analytics中處理資料的簡介影片。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [架構與整合](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/architecture/architecture-and-integrations-of-cja){target="_blank"}，觀看介紹影片並了解 Customer Journey Analytics 的架構與整合。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [架構與整合](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/architecture/architecture-and-integrations-of-cja){target="_blank"}，觀看介紹影片並了解 Customer Journey Analytics 的架構與整合。
 
 >[!ENDSHADEBOX]
 
 >[!MORELIKETHIS]
 >
->* [Adobe Customer Journey Analytics 分析師速成課程](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261?profile.language=zh-Hant)
->* [將您的思維方式和 Adobe Customer Journey Analytics 工作流程最佳化：適用於各種規模組織的團隊模型](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456?profile.language=zh-Hant)
->* [建置組織整備：以人為本的 Adobe Customer Journey Analytics 擴充指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273?profile.language=zh-Hant)
+>* [Adobe Customer Journey Analytics 分析師速成課程](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
+>* [將您的思維方式和 Adobe Customer Journey Analytics 工作流程最佳化：適用於各種規模組織的團隊模型](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
+>* [建置組織整備：以人為本的 Adobe Customer Journey Analytics 擴充指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)
