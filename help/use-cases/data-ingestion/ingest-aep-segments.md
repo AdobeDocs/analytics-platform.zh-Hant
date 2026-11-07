@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1679'
 ht-degree: 14%
 ---
 # 收錄並使用 Experience Platform 客群
@@ -363,7 +363,7 @@ WHERE value.status = 'realized' AND (key = '{AUDIENCE_ID_1}' OR key = 'AUDIENCE_
    1. （選擇性）輸入&#x200B;**[!UICONTROL 描述]**。
    1. 選取&#x200B;**[!UICONTROL 「完成」]**。
 1. 設定您的結構描述以包含自訂欄位群組（例如&#x200B;**[!UICONTROL 對象成員資格]**），其中包含兩個名為&#x200B;**[!UICONTROL audienceMembershipId]**&#x200B;和&#x200B;**[!UICONTROL audienceMembershipName]**&#x200B;的欄位。
-1. 確定&#x200B;**[!UICONTROL personID]**&#x200B;欄位是&#x200B;**[!UICONTROL 身分]**、**[!UICONTROL 主要身分]**，並且具有&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為I&#x200B;**[!UICONTROL 身分名稱空間]**。
+1. 確定&#x200B;**[!UICONTROL personID]**&#x200B;欄位是&#x200B;**[!UICONTROL 身分]**、**[!UICONTROL 主要身分]**，並且具有&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為&#x200B;**[!UICONTROL 身分識別名稱空間]**。
 
    匯出的![區段](assets/segment-for-export.png)
 

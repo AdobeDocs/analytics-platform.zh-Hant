@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 34959e37a7040bcd861a506968895ad6f051b686
+source-git-commit: bd396cb4909d131ed60c97e7101cf85946555e38
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '562'
 ht-degree: 1%
 ---
 # 資料摘要概觀
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 資料摘要會從Customer Journey Analytics將原始事件層級資料匯出至雲端目的地。 您可以在Adobe以外的其他平台（例如資料倉儲）中使用此資料。
 
-資料摘要是從資料檢視中的元件建置的。 您加入的每個維度和量度都會成為資料摘要中的欄，而資料檢視設定（例如持續性、衍生欄位和區段）會套用至資料。 檔案以Parquet格式傳送。
+資料摘要是從資料檢視中的元件建置的。 您加入的每個維度和量度都會成為資料摘要中的欄，而資料檢視設定（例如持續性、衍生欄位和區段）會套用至資料。 檔案以[Parquet格式](/help/components/exports/cja-data-feeds/df-parquet.md)傳遞。
 
 您可以建立下列型別的資料摘要：
 
@@ -71,13 +71,15 @@ ht-degree: 1%
 
 ### 規劃您的資料摘要
 
-* [比較Customer Journey Analytics和Adobe Analytics中的資料摘要](/help/components/exports/cja-data-feeds/df-comparison.md)：瞭解您先前使用Adobe Analytics資料摘要時功能與概念的差異。
-
 * [瞭解資料摘要和Analysis Workspace之間的資料差異](/help/components/exports/cja-data-feeds/df-comparison-workspace.md)：瞭解資料摘要輸出可能與Analysis Workspace中的報表不符的原因。
 
 * [資料摘要中的元件可用性](/help/components/exports/cja-data-feeds/df-components.md)：瞭解資料摘要中需要、不支援或限制哪些維度和量度。
 
+* [使用資料摘要中的Parquet檔案](/help/components/exports/cja-data-feeds/df-parquet.md)：瞭解資料摘要為何使用Parquet，以及如何查詢或載入您資料倉儲中的檔案。
+
 ### 從Adobe Analytics資料摘要移轉
+
+1. [比較Customer Journey Analytics和Adobe Analytics中的資料摘要](/help/components/exports/cja-data-feeds/df-comparison.md)：瞭解您先前使用Adobe Analytics資料摘要時功能與概念的差異。
 
 1. [準備對應資料摘要欄](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)：瞭解影響Adobe Analytics欄對應至Customer Journey Analytics方式的因素。
 

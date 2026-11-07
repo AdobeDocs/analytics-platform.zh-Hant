@@ -17,10 +17,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 56f881fc811f0eeffb9633872b3edbe0eb2d7070
+source-git-commit: e4a2c292024e2d88c3dec02b86711d4f58d1c82c
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 39%
+source-wordcount: '1669'
+ht-degree: 37%
 ---
 # 資料摘要中的元件可用性
 
@@ -93,6 +93,12 @@ Customer Journey Analytics標準維度不得包含在資料摘要中。 下表�
 | Adobe全域帳戶設定檔 | | 未提供 |
 | Adobe人員聯盟 | | 未提供 |
 | Adobe人員設定檔 | | 未提供 |
+
+## 計算量度 {#calculated-metrics}
+
+計算量度不能包含在資料摘要中。 計算量度是在報表時透過彙總許多事件來計算的，因此在個別事件列上沒有值。
+
+如果您需要Customer Journey Analytics以外的計算量度結果，可以使用[Customer Journey Analytics BI擴充功能](/help/data-views/bi-extension.md)。 BI擴充功能會傳回報表層級結果，而非事件列，因此請將其與資料摘要搭配使用，而非作為取代。
 
 ## 無法搭配使用的維度 {#incompatible-dimensions}
 

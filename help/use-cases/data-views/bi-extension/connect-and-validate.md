@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2013'
 ht-degree: 10%
@@ -84,7 +84,7 @@ ht-degree: 10%
       1. 確定&#x200B;**[!UICONTROL 的下拉式功能表「選取要套用這些設定至]**&#x200B;的層級」已設定為您先前定義的&#x200B;**[!UICONTROL 伺服器]**。
       1. 選取&#x200B;**[!UICONTROL 連線]**。
    1. 在&#x200B;**[!UICONTROL 導覽器]**&#x200B;對話方塊中，會擷取資料檢視。 此擷取作業可能需要一些時間。 擷取後，您會在Power BI Desktop中看到下列內容。
-      ![Power BI Destkop載入資料](../assets/powerbi-navigator-load.png)
+      ![Power BI案頭載入資料](../assets/powerbi-navigator-load.png)
       1. 從左側面板的清單中選取&#x200B;**[!UICONTROL public.cc_data_view]**。
       1. 您有兩個選項：
          1. 選取&#x200B;**[!UICONTROL 載入]**&#x200B;以繼續並完成設定。
@@ -92,7 +92,7 @@ ht-degree: 10%
             ![Power BI案頭轉換資料](../assets/powerbi-transform-data.png)
             * 選取&#x200B;**[!UICONTROL 關閉並套用]**。
    1. 一段時間後，**[!UICONTROL public.cc_data_view]**&#x200B;會顯示在&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中。 選取![V形右側](/help/assets/icons/ChevronRight.svg)以顯示維度和量度。
-      ![已載入Power BI Destkop伺服器資料](../assets/powerbi-navigator-loaded.png)
+      ![已載入Power BI Desktop Server資料](../assets/powerbi-navigator-loaded.png)
 
 
 ## 是否平面化
@@ -327,7 +327,7 @@ Looker支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[平
    ORDER BY 1,2;
    ```
 
-   執行殼層。 您應該會看到輸出類似下列熒幕擷圖的畫面。
+   執行殼層。 您應該會看到與下方熒幕擷圖類似的輸出。
 
    ![Jupyter Notebook設定步驟5](../assets/jupyter-config-step3.png)
 
@@ -415,7 +415,7 @@ Jupyter Notebook支援`FLATTEN`引數的下列案例。 如需詳細資訊，請
    glimpse(dv)
    ```
 
-1. 執行區塊。 您應該會看到輸出類似下列熒幕擷圖的畫面。
+1. 執行區塊。 您應該會看到與下方熒幕擷圖類似的輸出。
 
    ![RStudio設定步驟2](../assets/rstudio-config-step2.png)
 

@@ -21,13 +21,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a4b5baeec55de64b1fbaf009b9da34c93cf12f24
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: 798
-ht-degree: 75%
-
+source-wordcount: '798'
+ht-degree: 73%
 ---
-
 # 日期比較
 
 Analysis Workspace中的日期比較可讓您挑選任何含日期範圍的欄，然後建立常用的日期比較，例如：逐年比較、逐季比較、逐月比較等。
@@ -91,7 +89,7 @@ Analysis Workspace中的日期比較可讓您挑選任何含日期範圍的欄�
 
 1. 此時段會插入在您選取的欄上方：
 
-   ![自由格式表格顯示目前日曆期間和前一個日曆月份的發生次數。](assets/add-time-period-column2.png)
+   ![自由格式表格，顯示目前行事曆期間和上一個行事曆月份的發生次數。](assets/add-time-period-column2.png)
 
 1. 您可以新增任意數目的欄，以及混合及比對不同日期範圍：
 

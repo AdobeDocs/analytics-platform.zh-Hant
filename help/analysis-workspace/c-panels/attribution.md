@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 90%
+ht-degree: 89%
 ---
 # 歸因面板 {#attribution-panel}
 
@@ -104,7 +104,7 @@ Customer Journey Analytics 強化了歸因功能，讓您可以：
 
 ### 歸因視覺效果
 
-以下視覺效果為面板輸出的一部分。
+下列視覺效果是面板輸出的一部分。
 
 * **總量度**：報告時間範圍內發生的轉換總數，並歸因於您指定的維度。
 * **歸因比較長條圖**：以視覺效果方式比較所選維度中每個維度項目的歸因轉換。 每個長條的顏色代表不同的歸因模型。

@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 1%
@@ -128,4 +128,4 @@ ht-degree: 1%
 
 ## 映象資料的批次大小
 
-對於任何已設定為連線一部分的映象資料集，您必須確保每個要為映象資料集擷取資料的批次不會超過100GB。 如需詳細資訊，請參閱批次擷取的[護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/guardrails#guardrails-for-batch-ingestion){target="_blank"}。
+對於任何已設定為連線一部分的映象資料集，您必須確保為映象資料集擷取資料的每個批次不會超過100GB。 如需詳細資訊，請參閱批次擷取的[護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/guardrails#guardrails-for-batch-ingestion){target="_blank"}。

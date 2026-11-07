@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 23%
+ht-degree: 21%
 ---
 # 下載專案和資料
 
@@ -46,7 +46,7 @@ ht-degree: 23%
 
 ## 將專案下載為PDF或CSV檔案 {#download-project}
 
-![專案下拉式選單，下載 CSV 和下載 PDF 選項會醒目顯示。](assets/download-project.png)
+![反白顯示「下載CSV」和「下載PDF」選項的「專案」下拉式功能表。](assets/download-project.png)
 
 ### 將專案下載為PDF檔案
 

@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: 5381
+source-wordcount: '5381'
 ht-degree: 96%
-
 ---
-
 # 進階函數
 
 使用[計算量度產生器](cm-workflow/cm-build-metrics.md)可套用統計和數學函數。 本文記錄進階函數及其定義的清單，依字母順序排列。
@@ -1765,7 +1763,7 @@ TANH(metric)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric* | The angle in radians for which you want to find the hyperbolic tanget.  |
+|  *metric* | The angle in radians for which you want to find the hyperbolic tangent.  |
 
 ## IF (Row)
 

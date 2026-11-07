@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2439'
-ht-degree: 60%
+ht-degree: 59%
 ---
 # 透過Edge Network伺服器API內嵌資料
 
@@ -149,7 +149,7 @@ ht-degree: 60%
 
 1. 在剛剛新增的身分識別物件中選取 **[!UICONTROL ecid]** 欄位，然後在右側面板的[!UICONTROL 「身分識別命名空間」]清單中，選取&#x200B;**[!UICONTROL 「身分識別」]**&#x200B;和&#x200B;**[!UICONTROL 「主要身分識別」]**&#x200B;和 **[!UICONTROL ECID]**。
 
-   ![指定 ECID 作為身分識別](./assets/specify-identity-gaming.png)
+   ![將ECID指定為身分](./assets/specify-identity-gaming.png)
 
    您指定ECID作為主要身分，Adobe Experience Platform Identity服務可使用該身分組合（拼接）具有相同ECID之設定檔的行為。
 
@@ -157,7 +157,7 @@ ht-degree: 60%
 
 1. 在剛剛新增的身分識別物件中選取&#x200B;**[!UICONTROL 「電子郵件」]**&#x200B;欄位，然後在[!UICONTROL 「欄位屬性」]面板的[!UICONTROL 「身分識別命名空間」]清單中選取&#x200B;**[!UICONTROL 「身分識別」]**&#x200B;和&#x200B;**[!UICONTROL 「電子郵件」]**。
 
-   ![指定電子郵件作為身分識別](./assets/specify-email-identity-gaming.png)
+   ![將電子郵件指定為身分](./assets/specify-email-identity-gaming.png)
 
    您將電子郵件地址指定為 Adobe Experience Platform 身分識別服務可用於結合 (拼接) 設定檔行為的另一個身分。
 

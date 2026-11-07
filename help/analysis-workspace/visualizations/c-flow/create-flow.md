@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1852'
-ht-degree: 80%
+ht-degree: 79%
 ---
 # 設定流量視覺效果 {#configure-a-flow-visualization}
 
@@ -152,7 +152,7 @@ ht-degree: 80%
 
 流量設定的摘要會顯示在視覺效果的頂端。 圖表中的路徑成比例。 活動較多的路徑看起來較厚。
 
-![流量輸出範例顯示結束於造訪數、路徑分析維度：頁面和流量容器：訪客。](assets/flow-output.png)
+![顯示以造訪結束的流量輸出範例、路徑維度：頁面，以及流量容器：訪客。](assets/flow-output.png)
 
 若要深入研究資料，您有幾個選項：
 

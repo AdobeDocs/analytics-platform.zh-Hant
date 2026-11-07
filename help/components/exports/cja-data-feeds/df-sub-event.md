@@ -14,9 +14,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a4ea9270d5bf27234fa229e8ba3df5998ecea0e1
+source-git-commit: bd396cb4909d131ed60c97e7101cf85946555e38
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1320'
 ht-degree: 0%
 ---
 # 資料摘要中的子事件元件
@@ -102,7 +102,7 @@ Analysis Workspace和Customer Journey Analytics中的資料摘要之間，子事
 
 此群組反映基礎資料結構。
 
-在資料摘要輸出中，所有這些元件都會以巢狀陣列的形式顯示在單一欄中。
+在資料摘要輸出中，所有這些元件都會以巢狀陣列的形式顯示在單一欄中。 Parquet檔案原生支援巢狀陣列。 如需詳細資訊，請參閱[在資料摘要中使用Parquet檔案](/help/components/exports/cja-data-feeds/df-parquet.md)。
 
 如需有關如何將元件（包括子事件元件）新增到資料摘要的資訊，請參閱[建立資料摘要](/help/components/exports/cja-data-feeds/create-feed.md)。
 

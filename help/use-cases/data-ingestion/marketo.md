@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 9%
@@ -75,7 +75,7 @@ ht-degree: 9%
 
 如果您想要將Marketo活動資料擷取至Customer Journey Analytics，您必須選取適當的ID策略，以確保可將Marketo資料連結至Customer Journey Analytics資料。
 
-Marketo資料本身不包含ECID，但ECID欄位可以新增為與`munchkin.js`資料庫一起收集的自訂欄位。 新增內容會在Marketo和現有Customer Journey Analytics網頁資料之間建立共用識別碼。
+Marketo資料本身不包含ECID，但ECID欄位可以新增為與`munchkin.js`資料庫一起收集的自訂欄位。 此項新增會在Marketo和現有Customer Journey Analytics網頁資料之間建立共用識別碼。
 
 若要連結Marketo和Customer Journey Analytics資料，請在相關資料集上使用[圖表式拼接](/help/stitching/gbs.md)。 您可以根據實施使用數個可用的ID：
 

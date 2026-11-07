@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1338'
-ht-degree: 65%
+ht-degree: 64%
 ---
 # 比較 Adobe Analytics 和 Customer Journey Analytics 之間的資料處理
 
 您通常需要先處理資料，才能將其用於報告中。 從收集資料到產生報告或視覺化過程中，您可以在多個階段處理這些資料。
 
-在 Adobe Analytics 中，大部分資料處理是在收集資料後立即進行。 Vista 規則、處理規則、行銷管道處理規則等功能可支援「**收集時間處理**」。
+在 Adobe Analytics 中，大部分資料處理是在收集資料後立即進行。 VISTA規則、處理規則、行銷管道處理規則等功能可用於支援此&#x200B;**收集時間處理**。
 然後系統會儲存資料，而在報告時您可以套用其他處理。 例如，劃分維度、套用細分或選取不同的歸因模型。 「**報告時間處理**」是動態進行的。
 
 在 Adobe Analytics 中，報告時間處理通常代表處理量比收集時進行的要少。

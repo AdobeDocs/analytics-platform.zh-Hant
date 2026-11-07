@@ -35,9 +35,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: '2770'
+source-wordcount: '2771'
 ht-degree: 95%
 ---
 # 建立行動計分卡 {#create-a-mobile-scorecard}
@@ -57,7 +57,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立行動計分卡](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}的示範影片。
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立行動計分卡](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -209,7 +209,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 1. 選取正確圖磚。
 1. 在右側欄中，在 **[!UICONTROL Drill ins]** 下選取維度項目 (包含您想移除的 **[!UICONTROL 未指定]** 項目) 旁的右箭頭。
 
-   ![維度名稱旁邊有個箭頭指向右箭的屬性。](assets/unspecified.png)
+   ![屬性，其箭頭指向維度名稱旁的右箭頭。](assets/unspecified.png)
 
 1. 按一下 **[!UICONTROL 未指定]** 旁的圖示，即可從報表中移除未指定的資料。 (您也可移除任何其他的維度項目。)
 

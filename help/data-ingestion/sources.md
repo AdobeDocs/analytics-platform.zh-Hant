@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2150'
 ht-degree: 75%
@@ -141,7 +141,7 @@ ht-degree: 75%
 
 1. 在剛剛新增的身分識別物件中選取&#x200B;**[!UICONTROL 「電子郵件」]**&#x200B;欄位，然後在[!UICONTROL 「欄位屬性」]面板中，選取&#x200B;**[!UICONTROL 「身分識別」]**&#x200B;和[!UICONTROL 「身分識別命名空間」]的&#x200B;**[!UICONTROL 「電子郵件」]**。
 
-   ![指定電子郵件作為身分識別](./assets/specify-email-loyalty-id.png)
+   ![將電子郵件指定為身分](./assets/specify-email-loyalty-id.png)
 
    您正在指定電子郵件地址作為 Adobe Experience Platform 身分識別服務可用於結合 (拼接) 輪廓行為的身分。
 

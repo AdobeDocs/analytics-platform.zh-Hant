@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Implementation
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '10578'
 ht-degree: 98%
@@ -1685,7 +1685,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。 支援�
 | `(?:...)` | 未標示擷取。 防止在輸出字串中參考相符項。 |
 | `a?` | 零個或一個 `a`。 |
 | `a*` | 零個或更多 `a`。 |
-| `a+` | 一個或更多 `a`。 |
+| `a+` | 一或多個`a`。 |
 | `a{3}` | 剛好 3 個 `a`。 |
 | `a{3,}` | 3 個或更多 `a`。 |
 | `a{3,6}` | 介於 3 個和 6 個 `a` 之間。 |

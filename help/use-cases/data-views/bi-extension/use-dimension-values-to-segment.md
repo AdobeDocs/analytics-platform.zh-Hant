@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -121,7 +121,7 @@ ht-degree: 1%
    1. 從欄位清單中，選取&#x200B;**[!UICONTROL 產‣品類別]**。
 1. 確定&#x200B;**[!UICONTROL 是]**&#x200B;作為篩選的選取專案。
 
-![AlertRed](/help/assets/icons/AlertRed.svg)查閱未顯示&#x200B;**[!UICONTROL 產品類別]**&#x200B;的可能值清單。
+![AlertRed](/help/assets/icons/AlertRed.svg) Looker未顯示&#x200B;**[!UICONTROL 產品類別]**&#x200B;的可能值清單。
 
 ![觀察者計數相異](../assets/uc10-looker-result.png)
 

@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '3765'
-ht-degree: 86%
+ht-degree: 82%
 ---
 # Customer Journey Analytics BI 擴充功能
 
@@ -48,7 +48,7 @@ ht-degree: 86%
 
 [!DNL Customer Journey Analytics BI extension] 讓 SQL 可以存取您在 Customer Journey Analytics 中定義的[資料檢視](./data-views.md)。 您的資料工程師和分析師可能更熟悉 Power BI、Tableau Desktop 或其他企業情報和視覺化工具 (也稱為 BI 工具)。 他們現在可以根據 Customer Journey Analytics 使用者在建立 Analysis Workspace 專案時所使用的相同資料檢視來建立報告和儀表板。
 
-Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/home) 是 SQL 與 Experience Platform 資料湖中可用資料之間的介面。 啟用 [!DNL Customer Journey Analytics BI extension] 之後即可延伸 [!DNL Query Service] 的功能，讓您在 [!DNL Query Service] 工作階段中以表格或視圖形式查看 Customer Journey Analytics 資料檢視。 因此，使用 [!DNL Query Service] 作為 PostgresSQL 介面的企業情報工具，可以直接立即受益於這項延伸功能。
+Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/home) 是 SQL 與 Experience Platform 資料湖中可用資料之間的介面。 啟用 [!DNL Customer Journey Analytics BI extension] 之後即可延伸 [!DNL Query Service] 的功能，讓您在 [!DNL Query Service] 工作階段中以表格或視圖形式查看 Customer Journey Analytics 資料檢視。 因此，使用[!DNL Query Service]作為其PostgreSQL介面的商業智慧工具可順暢地受益於此擴充功能。
 
 主要優點包括：
 
@@ -113,7 +113,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 ### SQL
 
-您可以使用查詢編輯器或標準 PostgresSQL 命令列介面 (CLI) 用戶端，直接在 SQL 陳述式中使用該功能。
+您可以使用查詢編輯器或標準的PostgreSQL命令列介面(CLI)使用者端，直接在SQL敘述句中使用功能。
 
 +++ 查詢編輯器
 
@@ -130,9 +130,9 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 +++
 
 
-+++ PostgresSQL CLI
++++ PostgreSQL CLI
 
-1. 在 Adobe Experience Platform 中，查找並複製您的 PostgresSQL 認證：
+1. 在Adobe Experience Platform中查詢並複製您的PostgreSQL認證：
 
    1. 從左側邊欄選取「**[!UICONTROL **&#x200B;查詢&#x200B;**]**」(在「**[!UICONTROL **&#x200B;資料管理&#x200B;**]**」之下)。
 
@@ -157,7 +157,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 +++ Power BI
 
-1. 在 Adobe Experience Platform 中，查詢 PostgresSQL 認證的詳細資訊：
+1. 在Adobe Experience Platform中查詢PostgreSQL憑證的詳細資料：
 
    1. 從左側邊欄選取「**[!UICONTROL **&#x200B;查詢&#x200B;**]**」(在「**[!UICONTROL **&#x200B;資料管理&#x200B;**]**」之下)。
 
@@ -173,9 +173,9 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 在左側邊欄中選取「**[!UICONTROL 更多...]**」。
 
-   1. 在「**取得資料**」畫面中，搜尋 `PostgresSQL`，並從清單中選取「**[!UICONTROL **&#x200B; PostgresSQL 資料庫&#x200B;**]**」。
+   1. 在&#x200B;**取得資料**&#x200B;畫面中，搜尋`PostgreSQL`並從清單中選取&#x200B;**[!UICONTROL **&#x200B; PostgreSQL資料庫&#x200B;**]**。
 
-   1. 在「**[!UICONTROL **&#x200B; PostgressSQL 資料庫&#x200B;**]**」對話方塊中：
+   1. 在&#x200B;**[!UICONTROL **&#x200B; PostgreSQL資料庫&#x200B;**]**&#x200B;對話方塊中：
 
       1. 將「**[!UICONTROL **&#x200B;主機&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;伺服器&#x200B;**]**」文字欄位。
 
@@ -200,7 +200,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 +++Tableau案頭
 
-1. 在 Adobe Experience Platform 中，查詢 PostgresSQL 認證的詳細資訊：
+1. 在Adobe Experience Platform中查詢PostgreSQL憑證的詳細資料：
 
    1. 從左側邊欄選取「**[!UICONTROL **&#x200B;查詢&#x200B;**]**」(在「**[!UICONTROL **&#x200B;資料管理&#x200B;**]**」之下)。
 
@@ -214,9 +214,9 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 在左側邊欄，選取「**[!UICONTROL **&#x200B;更多&#x200B;**]**」(從「**[!UICONTROL **&#x200B;至伺服器&#x200B;**]**」)。
 
-   1. 從清單中選取「**[!UICONTROL **&#x200B; PostgresSQL &#x200B;**]**」。
+   1. 從清單中選取&#x200B;**[!UICONTROL **&#x200B; PostgreSQL &#x200B;**]**。
 
-   1. 在「[!UICONTROL PostgresSQL]」對話方塊中：
+   1. 在[!UICONTROL PostgreSQL]對話方塊中：
 
       1. 將「**[!UICONTROL **&#x200B;主機&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;伺服器&#x200B;**]**」文字欄位。
 
@@ -246,7 +246,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 +++ Looker
 
-1. 在 Adobe Experience Platform 中，查詢 PostgresSQL 認證的詳細資訊：
+1. 在Adobe Experience Platform中查詢PostgreSQL憑證的詳細資料：
 
    1. 從左側邊欄選取「**[!UICONTROL **&#x200B;查詢&#x200B;**]**」(在「**[!UICONTROL **&#x200B;資料管理&#x200B;**]**」之下)。
 
@@ -271,9 +271,9 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 +++
 
-+++ Jupyter Noteboook
++++ Jupyter Notebook
 
-1. 在 Adobe Experience Platform 中，查詢 PostgresSQL 認證的詳細資訊：
+1. 在Adobe Experience Platform中查詢PostgreSQL憑證的詳細資料：
 
    1. 從左側邊欄選取「**[!UICONTROL **&#x200B;查詢&#x200B;**]**」(在「**[!UICONTROL **&#x200B;資料管理&#x200B;**]**」之下)。
 
@@ -297,7 +297,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 +++ RStudio
 
-1. 在 Adobe Experience Platform 中，查詢 PostgresSQL 認證的詳細資訊：
+1. 在Adobe Experience Platform中查詢PostgreSQL憑證的詳細資料：
 
    1. 從左側邊欄選取「**[!UICONTROL **&#x200B;查詢&#x200B;**]**」(在「**[!UICONTROL **&#x200B;資料管理&#x200B;**]**」之下)。
 
@@ -355,7 +355,7 @@ prod:cja=> \dv
 
 ### 預設和限制
 
-使用 BI 擴充功能時，有下列額外的預設和限制：
+使用BI擴充功能時，適用下列其他預設值和限制：
 
 * BI 擴充功能要求對查詢結果設定列限制。 預設值為 50，但您可以在 SQL 中使用 `LIMIT n` 覆寫此值，範圍`n`在 1 - 50000 之間。
 * BI 擴充功能需要日期範圍來限制用來計算的資料列。 預設值為最近 30 天，但你可以在 SQL `WHERE` 條款中覆寫此設定，方法是使用特殊 [`timestamp`](#timestamp) 或者 [`daterange`](#date-range) 欄。
@@ -705,6 +705,6 @@ ORDER BY -metric1 DESC
 
 | 函數 | 範例 | 詳細資料 |
 |---|---|---|
-| MIN() 和 MAX() | ``MIN(daterange)`` 或 <br/> ``MAX(daterange)`` | `timestamp`、`daterange` 或任何 `daterangeX` (如 `daterangeday`) 的 `MIN()` 將傳回 2 年前。<br/><br/> `MAX()`在`timestamp`、`daterange`或任何`daterangeX` （如`daterangeday`）將傳回目前的日期/時間。<br/><br/>`MIN()` 或任何其他維度、量度或運算式上的`MAX()`將傳回0。 |
+| MIN() 和 MAX() | ``MIN(daterange)`` 或 <br/> ``MAX(daterange)`` | `timestamp`、`daterange` 或任何 `daterangeX` (如 `daterangeday`) 的 `MIN()` 將傳回 2 年前。<br/><br/> `MAX()`在`timestamp`、`daterange`或任何`daterangeX` （如`daterangeday`）將傳回目前的日期/時間。<br/><br/>`MIN()` 或任何其他維度、量度或運算式上的`MAX()`將會傳回0。 |
 
 {style="table-layout:auto"}

@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 69%
+ht-degree: 64%
 ---
 # 條狀圖 (堆疊)
 
@@ -54,7 +54,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL 長條圖]**&#x200B;視覺效果顯示代表一或多個量度之多個值的長條。
 
-![垂直長條圖視覺效果顯示多個量度，包括頁面檢視次數、造訪數、進入次數以及退出次數。](assets/bar.png)
+![顯示多個量度的垂直長條圖視覺效果，包括頁面檢視、造訪、登入和退出。](assets/bar.png)
 
 視覺效果設定中的顆粒度下拉式清單可讓您將趨勢視覺效果 (例如折線圖、長條圖) 從每日變更為每週、每月等。
 

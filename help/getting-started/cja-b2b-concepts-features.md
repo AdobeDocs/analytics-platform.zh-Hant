@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 3%
@@ -110,7 +110,7 @@ Customer Journey Analytics是圍繞三個容器的概念所建置：人員、工
 
 ## 結構描述
 
-Customer Journey Analytics B2B編輯器使用[Adobe Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)將B2B資料標準化，並為您的B2B資料定義結構描述。 您可以根據Real-time CDP B2B edition[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中提供的標準類別來建立結構描述，也可以使用您自己的自訂類別和結構描述。 [使用案例](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)文章使用Real-time CDP B2B edition類別和結構描述，但是使用Real-time CDP B2B edition類別和結構描述不需要Real-time CDP授權。
+Customer Journey Analytics B2B edition使用[Adobe Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)將B2B資料標準化，並為您的B2B資料定義結構描述。 您可以根據Real-time CDP B2B edition[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中提供的標準類別來建立結構描述，也可以使用您自己的自訂類別和結構描述。 [使用案例](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)文章使用Real-time CDP B2B edition類別和結構描述，但是使用Real-time CDP B2B edition類別和結構描述不需要Real-time CDP授權。
 
 ## 資料集
 
@@ -118,7 +118,7 @@ Customer Journey Analytics B2B會區分下列資料型別和資料集。
 
 | 資料類型 | 時間序列 | 容器記錄 | 欄位記錄 |
 |---|---|---|---|
-| **資料集** | **事件資料集**<br/>&#x200B;例如：<ul><li>數位分析</li><li>CRM事件</li><li>面對面活動</li><li>呼叫中心資料</li></ul> | **設定檔資料集**<br/>&#x200B;例如：<ul><li>CRM記錄</li><li>AJO B2B記錄</li><li>CDP記錄</li><ul> | **類別**<br/>&#x200B;例如：<ul><li>行銷活動記錄</li><li>行銷清單記錄</li><li>內容中繼資料</li><li>產品記錄</li></ul> |
+| **資料集** | **事件資料集**<br/>&#x200B;例如：<ul><li>數位分析</li><li>CRM事件</li><li>面對面活動</li><li>呼叫中心資料</li></ul> | **設定檔資料集**<br/>&#x200B;例如：<ul><li>CRM記錄</li><li>AJO B2B記錄</li><li>CDP記錄</li><ul> | **分類**<br/>&#x200B;例如：<ul><li>行銷活動記錄</li><li>行銷清單記錄</li><li>內容中繼資料</li><li>產品記錄</li></ul> |
 | 需求 | **時間戳記**<br>&#x200B;每個記錄都需要：<ul><li>帳戶 ID</li><li>全域帳戶ID （選擇性）</li></ul> | **帳戶ID**<br>&#x200B;記錄需要容器ID，例如：<ul><li>帳戶</li><li>個人</li><li>機會</li><li>購買群組</li></ul> | **相符的索引鍵**<br>&#x200B;記錄需要包含在容器或事件資料集中的識別碼，例如：<ul><li>行銷活動 ID</li><li>內容 ID</li><li>產品 ID</li></ul> |
 
 {style="table-layout:fixed"}

@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Governance
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '3192'
 ht-degree: 76%
@@ -172,7 +172,7 @@ ht-degree: 76%
 
 | 容器名稱 | 顯示名稱（預設） | 說明 |
 | --- | --- | --- |
-| globalAccount | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶&#x200B;]** | 「[!UICONTROL 全域帳戶]」容器包含指定時間段內全域帳戶的每個工作階段和事件。 若您的組織使用不同的術語，您可以在此處重新命名容器。 |
+| globalAccount | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶&#x200B;]** | [!UICONTROL 全域帳戶]容器包含指定時間範圍內全域帳戶的每個工作階段和事件。 若您的組織使用不同的術語，您可以在此處重新命名容器。 |
 | 人員 | **[!UICONTROL 人員]** | 「[!UICONTROL 人員]」容器包含指定時間段內人員的每個工作階段和事件。 如果您的組織使用不同的術語 (例如，「訪客」或「使用者」)，您可以在此處重新命名容器。 |
 | session | **[!UICONTROL 工作階段]** | 「[!UICONTROL 工作階段]」容器讓您可以識別特定工作階段的頁面互動、促銷活動或轉換。 您可以將此容器重新命名為「Visit」或您組織偏好的其他任何詞語。 |
 | 商機 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 商機&#x200B;]** | 「[!UICONTROL 機會]」容器包含指定時間段內機會的每個工作階段和事件。 若您的組織使用不同的術語，您可以在此處重新命名容器。 |

@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 77%
+ht-degree: 75%
 ---
 # B2B Edition 快速入門指南
 
@@ -46,7 +46,7 @@ ht-degree: 77%
 若要實作 Customer Journey Analytics B2B Edition，以下先決條件適用：
 
 * 您要有在 Customer Journey Analytics 中提供管理工作所需的[存取控制和權限](/help/technotes/access-control.md)。
-* 您已經購買 Customer Journey Analytics B2B Edition 附加元件套件。
+* 您已購買Customer Journey Analytics B2B edition附加元件套件。
 
 
 ## 工作流程

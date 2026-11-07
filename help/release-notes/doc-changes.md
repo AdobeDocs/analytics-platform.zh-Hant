@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5b0c9d764d17daa63316f8ab294aa9c8f7f94427
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '7452'
-ht-degree: 93%
+ht-degree: 92%
 ---
 
 # Customer Journey Analytics - 文件更新
@@ -99,7 +99,7 @@ ht-degree: 93%
 | **2026 年 4 月** | |
 | 衍生欄位指南 | 新增有關使用衍生欄位的[準則 &#x200B;](/help/use-cases/data-views/derived-fields/guidelines.md) (最佳做法、護欄和常見陷阱) 文章。 |
 | 新增缺少的文件，說明整合 Journey Optimizer 時可包含的兩個資料集 | 您的 IMS 組織啟用高輸送量交易型訊息附加元件時，連線中會包含[額外兩個非輪廓、系統產生的資料集](/help/integrations/ajo.md#high-throughput-add-on-datasets)。 |
-| 更新同類群組分析使用案例 | 根據意見回饋，已在同類群組分析使用案例中新增 Analysis Workspace 範例。 |
+| 更新同類群組分析使用案例 | 根據同類群組分析使用案例中新增Analysis Workspace範例的意見回饋。 |
 | **2026 年 3 月** | |
 | 劃分面板 | 已重新編排[面板放置區](/help/analysis-workspace/c-panels/panels.md#drop-zone)的說明文件，以支援新增的[劃分](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
 | 異常 ID (BAVID) 技術說明 | 新的[異常 ID 技術說明](/help/technotes/badids.md)。 此技術說明解釋異常 ID 的定義，在 Customer Journey Analytics 介面中哪些地方使用異常 ID，以及如何調查連線中的資料是否有異常 ID。 |
@@ -131,7 +131,7 @@ ht-degree: 93%
 | 1900 年之前的日期 | 已新增[註釋](/help/connections/create-connection.md#datasets)，說明 Customer Journey Analytics 處理 1900 年之前日期的方式。 |
 | 即時報告 | 新增關於 Customer Journey Analytics 中[即時報告](/help/components/real-time/real-time.md)功能的文件。 |
 | 使用情況介面 | 已新增文件，說明連線中已更新的[使用情況介面](/help/connections/manage-connections.md#usage)。 |
-| 拼接 Journey Optimizer 資料集 | [自動產生並可供拼接使用的 Journey Optimzer 資料集清單](/help/stitching/overview.md#journey-optimizer-datasets)，附文件說明。 |
+| 拼接 Journey Optimizer 資料集 | 以檔案說明可用於拼接的自動產生Journey Optimizer資料集[&#128279;](/help/stitching/overview.md#journey-optimizer-datasets)的清單。 |
 | 環境標籤 | 已新增有關資料視圖元件中[環境標籤](/help/data-views/component-settings/overview.md#context-labels)的使用方法和用途的更多背景資訊。 |
 | **2025 年 8 月** | |
 | Adobe Advertising 的新整合 | 已新增[與 Adobe Advertising 整合](/help/integrations/advertising.md)的資訊。 |

@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: 955
-ht-degree: 93%
-
+source-wordcount: '955'
+ht-degree: 92%
 ---
-
 # 子字串元件設定 {#substring-component-settings}
 
 <!-- markdownlint-disable MD034 -->
@@ -55,9 +53,9 @@ ht-degree: 93%
 * **[!UICONTROL 字串結尾]**：字串結束。
 * **[!UICONTROL 位置]**：從左側或右側開始的靜態字元數，依方法而定。
 * **[!UICONTROL 字串]**：和某個字元或字元序列相符以表示字串的開頭或結尾。 此下拉式選單也顯示其他選項：
-   * **[!UICONTROL 相符]**：相符的字串。 若輸入與此欄位不相符，[無值選項](no-value-options.md)適用。
-   * **[!UICONTROL 索引]**：該&#x200B;**[!UICONTROL 相符]**&#x200B;標準可能會在字串中出現多次。 此整數會決定何者和開始或結束輸出相符，依方法而定。 例如，`1` 的索引代表第一個相符。 如果索引高於可用的相符數，則套用[無值選項](no-value-options.md)。
-   * **[!UICONTROL 包含字串]**：包含輸出中的&#x200B;**[!UICONTROL 相符]**&#x200B;字串的核取方塊 (如啟用)。
+  * **[!UICONTROL 相符]**：相符的字串。 若輸入與此欄位不相符，[無值選項](no-value-options.md)適用。
+  * **[!UICONTROL 索引]**：該&#x200B;**[!UICONTROL 相符]**&#x200B;標準可能會在字串中出現多次。 此整數會決定從哪個相符項目開始或結束輸出，依方法而定。 例如，`1` 的索引代表第一個相符。 如果索引高於可用的相符數，則套用[無值選項](no-value-options.md)。
+  * **[!UICONTROL 包含字串]**：包含輸出中的&#x200B;**[!UICONTROL 相符]**&#x200B;字串的核取方塊 (如啟用)。
 * **[!UICONTROL 長度]**：指定包含輸出的起始位置後的字元計數的整數。 只能在&#x200B;**[!UICONTROL 至]**&#x200B;下拉式功能表下使用。
 
 ## 分隔字元
@@ -65,9 +63,9 @@ ht-degree: 93%
 將此方法用於使用分隔字元分隔多個字串值的欄位。 您可以擷取個別元素以用作輸出，也可以將字串轉換為物件陣列結構描述元素。
 
 * **[!UICONTROL 準則]**：您希望如何處理分隔的值清單。
-   * **[!UICONTROL 從左側]**：從分隔清單的開頭開始並往前計數。
-   * **[!UICONTROL 從右側]**：從分隔清單的結尾開始並往後計數。
-   * **[!UICONTROL 轉換成陣列]**：將此維度視為物件陣列結構描述元素來處理。 此維度會變成可用的[自訂容器](/help/data-views/create-dataview.md#containers-1)，您可以在資料檢視中選取並用於Workspace專案中的[子事件分析](/help/components/segments/sub-event.md)。
+  * **[!UICONTROL 從左側]**：從分隔清單的開頭開始並往前計數。
+  * **[!UICONTROL 從右側]**：從分隔清單的結尾開始並往後計數。
+  * **[!UICONTROL 轉換成陣列]**：將此維度視為物件陣列結構描述元素來處理。 此維度會變成可用的[自訂容器](/help/data-views/create-dataview.md#containers-1)，您可以在資料檢視中選取並用於Workspace專案中的[子事件分析](/help/components/segments/sub-event.md)。
 * **[!UICONTROL 分隔字元]**：欄位使用的分隔字元。
 * **[!UICONTROL 索引]**：只有在準則為「從左側/右側」時才會出現。 猶如在陣列中的元素編號。 例如，如果字串輸入為 `"Fox,Turtle,Rabbit,Wolf"`，而索引為 3，則輸入為 `"Rabbit"`。 如果索引高於分隔元素數，則套用[無值選項](no-value-options.md)。
 
@@ -85,7 +83,7 @@ ht-degree: 93%
 
 ## 修剪
 
-修剪來自字串的空格或特殊字元。
+從字串中修剪空格或特殊字元。
 
 * **[!UICONTROL 修剪空格]**：移除所有字串開頭和結尾的所有空格的核取方塊 (如啟用)。
 * **[!UICONTROL 修剪特殊字元]**：顯示&#x200B;**[!UICONTROL 特殊字元]**&#x200B;輸入欄位的核取方塊 (如啟用)。 此欄位中的所有字元都將從輸出中刪除。 不支援多位元組字元。
@@ -127,7 +125,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。 若輸�
 | `(?:...)` | 未標示擷取。 防止在輸出字串中參考相符項。 |
 | `a?` | 零個或一個 `a`。 |
 | `a*` | 零個或更多 `a`。 |
-| `a+` | 一個或更多 `a`。 |
+| `a+` | 一或多個`a`。 |
 | `a{3}` | 剛好 3 個 `a`。 |
 | `a{3,}` | 3 個或更多 `a`。 |
 | `a{3,6}` | 介於 3 個和 6 個 `a` 之間。 |
