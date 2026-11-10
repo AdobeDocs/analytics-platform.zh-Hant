@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
 workflow-type: tm+mt
-source-wordcount: '7452'
+source-wordcount: '7436'
 ht-degree: 92%
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 92%
 | 媒體集合：全新媒體報告 XDM 的 Adobe 來源連接器更新內容 | Analytics 來源連接器會自動將 Adobe Analytics 中的串流媒體資料對應至 Web SDK 所使用的相同欄位。 過去，資料會對應到舊位置和新位置，但將來只會使用新位置。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
 | **2025 年 2 月** |  |
 | 媒體集合：全新媒體報告 XDM 的 Adobe 來源連接器更新內容 | Analytics 來源連接器會自動[將 Adobe Analytics 中的串流媒體資料對應至](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en) Web SDK 所使用的相同欄位。 過去，資料會對應到舊位置和新位置，但將來只會使用新位置。 |
-| BI 擴充功能：擴充支援 | Customer Journey Analytics BI 擴充功能現在支援 [Looker、Jupyter Notebook 和 R Studio](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en)。 |
+| BI 擴充功能：擴充支援 | Customer Journey Analytics BI 擴充功能現在支援 [Looker、Jupyter Notebook 和 R Studio](/help/use-cases/data-views/bi-extension-usecases.md)。 |
 | **2025 年 1 月** |  |
 | 更新連線使用體驗 | 連線中的[使用](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/manage-connections?lang=en#connections-usage)索引標籤現在能為以下這些類型的可報告列數提供增強的視覺效果：核心資料、擷取資料和歷史資料。 您也可以依據連線、資料集、沙箱或標記來檢視和細分使用情況資料。 |
 | 使用情況量度 | 有關已改善的[使用情況量度](/help/connections/manage-connections.md#usage)介面的更新文件。 |

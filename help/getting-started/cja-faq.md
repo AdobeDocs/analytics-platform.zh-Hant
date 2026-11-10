@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
+source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 94%
+source-wordcount: '2334'
+ht-degree: 93%
 ---
 # 常見問題集
 
@@ -285,7 +285,7 @@ Adobe 會定期監控和執行使用量限額。 「資料列」指可用於 Cus
 
 Adobe CX Enterprise使用地區資料收集(RDC)，因此訪客與Adobe及非Adobe解決方案之間的互動，會儘可能靠近訪客進行。 資料在資料收集中心 (DCC，也稱為 Edge 網站，是 Platform Edge Network 的一部分) 以區域方式收集之後，會依據資料流和/或事件轉送的設定，透過安全連線轉送給相關解決方案。
 
-![使用 Edge Network 的資料流](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
+如需資料如何透過Edge Network的圖表，請參閱[資料彙集概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/home)。
 
 區域資料彙集流程使用以下步驟：
 
@@ -315,4 +315,4 @@ RDC 目前包括下列位置 (可能隨時變更)：
 Customer Journey Analytics 需要來自 Adobe Experience Platform 的資料集，因此您的資料流/事件轉送設定需要 Adobe Experience Platform 服務將資料從區域資料中心路由到 Adobe Experience Platform 執行個體所在的資料中心。 Customer Journey Analytics 及其支援服務和基礎架構都部署在同一個 Adobe Experience Platform 執行個體中。
 
 
-請參閱[資料收集概觀](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html?lang=zh-Hant)，深入了解有關在 Adobe Experience Platform Edge Network 及其區域資料中心之外執行資料收集程序的資訊。
+請參閱[資料收集概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/home)，深入了解有關在 Adobe Experience Platform Edge Network 及其區域資料中心之外執行資料收集程序的資訊。
