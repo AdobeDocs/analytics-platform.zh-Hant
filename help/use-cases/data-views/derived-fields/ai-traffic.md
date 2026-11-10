@@ -48,7 +48,7 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 3%
@@ -150,7 +150,7 @@ LLM和AI代理程式會在與數位屬性互動時，展示複雜且不斷進化
 </tr>
 <tr>
 <td><strong>Perplexity-User</strong></td>
-<td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Perplexity-User/1.0; +<a href="https://www.perplexity.ai/useragent" target="_blank" rel="noopener nofollow noreferrer">https://www.perplexity.ai/useragent</a>)</code></td>
+<td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Perplexity-User/1.0; +<a href="https://docs.perplexity.ai/guides/bots" target="_blank" rel="noopener nofollow noreferrer">https://www.perplexity.ai/useragent</a>)</code></td>
 <td><a href="https://docs.perplexity.ai/guides/bots" target="_blank" rel="noopener nofollow noreferrer">當使用者按一下「困惑」引文時載入頁面（繞過robots.txt）</a></td>
 </tr>
 <tr>
@@ -190,17 +190,17 @@ LLM和AI代理程式會在與數位屬性互動時，展示複雜且不斷進化
 </tr>
 <tr>
 <td><strong>Applebot-Extended</strong></td>
-<td><code>Mozilla/5.0 (compatible; Applebot-Extended/1.0; +<a href="https://www.apple.com/bot.html" target="_blank" rel="noopener nofollow noreferrer">http://www.apple.com/bot.html</a>)</code></td>
+<td><code>Mozilla/5.0 (compatible; Applebot-Extended/1.0; +<a href="https://support.apple.com/en-us/119829" target="_blank" rel="noopener nofollow noreferrer">http://www.apple.com/bot.html</a>)</code></td>
 <td><a href="https://support.apple.com/en-us/119829" target="_blank" rel="noopener nofollow noreferrer">Apple針對未來AI模型的AI聚焦爬蟲（選擇加入）</a></td>
 </tr>
 <tr>
 <td><strong>Bytespider</strong></td>
-<td><code>Mozilla/5.0 (compatible; Bytespider/1.0; +<a href="https://www.bytedance.com/bot.html" target="_blank" rel="noopener nofollow noreferrer">http://www.bytedance.com/bot.html</a>)</code></td>
+<td><code>Mozilla/5.0 (compatible; Bytespider/1.0; +http://www.bytedance.com/bot.html)</code></td>
 <td>ByteDance的AI資料收集器，適用於TikTok和其他服務</td>
 </tr>
 <tr>
 <td><strong>MistralAI — 使用者</strong></td>
-<td><code>Mozilla/5.0 (compatible; MistralAI-User/1.0; +<a href="https://mistral.ai/bot" target="_blank" rel="noopener nofollow noreferrer">https://mistral.ai/bot</a>)</code></td>
+<td><code>Mozilla/5.0 (compatible; MistralAI-User/1.0; +<a href="https://docs.mistral.ai/robots" target="_blank" rel="noopener nofollow noreferrer">https://mistral.ai/bot</a>)</code></td>
 <td><a href="https://docs.mistral.ai/robots/" target="_blank" rel="noopener nofollow noreferrer">Mistral的「Le Chat」助理即時引文擷取器</a></td>
 </tr>
 <tr>
@@ -336,6 +336,6 @@ LLM和AI代理程式會在與數位屬性互動時，展示複雜且不斷進化
 
 >[!MORELIKETHIS]
 >
->此使用案例文章是以部落格[在Adobe Customer Journey Analytics中追蹤和分析LLM和AI產生的流量](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=zh-Hant)為基礎。
+>此使用案例文章是以部落格[在Adobe Customer Journey Analytics中追蹤和分析LLM和AI產生的流量](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967)為基礎。
 >
 >

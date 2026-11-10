@@ -36,13 +36,11 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
 workflow-type: tm+mt
-source-wordcount: 780
-ht-degree: 76%
-
+source-wordcount: '780'
+ht-degree: 67%
 ---
-
 
 # 設定 Content Analytics
 
@@ -70,12 +68,12 @@ ht-degree: 76%
 ### Web
 
 * 您已將 Content Analytics 中使用之特徵化服務的使用者代理程式和 IP 地址加入允許名單。 要設定的使用者代理字串是：<code>AdobeFeaturization/1.0</code>。
-* 如果您已使用 JavaScript 實施 [Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/install/library){target="_blank"} 用於定期行為資料收集，請確保您使用的是預設名稱 <code>alloy</code> ，針對 JavaScript 程式庫。
+* 如果您已使用 JavaScript 實施 [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library){target="_blank"} 用於定期行為資料收集，請確保您使用的是預設名稱 <code>alloy</code> ，針對 JavaScript 程式庫。
 * 您具有 Customer Journey Analytics 產品管理員角色，並具有管理連線和管理資料釋圖的額外權限。
 * 如果您決定收集Content Analytics體驗，請確定您根據網頁的變更來設定和更新Content Analytics版本設定。
-* 您必須擁有[資料收集權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/permissions){target="_blank"}：
-  * [Experience Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}許可權。
-  * [Experience Platform資料彙集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}許可權。
+* 您必須擁有[資料收集權限](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions){target="_blank"}：
+  * [Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions#platform-permissions){target="_blank"}許可權。
+  * [Experience Platform資料彙集](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions#admin-console){target="_blank"}許可權。
 * 您已仔細考慮了以下重要的設定選項：
 
   * 您的網站適合體驗報告。 只有滿足以下條件才可以進行正確的體驗報告：
@@ -88,9 +86,9 @@ ht-degree: 76%
 
 * 確保行動應用程式已啟用[Experience Platform Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/)和[Edge Network適用的Experience Platform身分識別](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/)擴充功能。
 * 您具有 Customer Journey Analytics 產品管理員角色，並具有管理連線和管理資料視圖的額外權限。
-* 您必須擁有[資料收集權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/permissions){target="_blank"}：
-  * [Experience Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}許可權。
-  * [Experience Platform資料彙集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}許可權。
+* 您必須擁有[資料收集權限](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions){target="_blank"}：
+  * [Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions#platform-permissions){target="_blank"}許可權。
+  * [Experience Platform資料彙集](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions#admin-console){target="_blank"}許可權。
 
 
 
