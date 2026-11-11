@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
+source-git-commit: 930ce593b744f0afc0e97dda1acf48e009e9e30a
 workflow-type: tm+mt
-source-wordcount: '7436'
+source-wordcount: '7485'
 ht-degree: 92%
 ---
 
@@ -69,6 +69,8 @@ ht-degree: 92%
 
 | 功能 | 說明 |
 |---|---|
+| **2026年11月** | |
+| 量度重複資料刪除範圍 | 移除[量度的重複資料刪除範圍設定為「人員](/help/data-views/component-settings/metric-deduplication.md)」時所套用的警告，該警告指出該量度是由完整的日曆月份所評估。 對於重複資料刪除範圍設定為「人員」的量度，重複資料刪除現在僅適用於選取的報表期間。 |
 | **2026年10月** | |
 | 資料檢視的護欄 | 已更新組織資料檢視最大數量的[護欄](/help/technotes/guardrails.md) （從2,000到5,000）。 |
 | 使用網頁資料加入付費媒體資料 | [使用案例指南](/help/use-cases/cross-channel/paid-media-web.md)如何將付費媒體資料與Web資料聯結。 |

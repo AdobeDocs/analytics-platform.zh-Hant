@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: 930ce593b744f0afc0e97dda1acf48e009e9e30a
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 76%
+source-wordcount: '303'
+ht-degree: 73%
 ---
 # 量度重複資料刪除元件設定 {#metric-deduplication-component-settings}
 
@@ -54,6 +54,3 @@ ht-degree: 76%
 
 {style="table-layout:auto"}
 
->[!CAUTION]
->
->_人員_ 範圍內的重複資料刪除會根據 UTC 時間的完整月份進行評估。 如果某些執行個體發生在完整月份內但在報告日期之外，部分月份的報告視窗可能不會顯示所有第一個或最後一個執行個體。
