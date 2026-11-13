@@ -70,10 +70,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: a48eccd77887e94bce5c0ef18bd070877601ddbd
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 73%
+source-wordcount: '1773'
+ht-degree: 72%
 ---
 # 存取控制
 
@@ -195,7 +195,7 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
 | 類別 | 權限 | 說明 |
 | --- | --- | ---|
-| [!UICONTROL 資料視圖] | *資料視圖名稱* | 如果您將&#x200B;**[!UICONTROL 自動包含]**&#x200B;切換為&#x200B;**[!UICONTROL 開啟]**，則屬於此產品輪廓的使用者可以查看所有現有和新建立的資料檢視。 如果此項設定為&#x200B;**[!UICONTROL 關閉]**，您可以選擇使用者有權存取的特定資料檢視。 |
+| [!UICONTROL 資料視圖] | *資料視圖名稱* | 如果您將&#x200B;**[!UICONTROL 自動包含]**&#x200B;切換為&#x200B;**[!UICONTROL 開啟]**，則屬於此產品設定檔的使用者可以檢視所有現有和新建立的資料檢視。 其中包括Adobe為您建立的資料檢視。<p>如果此項設定為&#x200B;**[!UICONTROL 關閉]**，您可以選擇使用者有權存取的特定資料檢視。  </p> |
 | [!UICONTROL 報告工具] | [!UICONTROL 引導式分析存取權] | 讓使用者存取[引導式分析](/help/guided-analysis/overview.md)。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 建立計算量度] | 讓使用者可以建立[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。 使用者只能標籤、共用、刪除、重新命名其所建立的計算量度或與其共用的計算量度。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 建立區段] | 讓使用者可以建立[區段](/help/components/segments/seg-overview.md)。 使用者只能標籤、共用、刪除、重新命名他們建立的區段或與他們共用的區段。 |
@@ -245,3 +245,6 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 擁有資料釋圖存取權的使用者，只能使用管理員已包含在此資料釋圖中的量度和維度。 管理員可以在資料檢視中使用[包含/排除功能](/help/data-views/component-settings/include-exclude-values.md)或[值分組](../data-views/component-settings/value-bucketing.md)元件設定，以從資料檢視中排除或彙總某些維度值。
 
 例如：您在資料視圖中，使用包含資料集中個別患者資料的元件，建立名為&#x200B;*高血壓*&#x200B;的量度。 您使用值分組來僅提供對分組值的存取權，因此資料的使用者看不到個別患者的資料。
+
+
+
