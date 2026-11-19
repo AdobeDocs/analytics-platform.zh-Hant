@@ -25,7 +25,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b46a27ff9faca74c3c2baa7938a588b643633705
+source-git-commit: 3199a70eee577f4e283208e2c5089c05fe20ed0d
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 10%
@@ -56,8 +56,6 @@ Analysis Workspace中的資料字典可協助使用者和管理員追蹤及更�
 
 ## 自動產生說明
 
-{{release-limited-testing-section}}
-
 Customer Journey Analytics可以使用創作AI為您撰寫說明，而不必手動撰寫每個說明。 您可以產生單一元件的說明，或同時產生許多元件的說明。
 
 產生的說明：
@@ -83,7 +81,7 @@ Customer Journey Analytics可以使用創作AI為您撰寫說明，而不必手�
 
 您可以在Customer Journey Analytics的下列區域產生說明。 有些位置可讓您為多個元件產生說明，有些位置則不然。
 
-選取位置以瞭解如何在該處產生說明。
+Select可讓您在該位置瞭解如何產生說明。
 
 | 位置 | 支援的元件 | 單一元件 | 多個元件 |
 | --- | --- | --- | --- |

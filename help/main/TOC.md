@@ -2,9 +2,9 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: bd396cb4909d131ed60c97e7101cf85946555e38
+source-git-commit: 3199a70eee577f4e283208e2c5089c05fe20ed0d
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1528'
 ht-degree: 91%
 ---
 
@@ -241,6 +241,9 @@ ht-degree: 91%
       + [概觀](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
       + [設定](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
       + [疑難排解](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
+    + 矩陣 {#matrix}
+      + {hide-from-toc}[概觀](../analysis-workspace/visualizations/matrix/matrix.md)
+      + {hide-from-toc}[設定](../analysis-workspace/visualizations/matrix/configure-matrix.md)
     + [對話審閱](../analysis-workspace/visualizations/conversation-insights/conversation-review.md)
     + [對話摘要](../analysis-workspace/visualizations/conversation-insights/conversation-summaries.md)
     + [趨勢主題](../analysis-workspace/visualizations/conversation-insights/trending-topics.md)
