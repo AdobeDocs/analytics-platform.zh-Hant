@@ -72,7 +72,7 @@ ht-degree: 57%
 
 {{upgrade-final-step}}
 
-# Adobe Analytics和Customer Journey Analytics中行銷管道的差異
+&#x200B;# Adobe Analytics和Customer Journey Analytics中行銷管道的差異
 
 雖然衍生欄位為Adobe Analytics中的行銷管道提供類似的規則型處理邏輯，但兩個平台之間的架構差異，可能會導致兩個平台之間的結果不同。
 
