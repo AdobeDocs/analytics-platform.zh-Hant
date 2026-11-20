@@ -27,10 +27,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: 1f480cda20e0b2d54dd42b909bfa8bf8a2bc0c95
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 57%
 ---
 # 建立 Customer Journey Analytics 的行銷管道衍生欄位 {#create-marketing-channel-derived-field}
 
@@ -47,8 +47,7 @@ ht-degree: 100%
 
 使用 Analytics 來源連接器時，行銷管道資料會透過該連接器流入 Customer Journey Analytics。 行銷管道規則是在傳統 Adobe Analytics 中設定，且部分規則不受支援。 如需了解更多資訊，請參閱「[使用行銷管道維度](/help/use-cases/aa-data/marketing-channels.md)」。
 
-為了在使用 Experience Platform Web SDK 時使用 Customer Journey Analytics 中的行銷管道，您可以使用資料釋圖中的衍生欄位為 Customer Journey Analytics 重新建立相同的行銷管道和處理規則。
-
+若要搭配Experience Platform Web SDK使用Customer Journey Analytics中的行銷管道，在資料檢視中使用衍生欄位，以重新建立相同的行銷管道和處理規則。
 1. 在 Customer Journey Analytics 中，選取您要新增行銷管道的資料釋圖。
 
 1. 在資料檢視中，選取「**[!UICONTROL 元件]**」索引標籤。
@@ -61,7 +60,7 @@ ht-degree: 100%
 
 1. 拖曳&#x200B;**[!UICONTROL 行銷管道]**&#x200B;範本至空白畫布上。
 
-1. 自訂每個行銷管道的邏輯，確保管道符合您在 Adobe Analytics 環境中用來識別每個管道的邏輯。
+1. 自訂每個行銷管道的邏輯。 請確保其符合您在Adobe Analytics環境中用於識別每個頻道的邏輯。
 
    您可以修改輸出管道名稱或新增邏輯，以識別您組織特有的其他管道。
 
@@ -72,3 +71,12 @@ ht-degree: 100%
    您新的洐生欄位將會加入「派生欄位 > 容器」中，並作為資料檢視左側邊欄中的結構描述一部分。
 
 {{upgrade-final-step}}
+
+# Adobe Analytics和Customer Journey Analytics中行銷管道的差異
+
+雖然衍生欄位為Adobe Analytics中的行銷管道提供類似的規則型處理邏輯，但兩個平台之間的架構差異，可能會導致兩個平台之間的結果不同。
+
+* [覆寫上次接觸管道](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-channels#override-best-practices)設定僅在Adobe Analytics中受支援
+
+* [行銷管道有效期](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/visitor-engagement)會在閒置一段時間後開始，而Customer Journey Analytics持續有效期則根據值的例項化而定。
+
