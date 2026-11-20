@@ -32,17 +32,17 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: 388edf58e0950e0d018ce08b2aa2d0a562252c5a
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 64%
+source-wordcount: '1373'
+ht-degree: 58%
 ---
 # 比較 Adobe Analytics 和 Customer Journey Analytics 之間的資料處理
 
 您通常需要先處理資料，才能將其用於報告中。 從收集資料到產生報告或視覺化過程中，您可以在多個階段處理這些資料。
 
-在 Adobe Analytics 中，大部分資料處理是在收集資料後立即進行。 VISTA規則、處理規則、行銷管道處理規則等功能可用於支援此&#x200B;**收集時間處理**。
-然後系統會儲存資料，而在報告時您可以套用其他處理。 例如，劃分維度、套用細分或選取不同的歸因模型。 「**報告時間處理**」是動態進行的。
+在Adobe Analytics中，大部分的資料處理作業會在收集資料後立即執行，且在資料傳送至報表套裝後為永久性。 VISTA規則、處理規則和行銷管道處理規則等功能可用於支援此&#x200B;**收集時間處理**。
+在報表時間，您可以套用其他處理，例如劃分維度、套用細分或選取不同的歸因模型。 「**報告時間處理**」是動態進行的。
 
 在 Adobe Analytics 中，報告時間處理通常代表處理量比收集時進行的要少。
 
@@ -52,11 +52,13 @@ ht-degree: 64%
 
 ![&#x200B; Customer Journey Analytics 報告時間處理](../assets/cja-processing.png)
 
-了解各種報告功能的資料處理差異，有助於了解哪些量度可用於哪裡，以及其不同的原因。
+瞭解各種報告功能的資料處理差異，有助於瞭解哪些量度可用於哪裡，以及其不同的原因。
 
 例如，*次造訪*&#x200B;在資料處理時定義為Adobe Analytics中的量度。 而且&#x200B;*個工作階段*&#x200B;在報告時會計算為Customer Journey Analytics中的量度。 因此，根據Customer Journey Analytics資料檢視中工作階段定義的規則，這兩個量度可能會有所不同。
 
-此外，在Analytics來源聯結器建立的資料集中，無法使用造訪和工作階段作為量度。 因此，您需要定義查詢邏輯中的工作階段才能進行比較。
+此外，Analytics會在資料收集時，透過可用的[識別方法](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/overview)來識別&#x200B;*不重複訪客*。 Customer Journey Analytics透過在連線的事件[資料集設定](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/create-connection#dataset-settings)中設定為人員ID的欄位，識別&#x200B;*人員*。
+
+
 
 ## 術語 {#terms}
 
