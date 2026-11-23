@@ -76,7 +76,7 @@ ht-degree: 57%
 
 雖然衍生欄位為Adobe Analytics中的行銷管道提供類似的規則型處理邏輯，但兩個平台之間的架構差異，可能會導致兩個平台之間的結果不同。
 
-* [覆寫上次接觸管道](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-channels#override-best-practices)設定僅在Adobe Analytics中受支援
+* [覆寫上次接觸管道](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-channels#override-best-practices)設定僅在Adobe Analytics中受支援
 
-* [行銷管道有效期](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/visitor-engagement)會在閒置一段時間後開始，而Customer Journey Analytics持續有效期則根據值的例項化而定。
+* [行銷管道有效期](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/visitor-engagement)會在閒置一段時間後開始，而Customer Journey Analytics持續有效期則根據值的例項化而定。
 
