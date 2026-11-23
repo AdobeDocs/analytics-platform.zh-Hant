@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Behavioral data
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
+source-git-commit: a46dfefa38e5c4d7f4daa51871b4de75bf5304e1
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 14%
@@ -173,7 +173,7 @@ ht-degree: 14%
 
   * [Customer Journey Analytics 教學課程](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/overview)
 
-  * [什麼是 Customer Journey Analytics？](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
+  * [什麼是 Customer Journey Analytics？](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
 
   * [Customer Journey Analytics 簡介](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
 
@@ -181,4 +181,4 @@ ht-degree: 14%
 
 ## 遵循建議的升級步驟
 
-當您準備好要開始升級程式時，請依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或《Customer Journey Analytics升級指南》中動態產生的升級步驟操作。 若要自 Customer Journey Analytics 存取指南，請選取「**[!UICONTROL 工作區]**」索引標籤，然後在左側面板中選取「**[!UICONTROL 升級至 Customer Journey Analytics]**」。 接著按照畫面上的指示進行操作。
+當您準備好要開始升級程式時，請依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#upgrade-process)或《Customer Journey Analytics升級指南》中動態產生的升級步驟操作。 若要自 Customer Journey Analytics 存取指南，請選取「**[!UICONTROL 工作區]**」索引標籤，然後在左側面板中選取「**[!UICONTROL 升級至 Customer Journey Analytics]**」。 接著按照畫面上的指示進行操作。
