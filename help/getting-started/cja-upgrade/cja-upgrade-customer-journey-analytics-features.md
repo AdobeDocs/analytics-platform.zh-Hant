@@ -36,7 +36,7 @@ topic_v2:
 source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 94%
+ht-degree: 100%
 ---
 # 了解 Customer Journey Analytics 獨有的功能 {#feature-support-upgrade}
 
@@ -54,7 +54,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-stitch-datasets"
 >title="拼接來自多個資料集的相符項目"
->abstract="如果任何資料集未共用主要識別碼（例如ECID），您仍可使用其他維度（例如登入使用者名稱或電子郵件地址）將該資料彙整在一起。"
+>abstract="如果您有任何資料集不共用主要識別碼 (例如 ECID)，您仍然可以使用其他維度 (例如登入使用者名稱或電子郵件地址) 拼接該資料。"
 
 <!-- markdownlint-enable MD034 -->
 
