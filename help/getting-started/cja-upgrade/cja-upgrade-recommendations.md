@@ -45,24 +45,24 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: a46dfefa38e5c4d7f4daa51871b4de75bf5304e1
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 90%
+source-wordcount: '3941'
+ht-degree: 73%
 ---
 # 從 Adobe Analytics 升級至 Customer Journey Analytics
 
-從 Adob&#x200B;&#x200B;e Analytics 升級到 Customer Journey Analytics 時，您可以按照[建議的升級步驟](#recommended-upgrade-steps-for-most-organizations)進行。 或者您可以根據本身組織的獨特情況[以動態方式產生升級步驟](#dynamically-generate-upgrade-steps-for-your-organization)。
+從 Adob&#x200B;&#x200B;e Analytics 升級到 Customer Journey Analytics 時，您可以按照[建議的升級步驟](#upgrade-process)進行。 或者您可以根據本身組織的獨特情況[以動態方式產生升級步驟](#dynamically-generate-upgrade-steps-for-your-organization)。
 
 ## 適用於大多數組織的建議升級步驟 {#upgrade-process}
 
 從 Adobe Analytics 升級到 Customer Journey Analytics 的推薦流程是 Experience Platform Web SDK 的新實施，這是最適月合 Customer Journey Analytics 的資料收集方法。 若結合 Web SDK，Adobe 也建議使用 Analytics 來源連接器來幫助您轉變為 Customer Journey Analytics。 使用 Analytics 來源連接器保留歷史 Adobe Analytics 資料並執行並排資料比較。
 
-在您使用 Experience Platform Web SDK 獲得足夠的歷史資料並完全轉換至 Customer Journey Analytics 後，即可關閉 Analytics 來源連接器並單獨使用 Web SDK。
+在您使用 Experience Platform Web SDK 獲得足夠的歷史資料，並已完全轉移至 Customer Journey Analytics 後，即可關閉 Analytics 來源連接器並單獨使用 Web SDK。
 
 >[!NOTE]
 >
->如果本節所述的升級步驟不適用於您的組織，請使用 Customer Journey Analytics 升級指南，以動態方式產生適合您組織獨特情況的升級步驟。 (若要自 Customer Journey Analytics 存取指南，請選取「**[!UICONTROL 工作區]**」索引標籤，然後在左側面板中選取「**[!UICONTROL 升級至 Customer Journey Analytics]**」。 按照畫面上的指示進行操作。)
+>如果本節所述的升級步驟對貴組織而言並不實際，您可以[動態產生針對貴組織獨特環境量身打造的升級步驟](#dynamically-generate-upgrade-steps-for-your-organization)。
 
 ### 高階建議升級流程 {#high-level-upgade-process}
 
@@ -161,7 +161,13 @@ ht-degree: 90%
 
    +++
 
-1. [驗證您的 Web SDK 實施是否正在將資料傳送到資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md){target="_blank"}。
+1. 驗證您的Web SDK實作正在將資料傳送至資料集，而且資料正確無誤：
+
+   1. [在Experience Platform UI中監視資料集擷取](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md){target="_blank"}，以確認已成功將批次擷取到資料集中。
+
+   1. 檢查資料集中的值是否符合您的預期。 您可以[在Experience Platform UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中預覽資料集，或者，如果您有Adobe CX Enterprise Coworker的存取權，您可以[與同事一起驗證Experience Platform資料](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/data-validation-aep){target="_blank"}，以檢查最近資料的範例中Null值和不符合預期格式的值。
+
+   1. （條件式）如果您包含串流媒體資料，請檢查您的媒體工作階段是否到達資料集。 您可以[檢查串流媒體事件的資料集](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/edge/reporting-schema#validate-your-implementation){target="_blank"}，或者，如果您有權存取Co-worker，您可以[與Co-worker驗證您的串流媒體實作](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/streaming-media-validation){target="_blank"}，以檢查您的資料流、結構描述和資料集設定以及您最近的媒體工作階段。
 
 1. [在 Customer Journey Analytics 中建立連線](/help/getting-started/cja-upgrade/cja-upgrade-connection.md){target="_blank"}。
 
@@ -171,7 +177,9 @@ ht-degree: 90%
 
 1. [在 Customer Journey Analytics 中建立資料檢視](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md){target="_blank"}。
 
-1. [驗證資料是否流入 Customer Journey Analytics 中的資料檢視](/help/getting-started/cja-upgrade/cja-upgrade-validate.md){target="_blank"}。
+1. 驗證資料是否流入Customer Journey Analytics中的資料檢視。
+
+   您可以[在Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-validate.md){target="_blank"}中檢查連線詳細資料，或者，如果您有同事的存取權，您可以[與同事](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/validate-dataset-quality-for-cja){target="_blank"}驗證您的Customer Journey Analytics資料，以檢視哪些資料集可為您的連線和資料檢視提供資料，並檢查其中的資料品質。
 
 1. 在您的 Adobe Analytics 環境中，使用 [Analytics 庫存](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/analytics-inventory){target="_blank"}掌握您 Adobe Analytics 環境的全面概觀，包括專案和元件的數量、報告套裝、使用者等資訊。
 
@@ -187,7 +195,11 @@ ht-degree: 90%
 
    使用衍生欄位中的[行銷管道功能範本](/help/data-views/derived-fields/derived-fields.md#marketing-channels){target="_blank"}，可以快速建立行銷管道的衍生欄位。
 
-1. [將舊實作中的Adobe Analytics資料與新實作中的Customer Journey Analytics資料進行比較](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/data-validation-aa-cja)，確定您瞭解差異及差異存在的原因。
+1. 比較Adobe Analytics中舊實作的資料與Customer Journey Analytics中新實作的資料，並確定您瞭解任何差異及其存在原因。
+
+   您可以在Analysis Workspace中建立相同的報表（包含產品和比較關鍵量度和維度），或者，如果您有同事的存取權，您可以[與同事](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/data-validation-aa-cja){target="_blank"}驗證資料，以比較報表套裝與資料檢視，並取得任何差異的可能原因。
+
+   如需資料差異原因的詳細資訊，請參閱[比較Adobe Analytics與Customer Journey Analytics的資料處理](/help/getting-started/aa-vs-cja/data-processing-comparisons.md){target="_blank"}。
 
 1. 使用 Analytics 來源連接器從 Adob&#x200B;&#x200B;e Analytics 提取歷史資料：
 
@@ -225,9 +237,29 @@ ht-degree: 90%
 
 ## 以動態方式為您的組織產生升級步驟
 
-由於多種因素 (例如時間軸和資源限制)，[了解建議的升級步驟](#recommended-upgrade-steps-for-most-organizations)中所述的建議升級步驟可能不適合您的組織。 若是如此，您可以根據本身組織的獨特情況以動態方式產生升級步驟。 產生這些步驟的過程會有所不同，取決於您是否已經擁有 Customer Journey Analytics 的存取權。
+根據數個因素，例如時間表和資源限制，[針對大多陣列織建議的升級步驟](#upgrade-process)中說明的建議升級步驟可能對您的組織不實用。 若是如此，您可以根據本身組織的獨特情況以動態方式產生升級步驟。
 
-### 對於擁有 Customer Journey Analytics 存取權的客戶
+以下每個方法都會產生相同的自訂升級步驟。 當您完成步驟時，可獲得的協助有所不同：
+
+* **同事（最簡單）：**&#x200B;回答有關您實作的問題，而同事會產生您的升級步驟。 然後同事可以引導您完成每個步驟，並追蹤您的進度。
+
+* **Customer Journey Analytics中的升級指南：**&#x200B;請回答有關您實作的問題，然後Customer Journey Analytics會產生您的升級步驟。 您自己會追蹤每個步驟。
+
+* **您的Adobe帳戶團隊：**&#x200B;如果您沒有同事或Customer Journey Analytics的存取權，您的Adobe帳戶團隊可以協助您完成升級指南，並傳送升級步驟給您。
+
+### 使用同事產生升級步驟
+
+如果您可以存取Co-worker，則可以使用它來動態產生升級步驟：
+
+1. 在同事中，開始新的聊天，並請同事協助您規劃從Adobe Analytics到Customer Journey Analytics的升級。 如需詳細資訊，請參閱[與同事一起規劃實作](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/implementation-guide#adobe-analytics-to-customer-journey-analytics-upgrade){target="_blank"}。
+
+   同事會詢問您有關環境和目標的問題，然後產生貴組織特有的升級計畫。 計畫可作為互動式檢查清單使用，包括每個步驟的擁有者、工作量估計和相依性。 您也可以將計畫下載為CSV、Jira、Workfront或Markdown檔案。
+
+1. 請依照計畫中的步驟升級至Customer Journey Analytics。
+
+   若要追蹤每個步驟的進度，請將計畫轉換為同事專案。 如需詳細資訊，請參閱[與同事專案產生實作檢查清單](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/intelligent-checklist){target="_blank"}。
+
+### 使用Customer Journey Analytics中的升級指南來產生升級步驟
 
 若要根據本身組織的獨特情況以動態方式產生升級步驟：
 
@@ -239,7 +271,7 @@ ht-degree: 90%
 
 1. 按照所產生的逐步說明升級至 Customer Journey Analytics。
 
-### 對於尚未擁有 Customer Journey Analytics 存取權的客戶
+### 與您的Adobe客戶團隊合作以產生升級步驟
 
 若要根據本身組織的獨特情況以動態方式產生升級步驟：
 
